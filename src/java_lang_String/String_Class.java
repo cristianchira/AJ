@@ -1,4 +1,4 @@
-package java_.lang_;
+package java_lang_String;
 
 public class String_Class {
 	public static void main(String[] args) {
