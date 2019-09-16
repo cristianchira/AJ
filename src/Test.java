@@ -26,6 +26,6 @@ public class Test {
 			}
 		}
 		
-		System.out.println("Maximus "+ maxim);
+		System.out.println("Maximus--------------- "+ maxim);
 	}	
 }
