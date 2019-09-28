@@ -5,7 +5,6 @@ import java.util.List;
 
 import com.sun.org.apache.bcel.internal.generic.NEW;
 
-import oracle.net.aso.i;
 
 public class ByteArray {
 
@@ -18,7 +17,7 @@ public class ByteArray {
 		// System.out.println("ywdfxyw\"\"f\\wyew\nefwef");
 		Class<?> class1 = Class.forName("arrays.ByteArray");
 		int[] anArray = new int[10];
-		;
+		
 		int hashcode = anArray.hashCode();
 		System.out.println(anArray + "**" + hashcode);
 

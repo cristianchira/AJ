@@ -2,6 +2,8 @@ package Interfaces;
 
 public interface RBI {
 
+		
+	String str="tdtr";
 	void withdraw();
 
 	void deposit();
@@ -16,8 +18,10 @@ public interface RBI {
 
 }
 
-class SBI implements RBI {
+class SBIC implements RBI {
 
+
+	
 	@Override
 	public void withdraw() {
 		System.out.println("Sbi withdraw");
@@ -33,12 +37,18 @@ class SBI implements RBI {
 	public void adhartLink() {
 		System.out.println("Connect to bank...");
 	}
-
+	
+    
 	public void minBal() {
-		// RBI.super.minBal();
+	 String balance =RBI.str;
+     
+     System.out.println(balance);
+     
 		System.out.println("Min balance is SBI balance");
 	}
 
+	
+	
 }
 
 class Axis implements RBI {
@@ -48,7 +58,7 @@ class Axis implements RBI {
 		System.out.println("Axis withdraw");
 
 	}
-
+	
 	@Override
 	public void deposit() {
 		System.out.println("Axis deposit");
@@ -58,6 +68,8 @@ class Axis implements RBI {
 
 class Pnb implements RBI {
 
+	String Pnb ="pnb";
+	
 	@Override
 	public void withdraw() {
 		System.out.println("Pnb withdraw");

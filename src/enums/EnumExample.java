@@ -6,14 +6,14 @@ public enum EnumExample implements IEnum {
 	String type;
 	int i;
 
-	private EnumExample(int i, String type) {
+	    EnumExample(int i, String type) {
 		this.type = type;
 		this.i = i;
 	}
 	
 	@Override
 	public void print() {
-		System.out.println("this is interface method"+EnumExample.APPLE);
+		System.out.println("this is interface method"+this.values());
 
 	}
 

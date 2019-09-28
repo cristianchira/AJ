@@ -9,12 +9,15 @@ public class ByteClass {
 		// create an array of 100 byte elements
 
 		byte[] data1 = new byte[100];
-		for (int i = 0; i < 100; i++) {
+		for (int i = 80; i < 100; i++) {
 			data1[i] = (byte) i;
 
 			// System.out.println(i);
 		}
 
+		 Byte b =22;
+		// System.out.println(b);
+		
 		// create an array of 1000 byte elements
 
 		byte[] data2 = new byte[1000];
@@ -32,7 +35,7 @@ public class ByteClass {
 
 		for (Map.Entry<ByteKey, ByteVal> entry : mapByte.entrySet()) {
 
-			System.out.println(entry.getKey() + " " + entry.getValue());
+			//System.out.println(entry.getKey() + " " + entry.getValue());
 
 		}
 
@@ -46,7 +49,8 @@ public class ByteClass {
 		for (ByteBuffer i : bu.keySet()) {
 			// System.out.println(bu.get(i).hashCode());
 		}
-
+		
+		  
 	}
-
+	
 }
