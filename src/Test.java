@@ -30,11 +30,9 @@ public class Test {
 				max = a[i];
 			}
 		}
-
-
 		
-		System.out.println("Maximus--------------- "+ maxim);
-	}	
+	//	System.out.println("Maximus--------------- "+ maxim);
+
 
 //		String s = "this is a long sentence";
 //		int i = s.indexOf('i'); // the first 'i' in String is at index 2
@@ -147,8 +145,13 @@ public class Test {
 //      System.out.println(sb);
 		
 		//System.out.println("Display: " );
-		
-			
+	
+	  double d = 1e308;
+	  
+    // System.out.print("overflow produces infinity: ");
+    // System.out.println(d + "*10==" + d*10);	
+	     
+     
 	}
 
-
+}
