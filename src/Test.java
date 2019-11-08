@@ -6,6 +6,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import GetSet.Persons;
+import classes.ColorPoint;
+import classes.Point;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -146,12 +148,14 @@ public class Test {
 		
 		//System.out.println("Display: " );
 	
-	  double d = 1e308;
-	  
-    // System.out.print("overflow produces infinity: ");
+	 // System.out.print("overflow produces infinity: ");
     // System.out.println(d + "*10==" + d*10);	
-	     
-     
+		//Point point =new Point(max, max);
+	    Point p = new Point();
+      
+		// System.out.println(p.X);
+		 
+		
+		
 	}
-
 }
