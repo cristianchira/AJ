@@ -17,6 +17,6 @@ public class EnumMap_Class {
 			System.out.println(f);
 		}
 		
-
+//System.out.println(ef);
 	}
 }

@@ -43,9 +43,8 @@ public class JavaStream {
 		// Sorted
 		// streams------------------------------------------------------------------------------
 
-		// List<String>
-		// list=Stream.of("Aurica","Ioana","Angela","Ioana").sorted().distinct().collect(Collectors.toList());
-		// System.out.println(list);
+		 List<String> list =Stream.of("Aurica","Ioana","Angela","Ioana").sorted().distinct().collect(Collectors.toList());
+		 System.out.println(list);
 
 		// 5.Stream from array filtered,sorted,remove
 		// duplicate------------------------------------------------------------------------
@@ -65,10 +64,12 @@ public class JavaStream {
 		// List<Integer> list2
 		// =Arrays.stream(as).boxed().distinct().sorted().collect(Collectors.toList());
 		// System.out.println(list2);
-		int sum = Arrays.stream(as).min().orElse(0);
+		List sum = Arrays.stream(as).boxed().collect(Collectors.toList());
+		
+		System.out.println(sum);
 		String[] names = { "Vasile", "Ion", "Marcel", "Ion", "Cristi", "Ioana" };
 		List<String> ls = Stream.of(names).distinct().sorted().collect(Collectors.toList());
-		System.out.println(ls);
+		
 	}
 
 }
