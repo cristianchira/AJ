@@ -47,7 +47,7 @@ public class HashMap_Class {
 		nMap.put(7, "David");
 		nMap.put(8, "Black");
 		//nMap.clear();
-		System.out.println(nMap.ceilingKey(7));
+		//System.out.println(nMap.ceilingKey(7));
 		
 //		 for (Integer i : nMap.keySet()) { 
 //			 
