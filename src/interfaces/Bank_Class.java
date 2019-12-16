@@ -1,4 +1,4 @@
-package Interfaces;
+package interfaces;
 
 class Bank_Class {
 	public static void main(String[] args) {
