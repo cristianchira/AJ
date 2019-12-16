@@ -151,7 +151,7 @@ public class Test {
 	 // System.out.print("overflow produces infinity: ");
     // System.out.println(d + "*10==" + d*10);	
 		//Point point =new Point(max, max);
-	    Point p = new Point();
+	  //  Point p = new Point();
       
 		// System.out.println(p.X);
 		 
