@@ -2,20 +2,18 @@ package objects;
 
 public class TestObject {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
 		/*
 		 * A Point is explicitly created using newInstance:
 		 */
-		Point p = null;
-		try {
-			p = (Point) Class.forName("Point").newInstance();
-		} catch (Exception e) {
-			System.out.println(e);
-		}
+		Points p = null;
+		 
+			p = (Points) Class.forName("Points").newInstance();
+		 
 		/*
 		 * An array is implicitly created by an array constructor:
 		 */
-		Point a[] = { new Point(0, 0), new Point(1, 1) };
+		Points a[] = { new Points(0, 0), new Points(1, 1) };
 		/*
 		 * Strings are implicitly created by + operators:
 		 */
