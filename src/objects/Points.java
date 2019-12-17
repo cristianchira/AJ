@@ -4,7 +4,7 @@ public class Points {
 
 	 int x, y =3; 
 	 Points() { System.out.println("default"); }
-	 Points(int x, int y) { this.x = x; this.y = y; }
+	 public Points(int x, int y) { this.x = x; this.y = y; }
 	 /* A Point instance is explicitly created at
 	 class initialization time: */
 	 static Points origin = new Points(0,0);
