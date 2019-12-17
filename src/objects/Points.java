@@ -2,7 +2,7 @@ package objects;
 
 public class Points {
 
-	 int x, y; 
+	 int x, y =3; 
 	 Points() { System.out.println("default"); }
 	 Points(int x, int y) { this.x = x; this.y = y; }
 	 /* A Point instance is explicitly created at

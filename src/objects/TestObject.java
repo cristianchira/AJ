@@ -2,14 +2,25 @@ package objects;
 
 public class TestObject {
 
-	public static void main(String[] args) throws InstantiationException, IllegalAccessException, ClassNotFoundException {
+	public static void main(String[] args) {
 		/*
 		 * A Point is explicitly created using newInstance:
 		 */
 		Points p = null;
-		 
-			p = (Points) Class.forName("Points").newInstance();
-		 
+
+		try {
+			p = (Points) Class.forName("objects.Points").newInstance();
+		} catch (InstantiationException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (IllegalAccessException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
 		/*
 		 * An array is implicitly created by an array constructor:
 		 */
@@ -17,9 +28,10 @@ public class TestObject {
 		/*
 		 * Strings are implicitly created by + operators:
 		 */
+	
 		System.out.println("p: " + p);
 		System.out.println("a: { " + a[0] + ", " + a[1] + " }");
-
+		
 		/*
 		 * An array is explicitly created by an array creation expression:
 		 */
@@ -27,5 +39,6 @@ public class TestObject {
 		sa[0] = "he";
 		sa[1] = "llo";
 		System.out.println(sa[0] + sa[1]);
+		
 	}
 }
