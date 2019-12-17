@@ -22,8 +22,9 @@ and Double may be implicitly created by boxing conversion (§5.1.7).
 public class ObjectClass {
 
 public static void main(String[] args) {
-		
-
+	Points points	= new objects.Points();
+	Class<Points> cls = Points.class;
+	
 	}
 
 	
