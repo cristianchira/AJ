@@ -1,5 +1,12 @@
 package booleantype;
 
+/*
+
+
+
+
+*/
+
 public class BooleanTypeTest {
 
 	public static void main(String[] args) {
