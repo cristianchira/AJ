@@ -36,8 +36,11 @@ casts on type boolean are allowed
 
 public class BooleanTypeTest {
 
+	private static boolean state;
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+     //state = false;
+     String concatString ="This is " + state;
+     System.out.println(concatString);
 
 	}
 
