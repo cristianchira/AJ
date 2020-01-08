@@ -32,7 +32,6 @@ obj!=null.
 A boolean value can be converted to a String by string conversion (§5.4).
 A boolean value may be cast to type boolean, Boolean, or Object (§5.5). No other
 casts on type boolean are allowed
-
 */
 
 public class BooleanTypeTest {
