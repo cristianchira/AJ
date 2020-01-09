@@ -21,11 +21,24 @@ and Double may be implicitly created by boxing conversion (§5.1.7).
 
 public class ObjectClass {
 
-public static void main(String[] args) {
-	Points points	= new objects.Points();
-	Class<Points> cls = Points.class;
-	
-	}
+	public static void main(String[] args) {
+		/*
+		 * A Point is explicitly created using newInstance:
+		 */
+		Points p = null;
+		try {
+			p = (Points) Class.forName("objects.Points").newInstance();
+			//System.out.println(Points.origin);
+		} catch (Exception e) {
+			System.out.println(e);
+		}
+		
+		/* An array is implicitly created
+		 by an array constructor: */
+		 Points a[] = { new Points(0,0), new Points(1,1) }; 
+		 for(Points points:a) {
+			 System.out.println(points);
+		 }
 
-	
+	}
 }
