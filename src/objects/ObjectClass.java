@@ -28,17 +28,12 @@ public class ObjectClass {
 		Points p = null;
 		try {
 			p = (Points) Class.forName("objects.Points").newInstance();
-			//System.out.println(Points.origin);
+			// System.out.println(Points.origin);
 		} catch (Exception e) {
 			System.out.println(e);
 		}
 		
-		/* An array is implicitly created
-		 by an array constructor: */
-		 Points a[] = { new Points(0,0), new Points(1,1) }; 
-		 for(Points points:a) {
-			 System.out.println(points);
-		 }
+		
 
 	}
 }
