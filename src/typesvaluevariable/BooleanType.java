@@ -25,7 +25,7 @@ Boolean expressions determine the control flow in several kinds of statements:
 public class BooleanType {
 
 	public static void main(String[] args) {
-		 
+	
 
 	}
 
