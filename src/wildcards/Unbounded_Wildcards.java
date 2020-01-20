@@ -18,9 +18,9 @@ public class Unbounded_Wildcards {
 		cs.add("world");
 		printCollection(cs);
 
-		Collection<Integer> ics = new ArrayList<Integer>();
-		ics.add(22);
-		ics.add(75);
+		Collection<Character> ics = new ArrayList<Character>();
+		ics.add('D');
+		ics.add('G');
 		printCollection(ics);
 	}
 
