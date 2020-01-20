@@ -1,4 +1,4 @@
-package StringClass;
+package string_class;
 
 import java.util.Scanner;
 
