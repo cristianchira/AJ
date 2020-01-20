@@ -17,5 +17,11 @@ public class Unbounded_Wildcards {
 		cs.add("hello");
 		cs.add("world");
 		printCollection(cs);
+
+		Collection<Integer> ics = new ArrayList<Integer>();
+		ics.add(22);
+		ics.add(75);
+		printCollection(ics);
 	}
+
 }
