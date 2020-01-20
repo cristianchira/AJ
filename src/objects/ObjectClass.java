@@ -28,7 +28,7 @@ public class ObjectClass {
 		Points p = null;
 		try {
 			p = (Points) Class.forName("objects.Points").newInstance();
-			// System.out.println(Points.origin);
+					// System.out.println(Points.origin);
 		} catch (Exception e) {
 			System.out.println(e);
 		}
