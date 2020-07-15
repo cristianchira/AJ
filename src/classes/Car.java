@@ -1,4 +1,4 @@
-package academy.learnprogramming;
+package classes;
 
 public class Car {
     private int doors;
