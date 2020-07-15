@@ -1,17 +1,6 @@
 package collections;
 
-import static org.junit.Assert.assertEquals;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.ListIterator;
-import java.util.Random;
-
-import org.junit.Test;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
+import java.util.*;
 
 public class List_Class {
 
