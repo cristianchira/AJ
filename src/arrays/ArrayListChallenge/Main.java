@@ -1,13 +1,11 @@
-package academy.learnprogramming;
-
-import academy.learnprogramming.Contact;
-import academy.learnprogramming.MobilePhone;
+package arrays.ArrayListChallenge;
 
 import java.util.Scanner;
 
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
-    private static MobilePhone mobilePhone = new MobilePhone("0039 330 4404");
+    private static academy.learnprogramming.MobilePhone mobilePhone = new academy.learnprogramming.MobilePhone("0039 330 4404");
 
     public static void main(String[] args) {
         // Create a program that implements a simple mobile phone with the following capabilities.
@@ -71,7 +69,7 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("Enter phone number: ");
         String phone = scanner.nextLine();
-        Contact newContact = Contact.createContact(name, phone);
+        academy.learnprogramming.Contact newContact = academy.learnprogramming.Contact.createContact(name, phone);
         if (mobilePhone.addNewContact(newContact)) {
             System.out.println("New contact added: name = " + name + ", phone = " + phone);
         } else {
@@ -82,7 +80,7 @@ public class Main {
     private static void updateContact() {
         System.out.println("Enter existing contact name: ");
         String oldName = scanner.nextLine();
-        Contact oldContact = mobilePhone.queryContact(oldName);
+        academy.learnprogramming.Contact oldContact = mobilePhone.queryContact(oldName);
         if (oldContact == null) {
             System.out.println("Contact not found!");
             return;
@@ -91,7 +89,7 @@ public class Main {
         String name = scanner.nextLine();
         System.out.println("Enter phone number: ");
         String phone = scanner.nextLine();
-        Contact newContact = Contact.createContact(name, phone);
+        academy.learnprogramming.Contact newContact = academy.learnprogramming.Contact.createContact(name, phone);
 
         if (mobilePhone.updateContact(oldContact, newContact)) {
             System.out.println("Successfully Updated record");
@@ -103,7 +101,7 @@ public class Main {
     private static void removeContact() {
         System.out.println("Enter contact name to be removed: ");
         String oldName = scanner.nextLine();
-        Contact oldContact = mobilePhone.queryContact(oldName);
+        academy.learnprogramming.Contact oldContact = mobilePhone.queryContact(oldName);
         if (oldContact == null) {
             System.out.println("Contact not found!");
             return;
@@ -118,7 +116,7 @@ public class Main {
     private static void queryContact() {
         System.out.println("Enter contact name to searched: ");
         String searchedName = scanner.nextLine();
-        Contact searchedContact = mobilePhone.queryContact(searchedName);
+        academy.learnprogramming.Contact searchedContact = mobilePhone.queryContact(searchedName);
         if (searchedContact == null) {
             System.out.println("Contact not found!");
             return;
