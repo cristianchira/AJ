@@ -1,13 +1,11 @@
 package lambda_expressions;
 
+import comparation.Person;
+
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
-
-import com.sun.org.apache.bcel.internal.generic.NEW;
-
-import comparation.Person;
 
 public class App_Lambda {
 
