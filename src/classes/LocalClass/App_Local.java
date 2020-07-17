@@ -1,4 +1,4 @@
-package classes.local;
+package classes.LocalClass;
 
 public class App_Local {
 	public static void main(String... args) {

@@ -1,6 +1,7 @@
 package interfaces.InterfacesChallenge;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
@@ -32,22 +33,25 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Player chrys = new Player("Chrys", 2500, 1200);
-        System.out.println(chrys   );
-        saveObject(chrys);
-
-        chrys.setHitPoints(500);
-        chrys.setWeapon("Stormbringer");
-        System.out.println(chrys);
-        saveObject(chrys);
-      //  loadObject(chrys);
-        System.out.println(chrys);
-
-        ISavable werewolf = new Monster("Werewolf", 12, 36);
-        System.out.println("Strength = " + ((Monster) werewolf).getStrength());
-        System.out.println(werewolf);
-        saveObject(werewolf);
-
+//        Player chrys = new Player("Chrys", 2500, 1200);
+//        System.out.println(chrys);
+//        saveObject(chrys);
+//
+//        chrys.setHitPoints(500);
+//        chrys.setWeapon("Stormbringer");
+//        System.out.println(chrys);
+//        saveObject(chrys);
+//      //  loadObject(chrys);
+//        System.out.println(chrys);
+//
+//        ISavable werewolf = new Monster("Werewolf", 12, 36);
+//        System.out.println("Strength = " + ((Monster) werewolf).getStrength());
+//        System.out.println(werewolf);
+//        saveObject(werewolf);
+        List<ISavable> isList = Arrays.asList(new Player("Chrys", 2500, 1200), new Monster("Werewolf", 12, 36));
+        for (ISavable isS : isList) {
+            System.out.println(isS.write());
+        }
     }
 
     public static List<String> readValues() {

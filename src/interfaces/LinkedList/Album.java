@@ -31,7 +31,7 @@ public class Album {
         return null;
     }
 
-    public boolean addToPlayList(int trackNumber,  List<Song> playList) {
+    public boolean addToPlayList(int trackNumber, List<Song> playList) {
         int index = trackNumber - 1;
         if ((index > 0) && (index <= this.songs.size())) {
             playList.add(this.songs.get(index));

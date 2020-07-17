@@ -1,4 +1,4 @@
-package classes.local;
+package classes.LocalClass;
 
 public class LocalClassExample {
 

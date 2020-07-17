@@ -1,4 +1,4 @@
-package classes.nested_class;
+package classes.NestedClass;
 
 public class DataStructure {
 
