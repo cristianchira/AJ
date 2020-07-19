@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class LocalClassMain {
     private static Scanner scanner = new Scanner(System.in);
-    private static Button btnPrint = new Button("Print");
+    private static Button btnPrint = new Button("Print button");
 
     public static void main(String... args) {
         //	LocalClassExample.validatePhoneNumber("123-456-7890", "456-7890");
@@ -16,7 +16,7 @@ public class LocalClassMain {
 
             @Override
             public void onClick(String title) {
-                System.out.println(title + " was clicked");
+                System.out.println(title + " was clicked!");
             }
         }
         btnPrint.setOnClickListener(new ClickListener());

@@ -3,6 +3,7 @@ package classes.InnerClass;
 import java.util.ArrayList;
 
 public class GearBox {
+
     private ArrayList<Gear> gears;
     private int maxGears;
     private int currentGear = 0;
@@ -13,6 +14,10 @@ public class GearBox {
         this.gears = new ArrayList<>();
         Gear neutral = new Gear(0, 0.0);
         this.gears.add(neutral);
+
+        for (int i = 0; i < maxGears; i++) {
+            addGear(i, i * 5);
+        }
     }
 
     public void operateClutch(boolean in) {
@@ -30,7 +35,7 @@ public class GearBox {
             this.currentGear = newGear;
             System.out.println("Gear " + newGear + " selected");
         } else {
-            System.out.println("Grind");
+            System.out.println("Grind!!!");
             this.currentGear = 0;
         }
     }
@@ -43,6 +48,18 @@ public class GearBox {
         return revs * gears.get(currentGear).getRatio();
     }
 
+    public ArrayList<Gear> getGear() {
+        return this.gears;
+    }
+
+    public ArrayList<Gear> getGears() {
+        return gears;
+    }
+
+
+    public int getCurrentGear() {
+        return currentGear;
+    }
 
     public class Gear {
         private int gearNumber;
@@ -59,6 +76,10 @@ public class GearBox {
 
         public double getRatio() {
             return ratio;
+        }
+
+        public int getGearNumber() {
+            return gearNumber;
         }
     }
 }
