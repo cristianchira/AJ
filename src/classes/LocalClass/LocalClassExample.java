@@ -25,7 +25,6 @@ public class LocalClassExample {
                 return formattedPhoneNumber;
             }
 
-            // Valid in JDK 8 and later:
 
             public void printOriginalNumbers() {
                 System.out.println("Original numbers are " + phoneNumber1 + " and " + phoneNumber2);
