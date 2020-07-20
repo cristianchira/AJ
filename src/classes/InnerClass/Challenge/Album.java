@@ -3,7 +3,7 @@ package classes.InnerClass.Challenge;
 import java.util.ArrayList;
 import java.util.LinkedList;
 
- public class Album {
+public class Album {
     private String name;
     private String artist;
     private SongList songs;
@@ -20,7 +20,7 @@ import java.util.LinkedList;
 
     public boolean addToPlayList(int trackNumber, LinkedList<Song> playList) {
         Song checkedSong = this.songs.findSong(trackNumber);
-        if(checkedSong != null) {
+        if (checkedSong != null) {
             playList.add(checkedSong);
             return true;
         }
@@ -31,7 +31,7 @@ import java.util.LinkedList;
 
     public boolean addToPlayList(String title, LinkedList<Song> playList) {
         Song checkedSong = songs.findSong(title);
-        if(checkedSong != null) {
+        if (checkedSong != null) {
             playList.add(checkedSong);
             return true;
         }
@@ -47,7 +47,7 @@ import java.util.LinkedList;
         }
 
         public boolean add(Song song) {
-            if(songs.contains(song)) {
+            if (songs.contains(song)) {
                 return false;
             }
             this.songs.add(song);
@@ -55,8 +55,8 @@ import java.util.LinkedList;
         }
 
         private Song findSong(String title) {
-            for(Song checkedSong: this.songs) {
-                if(checkedSong.getTitle().equals(title)) {
+            for (Song checkedSong : this.songs) {
+                if (checkedSong.getTitle().equals(title)) {
                     return checkedSong;
                 }
             }
@@ -65,7 +65,7 @@ import java.util.LinkedList;
 
         public Song findSong(int trackNumber) {
             int index = trackNumber - 1;
-            if ((index >= 0) && (index<songs.size())) {
+            if ((index >= 0) && (index < songs.size())) {
                 return songs.get(index);
             }
             return null;
