@@ -4,7 +4,7 @@ import java.util.*;
 
 public class MainChallenge {
 
-    private static ArrayList<Album> albums = new ArrayList<Album>();
+    private static ArrayList<Album>  albums = new ArrayList<Album>();
 
     public static void main(String[] args) {
 	    // Create a program that implements a playlist for songs
