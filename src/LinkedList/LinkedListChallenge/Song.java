@@ -1,4 +1,4 @@
-package LinkedListChallenge;
+package LinkedList.LinkedListChallenge;
 
 public class Song {
     private String title;

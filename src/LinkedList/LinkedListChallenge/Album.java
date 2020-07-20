@@ -1,4 +1,4 @@
-package LinkedListChallenge;
+package LinkedList.LinkedListChallenge;
 
 import java.util.LinkedList;
 
@@ -26,6 +26,14 @@ public class Album {
             if (checkedSong.getTitle().equals(title)) {
                 return checkedSong;
             }
+        }
+        return null;
+    }
+
+    public Song findSong(int trackNumber) {
+        int index = trackNumber - 1;
+        if ((index >= 0) && (index < songs.size())) {
+            return songs.get(index);
         }
         return null;
     }
