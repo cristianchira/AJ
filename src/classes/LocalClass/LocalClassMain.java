@@ -7,19 +7,27 @@ public class LocalClassMain {
     private static Button btnPrint = new Button("Print button");
 
     public static void main(String... args) {
-        //	LocalClassExample.validatePhoneNumber("123-456-7890", "456-7890");
-        class ClickListener implements Button.OnClickListener {
+//        //	LocalClassExample.validatePhoneNumber("123-456-7890", "456-7890");
+//        class ClickListener implements Button.OnClickListener {
+//
+//            public ClickListener() {
+//                System.out.println("I ve been attached'");
+//            }
+//
+//            @Override
+//            public void onClick(String title) {
+//                System.out.println(title + " was clicked!");
+//            }
+//        }
+//        btnPrint.setOnClickListener(new ClickListener());
 
-            public ClickListener() {
-                System.out.println("I ve been attached'");
-            }
-
+        // Anonimous class
+        btnPrint.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(String title) {
-                System.out.println(title + " was clicked!");
+                System.out.println(title + " was clicked");
             }
-        }
-        btnPrint.setOnClickListener(new ClickListener());
+        });
         listen();
     }
 
