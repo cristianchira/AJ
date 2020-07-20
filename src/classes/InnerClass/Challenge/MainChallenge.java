@@ -2,7 +2,7 @@ package classes.InnerClass.Challenge;
 
 import java.util.*;
 
-public class Main {
+public class MainChallenge {
 
     private static ArrayList<Album> albums = new ArrayList<Album>();
 
