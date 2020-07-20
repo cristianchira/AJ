@@ -58,10 +58,6 @@ public class MainChallenge {
         albums.get(1).addToPlayList(24, playList);  // There is no track 24
 
         play(playList);
-
-
-
-
     }
 
     private static void play(LinkedList<Song> playList) {
