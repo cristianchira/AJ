@@ -1,7 +1,7 @@
 package abstraction.challenge;
 
 
-public abstract class ListItem {
+public abstract class  ListItem {
     protected ListItem rightLink = null;
     protected ListItem leftLink = null;
 
