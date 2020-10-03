@@ -54,18 +54,18 @@ public class MainAbstractionChallenge {
         // Hint: to avoid typing loads of "addItem" lines, split a string into an array and create your tree in
         // a loop as in the example below.
 
-        MyLinkedList list = new MyLinkedList(null);
-        list.traverse(list.getRoot());
-
-        // create a string data array to avoid 
-        String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
-
-        String[] data = stringData.split(" ");
-        for (String s : data) {
-            list.addItem(new Node(s));
-        }
-
-        list.traverse(list.getRoot());
+//        MyLinkedList list = new MyLinkedList(null);
+//        list.traverse(list.getRoot());
+//
+//        // create a string data array to avoid
+//        String stringData = "Darwin Brisbane Perth Melbourne Canberra Adelaide Sydney Canberra";
+//
+//        String[] data = stringData.split(" ");
+//        for (String s : data) {
+//            list.addItem(new Node(s));
+//        }
+//
+//        list.traverse(list.getRoot());
 
 //
 //        SearchTree tree = new SearchTree(null);
