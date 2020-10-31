@@ -17,7 +17,7 @@ public static void main(String[] args) {
 	public static void printList(List<?> list) {
 		
 	for (Object s:list) {
-	System.out.print(s+" ");	
+	System.out.println(s+" ");
 		
 	}	
 		

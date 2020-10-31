@@ -41,6 +41,37 @@ public class Main {
         System.out.println(hawthorn.compareTo(adelaideCrows));
         System.out.println(hawthorn.compareTo(adelaideCrows));
 
+        League<Team<FootballPlayer>> footballLeague = new League<>("AFL");
+        hawthorn.matchResult(fremantle, 1, 0);
+        hawthorn.matchResult(adelaideCrows, 3, 8);
+
+        adelaideCrows.matchResult(fremantle, 2, 1);
+
+        footballLeague.add(adelaideCrows);
+        footballLeague.add(melbourne);
+        footballLeague.add(hawthorn);
+        footballLeague.add(fremantle);
+
+//        footballLeague.add(baseballTeam);
+        footballLeague.showLeagueTable();
+
+        Team rawTeam = new Team("Raw Team");
+        rawTeam.addPlayer(beckham); // unchecked warning
+        rawTeam.addPlayer(pat);     // unchecked warning
+
+        footballLeague.add(rawTeam);     // unchecked warning
+
+        League<Team> rawLeague = new League<>("Raw");
+        rawLeague.add(adelaideCrows);     // no warning
+        rawLeague.add(baseballTeam);    // no warning
+        rawLeague.add(rawTeam);         // no warning
+
+        League reallyRaw = new League("Really raw");
+        reallyRaw.add(adelaideCrows);     // unchecked warning
+        reallyRaw.add(baseballTeam);    // unchecked warning
+        reallyRaw.add(rawTeam);         // unchecked warning
+        System.out.println("--------------------------------- ");
+        reallyRaw.showLeagueTable();
     }
 }
    
