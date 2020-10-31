@@ -40,7 +40,7 @@ public class Main {
         System.out.println(adelaideCrows.compareTo(melbourne));
         System.out.println(hawthorn.compareTo(adelaideCrows));
         System.out.println(hawthorn.compareTo(adelaideCrows));
-      
+
     }
 }
    
