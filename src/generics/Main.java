@@ -14,46 +14,51 @@ public class Main {
         FootballPlayer banks = new FootballPlayer("Gordon");
         melbourne.addPlayer(banks);
 
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
+
         Team<BaseballPlayer> baseballTeam = new Team<>("Chicago Cubs");
         baseballTeam.addPlayer(pat);
 
         Team<SoccerPlayer> soccerTeam = new Team<>("Manchester United");
         soccerTeam.addPlayer(beckham);
 
-        System.out.println(adelaideCrows.numPlayers());
-        System.out.println(baseballTeam.numPlayers());
-        System.out.println(soccerTeam.numPlayers());
+//        System.out.println(adelaideCrows.numPlayers());
+//        System.out.println(baseballTeam.numPlayers());
+//        System.out.println(soccerTeam.numPlayers());
 
-        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
-        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
 
-        hawthorn.matchResult(fremantle, 1, 0);
-        hawthorn.matchResult(adelaideCrows, 3, 8);
 
-        adelaideCrows.matchResult(fremantle, 2, 1);
+//        hawthorn.matchResult(fremantle, 1, 0);
+//        hawthorn.matchResult(adelaideCrows, 3, 8);
+
+//        adelaideCrows.matchResult(fremantle, 2, 1);
         // adelaideCrows.matchResult(baseballTeam,1,1);
-        System.out.println("Rankings");
-        System.out.println(adelaideCrows.getName() + ": " + adelaideCrows.ranking());
-        System.out.println(melbourne.getName() + ": " + melbourne.ranking());
-        System.out.println(fremantle.getName() + ": " + fremantle.ranking());
-        System.out.println(hawthorn.getName() + ": " + hawthorn.ranking());
-        System.out.println(adelaideCrows.compareTo(melbourne));
-        System.out.println(hawthorn.compareTo(adelaideCrows));
-        System.out.println(hawthorn.compareTo(adelaideCrows));
+//        System.out.println("Rankings");
+//        System.out.println(adelaideCrows.getName() + ": " + adelaideCrows.ranking());
+//        System.out.println(melbourne.getName() + ": " + melbourne.ranking());
+//        System.out.println(fremantle.getName() + ": " + fremantle.ranking());
+//        System.out.println(hawthorn.getName() + ": " + hawthorn.ranking());
+//        System.out.println(adelaideCrows.compareTo(melbourne));
+//        System.out.println(hawthorn.compareTo(adelaideCrows));
+//        System.out.println(hawthorn.compareTo(adelaideCrows));
 
         League<Team<FootballPlayer>> footballLeague = new League<>("AFL");
-        hawthorn.matchResult(fremantle, 1, 0);
-        hawthorn.matchResult(adelaideCrows, 3, 8);
-
-        adelaideCrows.matchResult(fremantle, 2, 1);
-
         footballLeague.add(adelaideCrows);
         footballLeague.add(melbourne);
         footballLeague.add(hawthorn);
         footballLeague.add(fremantle);
 
-//        footballLeague.add(baseballTeam);
-        footballLeague.showLeagueTable();
+     //   footballLeague.showLeagueTable();
+
+        hawthorn.matchResult(fremantle, 1, 0);
+        hawthorn.matchResult(adelaideCrows, 3, 8);
+        adelaideCrows.matchResult(fremantle, 2, 1);
+
+
+
+//       footballLeague.add(baseballTeam);
+
 
         Team rawTeam = new Team("Raw Team");
         rawTeam.addPlayer(beckham); // unchecked warning
