@@ -1,14 +1,14 @@
-package packages.packages_challenges;
+package packages.packages_challenges.series;
 
-/**
- * Created by dev on 5/11/2015.
- */
+
 public class Series {
 
+    // return the sum of all numbers from 0 to n.
     public static long nSum(int n) {
         return (n * (n + 1)) /2;
     }
 
+    // factorial (int n) return the products of all numbers from 1 to n
     public static long factorial(int n) {
         if(n == 0) {
             return 0;
@@ -21,6 +21,10 @@ public class Series {
         return fact;
     }
 
+    // fibonacci(n) returns the nth Fibonacci number.These are defined as:
+    // f(0) = 0;
+    // f(1) = 1;
+    // fn(n) = f(n-1) + f(n-2);
     public static long fibonacci(int n) {
         if(n == 0) {
             return 0;

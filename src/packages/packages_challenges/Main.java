@@ -1,5 +1,7 @@
 package packages.packages_challenges;
 
+import packages.packages_challenges.series.Series;
+
 public class Main {
 
     public static void main(String[] args) {
