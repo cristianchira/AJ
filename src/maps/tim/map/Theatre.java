@@ -1,4 +1,4 @@
-package maps.tim;
+package maps.tim.map;
 
 import java.util.*;
 

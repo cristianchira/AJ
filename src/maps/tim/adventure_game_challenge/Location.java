@@ -1,4 +1,4 @@
-package maps.tim.adventure;
+package maps.tim.adventure_game_challenge;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -19,7 +19,6 @@ public class Location {
     public void addExit(String direction, int location) {
         exits.put(direction, location);
     }
-
     public int getLocationID() {
         return locationID;
     }
