@@ -1,5 +1,37 @@
 package concurency_threads.deadlocks_wait_notify_and_notifyAll;
 
+/*
+*                      ==Object==
+
+  Every object, in addition to having an associated MONITOR, has an associated WAIT SET.
+  A wait set is a set of threads.
+  Wait sets are manipulated solely through the methods Object.wait, Object.notify, and Object.notifyAll.
+
+                       ==Deadlock==
+
+  deadlock occurs when two or more threads wait forever for a lock or resource held by another of the threads.
+
+                        ==Livelock==
+
+  two or more threads keep on transferring states between one another
+
+                         ==wait()==
+
+1. wait()
+   causes the current thread to wait indefinitely until another thread either invokes notify() for this object or notifyAll().
+2. wait(long timeout)
+3. wait(long timeout, int nanos)
+
+                         =notify()==
+
+ notify() notifies any one of them to wake up arbitrarily.
+ the choice of exactly which thread to wake is non-deterministic and depends upon the implementation.
+
+                       ==notifyAll()=
+ this method simply wakes all threads that are waiting on this object's monitor.
+
+* */
+
 import java.util.Random;
 
 public class Main {

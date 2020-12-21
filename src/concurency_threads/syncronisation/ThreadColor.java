@@ -1,4 +1,4 @@
-package concurency_threads.Syncronisation;
+package concurency_threads.syncronisation;
 
 /**
  * Created by timbuchalka on 15/06/2016.
