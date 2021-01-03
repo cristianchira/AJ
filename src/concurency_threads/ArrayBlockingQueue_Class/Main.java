@@ -85,6 +85,7 @@ class MyConsumer implements Runnable {
     public void run() {
 
         while (true) {
+            //somethime must use synchronized when use ArrayBlockingQueue
             synchronized (buffer) {
                 try {
                     if (buffer.isEmpty()) {
