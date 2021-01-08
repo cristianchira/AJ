@@ -1,13 +1,14 @@
 package collections.Interfaces.Collection_Interface;
 
-import java.util.ArrayList;
-import java.util.Collection;
-
+import java.util.*;
 public class Collection_Interface {
 
     public static void main(String[] args) throws InterruptedException {
 
         // use boolean add(Object obj) method to add elements in the list-----------------------------------------------------------------
+
+            //Return Value: This method returns a boolean value depicting the successfulness of the operation.
+            // If the element was added, it returns true, else it returns false
 
         Collection<String> collection = new ArrayList<>();
         collection.add("element1");
@@ -16,6 +17,9 @@ public class Collection_Interface {
         // printList(collection);
 
         // using boolean addAll(Collection c) method---------------------------------------------------------------------------------------
+
+            //Return Value:
+            // This method returns true if the collection changed as a result of the call.
 
         Collection<String> newColl = new ArrayList<>();
         newColl.add("last");
@@ -37,16 +41,24 @@ public class Collection_Interface {
 
         // using boolean contains(Object obj) method---------------------------------------------------------------------
 
+        // Returns true
+            // if obj is an element of the invoking collection. Otherwise, returns false.
+
         boolean result = collection.contains("element2");
         // printing the result
         // System.out.println("Is element2 present in the List: " + result);
 
         // using boolean containsAll(Collection c) method---------------------------------------------------------------
 
+            //Return Value:
+                // The method returns True if ALL ELEMENTS in the collection col are present in the
+                // List otherwise it returns False.
+
         Collection<String> partial = new ArrayList<>();
         partial.add("element1");
-        partial.add("element2");
-        boolean resultAll = collection.containsAll(partial);
+        partial.add("element29");
+        partial.add("element6");
+ //     boolean resultAll = collection.containsAll(partial);
         // printing the result
         // System.out.println("is collection included: " + resultAll);
 
@@ -93,6 +105,8 @@ public class Collection_Interface {
 
         //using boolean removeAll(Collection c)-------------------------------------------------------------------------
 
+          // Returns true if the collection changed (i.e., elements were removed). Otherwise, returns false.
+
 //        if (collection.removeAll(partial)) {
 //            System.out.println();
 //            System.out.println("++++++++++++++++++++++++++++++");
@@ -106,14 +120,18 @@ public class Collection_Interface {
 
         //using boolean retainAll(Collection c)-------------------------------------------------------------------------
 
+        // The method returns true if the list is changed at all as a result of the call else false.
+
 //        if (collection.retainAll(partial)) {
 //            System.out.println();
 //            System.out.println("++++++++++++++++++++++++++++++");
-//            System.out.println("Collection partial was retained");
+//            System.out.println("Common elements of collections if any");
 //            printList(collection);
+//            System.out.println(collection);
+//
 //        } else {
 //            System.out.println();
-//            System.out.println("Collections is intact");
+//            System.out.println("Collections is not changed");
 //            printList(collection);
 //        }
 
@@ -132,10 +150,10 @@ public class Collection_Interface {
 
         // Object[] toArray(Object array[])------------------------------------------------------------------------------
 
-        Object[] arrRetained = collection.toArray(partial.toArray());
-        for (Object arr : arrRetained) {
-            System.out.println(arr);
-        }
+//        Object[] arrRetained = collection.toArray(partial.toArray());
+//        for (Object arr : arrRetained) {
+//            System.out.println(arr);
+//        }
 
     }
 
