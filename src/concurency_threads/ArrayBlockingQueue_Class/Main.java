@@ -1,6 +1,5 @@
 package concurency_threads.ArrayBlockingQueue_Class;
 
-import java.util.Random;
 import java.util.concurrent.*;
 
 import static concurency_threads.ArrayBlockingQueue_Class.Main.EOF;

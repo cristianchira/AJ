@@ -1,7 +1,7 @@
 package maps.adventure_game_challenge;
 
 import java.util.HashMap;
-import java.util.Map;
+import collections.Map;
 
 
 public class Location {

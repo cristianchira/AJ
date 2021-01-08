@@ -1,7 +1,5 @@
 package typesvaluevariable;
 
-import java.util.Random;
-import java.util.Collection;
 import java.util.ArrayList;
 
 class MiscMath<T extends Number> {

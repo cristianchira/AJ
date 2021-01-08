@@ -32,8 +32,6 @@ package concurency_threads.deadlock_wait_notify_and_notifyAll;
 
 * */
 
-import java.util.Random;
-
 public class Main {
 
     public static void main(String[] args) {

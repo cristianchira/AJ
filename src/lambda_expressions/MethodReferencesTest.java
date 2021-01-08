@@ -1,18 +1,13 @@
 package lambda_expressions;
 
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.Collection;
+import collections.List;
+import collections.Comparator;
 import java.util.function.Supplier;
 
 import comparation.Person;
 
-import java.util.Set;
-import java.util.HashSet;
-import java.time.chrono.IsoChronology;
- 
+import collections.Set;
+
 public class MethodReferencesTest {
      
     // The method transferElements copies elements from one collection to

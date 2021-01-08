@@ -1,7 +1,5 @@
 package process_and_threads;
 
-import java.util.Random;
-
 public class Consumer implements Runnable {
 	private Drop drop;
 

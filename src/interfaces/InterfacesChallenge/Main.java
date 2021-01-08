@@ -1,8 +1,8 @@
 package interfaces.InterfacesChallenge;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
+import collections.List;
 import java.util.Scanner;
 
 

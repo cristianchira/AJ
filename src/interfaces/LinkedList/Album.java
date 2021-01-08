@@ -1,7 +1,7 @@
 package interfaces.LinkedList;
 
 import java.util.ArrayList;
-import java.util.List;
+import collections.List;
 
 public class Album {
     private String name;

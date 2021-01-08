@@ -4,8 +4,7 @@ http://tutorials.jenkov.com/java-concurrency/index.html
 
 * */
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import collections.List;
 
 import static concurency_threads.concurent_package.Main.EOF;
 

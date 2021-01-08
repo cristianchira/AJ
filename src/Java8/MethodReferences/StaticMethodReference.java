@@ -1,7 +1,6 @@
 package Java8.MethodReferences;
 
-import java.util.Arrays;
-import java.util.List;
+import collections.List;
 
 public class StaticMethodReference {
 	/*Type                   	       Syntax	            Method Reference   Lambda expression

@@ -1,6 +1,5 @@
 package arrays.ArrayChallenge;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {

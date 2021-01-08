@@ -1,6 +1,5 @@
 package concurency_threads.types_of_pools;
 
-import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 

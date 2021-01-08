@@ -1,15 +1,13 @@
 package lambda_expressions;
 
-import java.util.List;
+import collections.List;
 import java.util.function.Consumer;
 import java.util.function.Function;
-import java.util.Comparator;
 import java.util.function.Predicate;
 
 import comparation.Person;
 
 import java.lang.Iterable;
-import java.time.chrono.IsoChronology;
 
 public class RosterTest {
 

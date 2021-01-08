@@ -2,7 +2,7 @@ package collections.Sorted_Collections.StockList_Class_With_MAps;
 
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
+import collections.Map;
 
 public class StockList {
     private final Map<String, StockItem> list;

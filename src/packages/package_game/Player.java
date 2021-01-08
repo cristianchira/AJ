@@ -1,7 +1,7 @@
 package packages.package_game;
 
 import java.util.ArrayList;
-import java.util.List;
+import collections.List;
 
 public class Player implements ISavable {
     private String name;

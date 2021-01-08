@@ -1,5 +1,7 @@
 package classes.InnerClass.Challenge;
 
+import collections.ListIterator;
+
 import java.util.*;
 
 public class MainChallenge {
@@ -164,7 +166,7 @@ public class MainChallenge {
 
 
     private static void printList(LinkedList<Song> playList) {
-        Iterator<Song> iterator = playList.iterator();
+        collections.Iterator<Song> iterator = playList.iterator();
         System.out.println("================================");
         while(iterator.hasNext()) {
             System.out.println(iterator.next());

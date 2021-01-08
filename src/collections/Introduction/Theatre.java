@@ -1,10 +1,12 @@
 package collections.Introduction;
 
+import collections.List;
+
 import java.util.*;
 
 public class Theatre {
     private final String theatreName;
-    public  List<Seat> seats = new ArrayList<>();
+    public List<Seat> seats = new ArrayList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;

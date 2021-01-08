@@ -1,7 +1,7 @@
 package maps.miscelanous;
 
-import java.util.Map;
-import java.util.Map.Entry;
+import collections.Map;
+import collections.Map.Entry;
 import java.util.TreeMap;
 
 public class LinkedHashMap_Class {

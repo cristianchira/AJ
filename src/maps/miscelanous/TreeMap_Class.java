@@ -1,7 +1,7 @@
 package maps.miscelanous;
 
+
 import java.util.Map;
-import java.util.Map.Entry;
 import java.util.TreeMap;
 
 public class TreeMap_Class {
@@ -21,7 +21,7 @@ public class TreeMap_Class {
 		/*
 		 * for (Integer i : ef.keySet()) { System.out.println(ef.get(i)); }
 		 */
-		for (Entry<Integer, String> i : ef.entrySet()) {
+		for (Map.Entry<Integer, String> i : ef.entrySet()) {
 			int size = ef.size();
 			System.out.println(i.getKey() + " " + i.getValue());
 

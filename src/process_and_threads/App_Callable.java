@@ -1,7 +1,6 @@
 package process_and_threads;
 
 import java.io.IOException;
-import java.util.Random;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

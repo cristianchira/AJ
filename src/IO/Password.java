@@ -1,7 +1,6 @@
 package IO;
 
 import java.io.Console;
-import java.util.Arrays;
 import java.io.IOException;
 
 public class Password {

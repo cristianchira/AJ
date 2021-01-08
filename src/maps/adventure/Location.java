@@ -1,14 +1,14 @@
 package maps.adventure;
 
 import java.util.HashMap;
-import java.util.Map;
+import collections.Map;
 
 
 public class Location {
     private final int locationID;
     private final String description;
     private final Map<String, Integer> exits;
-
+HashMap gg = new HashMap();
     public Location(int locationID, String description) {
         this.locationID = locationID;
         this.description = description;

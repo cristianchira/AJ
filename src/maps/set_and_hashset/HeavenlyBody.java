@@ -1,7 +1,6 @@
 package maps.set_and_hashset;
 
-import java.util.HashSet;
-import java.util.Set;
+
 /*
 * A Set is a Collection that === cannot contain duplicate elements ===
 * The Java platform contains three general-purpose Set implementations: === HashSet, TreeSet, and LinkedHashSet ===
@@ -21,6 +20,9 @@ Or, if using JDK 8 or later, you could easily collect into a Set using aggregate
 
  c.stream().collect(Collectors.toSet()); // no duplicates
 * */
+
+import java.util.HashSet;
+import java.util.Set;
 
 public final class HeavenlyBody {
     private final String name;

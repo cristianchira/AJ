@@ -1,20 +1,10 @@
 package stream;
 
-import java.util.Arrays;
 import java.util.Collections;
-import java.util.Comparator;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
-import java.util.stream.Collector;
+import collections.Comparator;
+import collections.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-import java.util.stream.Stream;
-
-import javax.imageio.stream.ImageInputStream;
-import javax.security.auth.x500.X500Principal;
-
-import arrays.SumClass;
 
 public class ManageStream {
 

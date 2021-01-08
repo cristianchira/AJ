@@ -1,8 +1,8 @@
 package concurency_threads.try_finally_threads;
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import collections.List;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 import static concurency_threads.try_finally_threads.Main.EOF;

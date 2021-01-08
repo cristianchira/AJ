@@ -23,7 +23,7 @@ public class DataStructure {
 		System.out.println();
 	}
 
-	interface DataStructureIterator extends java.util.Iterator<Integer> {
+	interface DataStructureIterator extends Iterator<Integer> {
 	}
 
 	// Inner class implements the DataStructureIterator interface,

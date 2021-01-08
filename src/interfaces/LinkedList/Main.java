@@ -1,5 +1,8 @@
 package interfaces.LinkedList;
 
+import collections.List;
+import collections.ListIterator;
+
 import java.util.*;
 
 public class Main {
@@ -165,7 +168,7 @@ public class Main {
     }
 
     private static void printList(List<Song> playList) {
-        Iterator<Song> iterator = playList.iterator();
+        collections.Iterator<Song> iterator = playList.iterator();
         System.out.println("================================");
         while (iterator.hasNext()) {
             System.out.println(iterator.next());

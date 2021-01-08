@@ -1,8 +1,8 @@
 package maps.miscelanous;
 
+
 import java.util.Hashtable;
 import java.util.Map;
-import java.util.Map.Entry;
 
 public class HashTable_Class {
 
@@ -16,7 +16,7 @@ public class HashTable_Class {
 		/*for (Integer i : ef.keySet()) {
 			System.out.println(ef.get(i));
 		}*/
-		for (Entry<Integer,String> i : ef.entrySet()) {
+		for (Map.Entry<Integer,String> i : ef.entrySet()) {
 			System.out.println(i);
 		}
 

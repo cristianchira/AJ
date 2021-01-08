@@ -1,11 +1,6 @@
 package unsorted;
 
-import java.util.List;
-
 import generics.Box;
-
-import java.util.Arrays;
-import java.util.Collections;
 
 public class LearnTest {
 

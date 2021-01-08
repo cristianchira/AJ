@@ -1,6 +1,6 @@
 package maps.miscelanous;
 
-class Order {
+public class Order {
 
 	int orderId;
 	String details;

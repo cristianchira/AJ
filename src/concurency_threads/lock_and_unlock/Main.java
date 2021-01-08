@@ -56,8 +56,8 @@ package concurency_threads.lock_and_unlock;
  */
 
 import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import collections.List;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 import static concurency_threads.lock_and_unlock.Main.EOF;

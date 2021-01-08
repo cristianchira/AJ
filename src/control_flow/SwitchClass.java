@@ -1,7 +1,5 @@
 package control_flow;
 
-import java.util.Calendar;
-
 public class SwitchClass {
 	public static void main(String[] args) {
 		/*

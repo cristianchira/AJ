@@ -2,7 +2,7 @@ package collections.Sorted_Collections.Add_A_Bascket;
 
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.Map;
+import collections.Map;
 
 /**
  * Created by dev on 17/02/2016.

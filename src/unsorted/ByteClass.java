@@ -2,7 +2,7 @@ package unsorted;
 
 import java.nio.ByteBuffer;
 import java.util.HashMap;
-import java.util.Map;
+import collections.Map;
 
 public class ByteClass {
 

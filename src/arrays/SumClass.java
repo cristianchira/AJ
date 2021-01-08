@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Arrays;
-
 public class SumClass {
 	public static void main(String[] args) {
 		int[] ia = new int[10];

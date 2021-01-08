@@ -1,8 +1,8 @@
 package maps.miscelanous;
 
 import java.util.IdentityHashMap;
-import java.util.Map;
-import java.util.Map.Entry;
+import collections.Map;
+import collections.Map.Entry;
 
 public class IdentityHashMap_Class {
 	public static void main(String[] args) {

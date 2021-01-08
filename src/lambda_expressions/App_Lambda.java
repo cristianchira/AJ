@@ -2,9 +2,9 @@ package lambda_expressions;
 
 import comparation.Person;
 
-import java.util.Comparator;
-import java.util.List;
-import java.util.Map;
+import collections.Comparator;
+import collections.List;
+import collections.Map;
 import java.util.stream.Collectors;
 
 public class App_Lambda {

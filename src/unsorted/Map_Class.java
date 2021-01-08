@@ -1,7 +1,5 @@
 package unsorted;
 
-import java.util.Map;
-
 public class Map_Class {
 
 	public static void main(String[] args) {

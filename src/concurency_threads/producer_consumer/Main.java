@@ -2,7 +2,6 @@ package concurency_threads.producer_consumer;
 /*
 *
 * */
-import java.util.Random;
 
 public class Main {
 
