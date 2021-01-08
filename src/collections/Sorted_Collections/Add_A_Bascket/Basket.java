@@ -2,11 +2,9 @@ package collections.Sorted_Collections.Add_A_Bascket;
 
 import java.util.Collections;
 import java.util.HashMap;
-import collections.Map;
+import java.util.Map;
 
-/**
- * Created by dev on 17/02/2016.
- */
+
 public class Basket {
     private final String name;
     private final Map<StockItem, Integer> list;
