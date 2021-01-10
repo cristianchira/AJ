@@ -1,8 +1,7 @@
 package collections.miscelanous.Interfaces.List_Interface;
 
-import collections.List;
-
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Theatre {

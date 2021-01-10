@@ -1,28 +1,3 @@
-/*
- * Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
- * ORACLE PROPRIETARY/CONFIDENTIAL. Use is subject to license terms.
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- *
- */
-
 package collections.Collections_Classes;
 
 import java.util.*;
@@ -54,7 +29,7 @@ import java.util.*;
  * externally.  This is typically accomplished by synchronizing on some
  * object that naturally encapsulates the set.
  * If no such object exists, the set should be "wrapped" using the
- * {@link Collections#synchronizedSortedSet Collections.synchronizedSortedSet}
+ * {@link Collections_#synchronizedSortedSet Collections.synchronizedSortedSet}
  * method.  This is best done at creation time, to prevent accidental
  * unsynchronized access to the set: <pre>
  *   SortedSet s = Collections.synchronizedSortedSet(new TreeSet(...));</pre>
@@ -297,22 +272,22 @@ public class TreeSet<E> extends AbstractSet<E>
      *         if any element is null and this set uses natural ordering, or
      *         its comparator does not permit null elements
      */
-    public  boolean addAll(Collection<? extends E> c) {
-        // Use linear-time version if applicable
-        if (m.size()==0 && c.size() > 0 &&
-            c instanceof SortedSet &&
-            m instanceof TreeMap) {
-            SortedSet<? extends E> set = (SortedSet<? extends E>) c;
-            TreeMap<E,Object> map = (TreeMap<E, Object>) m;
-            Comparator<?> cc = set.comparator();
-            Comparator<? super E> mc = map.comparator();
-            if (cc==mc || (cc != null && cc.equals(mc))) {
-                map.addAllForTreeSet(set, PRESENT);
-                return true;
-            }
-        }
-        return super.addAll(c);
-    }
+//    public  boolean addAll(Collection<? extends E> c) {
+//        // Use linear-time version if applicable
+//        if (m.size()==0 && c.size() > 0 &&
+//            c instanceof SortedSet &&
+//            m instanceof TreeMap) {
+//            SortedSet<? extends E> set = (SortedSet<? extends E>) c;
+//            TreeMap<E,Object> map = (TreeMap<E, Object>) m;
+//            Comparator<?> cc = set.comparator();
+//            Comparator<? super E> mc = map.comparator();
+//            if (cc==mc || (cc != null && cc.equals(mc))) {
+//                map.addAllForTreeSet(set, PRESENT);
+//                return true;
+//            }
+//        }
+//        return super.addAll(c);
+//    }
 
     /**
      * @throws ClassCastException {@inheritDoc}
@@ -516,24 +491,24 @@ public class TreeSet<E> extends AbstractSet<E>
      * Reconstitute the {@code TreeSet} instance from a stream (that is,
      * deserialize it).
      */
-    private void readObject(java.io.ObjectInputStream s)
-        throws java.io.IOException, ClassNotFoundException {
-        // Read in any hidden stuff
-        s.defaultReadObject();
-
-        // Read in Comparator
-        @SuppressWarnings("unchecked")
-            Comparator<? super E> c = (Comparator<? super E>) s.readObject();
-
-        // Create backing TreeMap
-        TreeMap<E,Object> tm = new TreeMap<>(c);
-        m = tm;
-
-        // Read in size
-        int size = s.readInt();
-
-        tm.readTreeSet(size, s, PRESENT);
-    }
+//    private void readObject(java.io.ObjectInputStream s)
+//        throws java.io.IOException, ClassNotFoundException {
+//        // Read in any hidden stuff
+//        s.defaultReadObject();
+//
+//        // Read in Comparator
+//        @SuppressWarnings("unchecked")
+//            Comparator<? super E> c = (Comparator<? super E>) s.readObject();
+//
+//        // Create backing TreeMap
+//        TreeMap<E,Object> tm = new TreeMap<>(c);
+//        m = tm;
+//
+//        // Read in size
+//        int size = s.readInt();
+//
+//        tm.readTreeSet(size, s, PRESENT);
+//    }
 
     /**
      * Creates a <em><a href="Spliterator.html#binding">late-binding</a></em>
@@ -554,9 +529,9 @@ public class TreeSet<E> extends AbstractSet<E>
      * @return a {@code Spliterator} over the elements in this set
      * @since 1.8
      */
-    public Spliterator<E> spliterator() {
-        return TreeMap.keySpliteratorFor(m);
-    }
+//    public Spliterator<E> spliterator() {
+//        return TreeMap.keySpliteratorFor(m);
+//    }
 
     private static final long serialVersionUID = -2479143000061671589L;
 }

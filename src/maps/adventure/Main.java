@@ -1,7 +1,7 @@
 package maps.adventure;
 
 import java.util.HashMap;
-import collections.Map;
+import java.util.Map;
 import java.util.Scanner;
 
 public class Main {

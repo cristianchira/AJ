@@ -1,8 +1,10 @@
 package collections.miscelanous.Interfaces.LinkedList_Interface;
 
+
+import collections.miscelanous.Interfaces.LinkedList_Interface.LinkedListChallenge.Song;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
-
 
 public class Album {
     private String name;

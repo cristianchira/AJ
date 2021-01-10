@@ -1,8 +1,9 @@
 package Java8.MethodReferences;
 
 import java.util.ArrayList;
-
-import collections.List;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.List;
 import java.util.function.Supplier;
 
 public class ConstructorMethodReference {

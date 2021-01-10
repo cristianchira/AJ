@@ -1,8 +1,8 @@
 package collections.miscelanous;
 
-
 import java.util.ArrayList;
-import collections.Set;
+import java.util.Collection;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Set_Interface {

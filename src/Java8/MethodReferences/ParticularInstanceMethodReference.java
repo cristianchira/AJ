@@ -1,7 +1,8 @@
 package Java8.MethodReferences;
 
+import java.util.Arrays;
 import java.util.Collections;
-import collections.List;
+import java.util.List;
 
 public class ParticularInstanceMethodReference {
 	

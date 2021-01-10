@@ -1,7 +1,8 @@
 package collections.miscelanous;
 
-import collections.Set;
-import collections.SortedSet;
+
+import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 public class SortedSet_Class {

@@ -1,7 +1,8 @@
 package collections.miscelanous.Interfaces.Set_interface.Symmetric_and_Assymetric;
 
-import collections.Set;
 
+import java.util.HashSet;
+import java.util.Set;
 
 public class Dog {
     private final String name;
@@ -16,11 +17,11 @@ public class Dog {
 
     @Override
     public final boolean equals(Object obj) {
-        if(this == obj) {
+        if (this == obj) {
             return true;
         }
 
-        if(obj instanceof Dog) {
+        if (obj instanceof Dog) {
             String objName = ((Dog) obj).getName();
             return this.name.equals(objName);
         }
@@ -61,7 +62,7 @@ public class Dog {
 
         @Override
         public boolean equals(Object obj) {
-            if(this == obj) {
+            if (this == obj) {
                 return true;
             }
 

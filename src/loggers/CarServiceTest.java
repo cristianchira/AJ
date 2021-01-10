@@ -3,14 +3,14 @@ package loggers;
 
 import org.junit.Test;
 
-import javaexceptions.CarState;
+
 
 
 public class CarServiceTest {
 
 	@Test
 	public void shouldDemonstrateLogging() throws Exception {
-		 CarState carState = CarState.DRIVING;
+	//	 CarState carState = CarState.DRIVING;
 		 
 		CarService carService = new CarService();
 		carService.process("BMW");

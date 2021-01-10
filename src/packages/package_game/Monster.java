@@ -3,7 +3,7 @@ package packages.package_game;
 import interfaces.InterfacesChallenge.ISavable;
 
 import java.util.ArrayList;
-import collections.List;
+import java.util.List;
 
 public class Monster implements ISavable {
     private String name;

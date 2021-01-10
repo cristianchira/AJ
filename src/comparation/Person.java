@@ -1,9 +1,10 @@
 package comparation;
 
-import collections.List;
-import java.util.ArrayList;
-import java.time.chrono.IsoChronology;
+
 import java.time.LocalDate;
+import java.time.chrono.IsoChronology;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Person {
 

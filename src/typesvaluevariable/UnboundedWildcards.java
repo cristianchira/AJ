@@ -2,6 +2,7 @@ package typesvaluevariable;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;
+import java.util.Collection;
 
 /*
  * Note that using Collection<Object> as the type of the incoming parameter, c, would

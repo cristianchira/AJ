@@ -1,12 +1,12 @@
 package lambda_expressions;
 
-import collections.List;
-import collections.Comparator;
-import java.util.function.Supplier;
 
 import comparation.Person;
 
-import collections.Set;
+import java.util.*;
+import java.util.function.Supplier;
+
+
 
 public class MethodReferencesTest {
      
@@ -27,7 +27,7 @@ public class MethodReferencesTest {
        
     public static void main(String... args) {
  
-        List<Person> roster = Person.createRoster();        
+        List<Person> roster = Person.createRoster();
  
         for (Person p : roster) {
             p.printPerson();

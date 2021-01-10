@@ -1,7 +1,7 @@
 package interfaces.InterfacesChallenge;
 
 import java.util.ArrayList;
-import collections.List;
+import java.util.List;
 
 public class Monster implements ISavable {
     private String name;

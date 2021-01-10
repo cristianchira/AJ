@@ -1,5 +1,7 @@
 package classes.NestedClass;
 
+import java.util.Iterator;
+
 public class DataStructure {
 
 	// Create an array

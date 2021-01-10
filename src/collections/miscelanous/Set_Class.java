@@ -1,6 +1,7 @@
 package collections.miscelanous;
 
-import collections.Set;
+
+import java.util.Set;
 import java.util.TreeSet;
 
 public class Set_Class {

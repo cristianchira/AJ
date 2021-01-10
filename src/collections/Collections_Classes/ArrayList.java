@@ -66,7 +66,7 @@ import java.util.function.UnaryOperator;
  * synchronizing on some object that naturally encapsulates the list.
  *
  * If no such object exists, the list should be "wrapped" using the
- * {@link Collections#synchronizedList Collections.synchronizedList}
+ * {@link Collections_#synchronizedList Collections.synchronizedList}
  * method.  This is best done at creation time, to prevent accidental
  * unsynchronized access to the list:<pre>
  *   List list = Collections.synchronizedList(new ArrayList(...));</pre>
@@ -985,7 +985,7 @@ public class ArrayList<E> extends AbstractList<E>
      * </pre>
      * Similar idioms may be constructed for {@link #indexOf(Object)} and
      * {@link #lastIndexOf(Object)}, and all of the algorithms in the
-     * {@link Collections} class can be applied to a subList.
+     * {@link Collections_} class can be applied to a subList.
      *
      * <p>The semantics of the list returned by this method become undefined if
      * the backing list (i.e., this list) is <i>structurally modified</i> in

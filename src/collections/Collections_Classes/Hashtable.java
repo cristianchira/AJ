@@ -598,7 +598,7 @@ public class Hashtable<K,V>
 
     private <T> Enumeration<T> getEnumeration(int type) {
         if (count == 0) {
-            return Collections.emptyEnumeration();
+            return Collections_.emptyEnumeration();
         } else {
             return new Enumerator<>(type, false);
         }
@@ -606,7 +606,7 @@ public class Hashtable<K,V>
 
     private <T> Iterator<T> getIterator(int type) {
         if (count == 0) {
-            return Collections.emptyIterator();
+            return Collections_.emptyIterator();
         } else {
             return new Enumerator<>(type, true);
         }
@@ -640,7 +640,7 @@ public class Hashtable<K,V>
      */
     public Set<K> keySet() {
         if (keySet == null)
-            keySet = Collections.synchronizedSet(new KeySet(), this);
+            keySet = Collections_.synchronizedSet(new KeySet(), this);
         return keySet;
     }
 
@@ -680,7 +680,7 @@ public class Hashtable<K,V>
      */
     public Set<Map.Entry<K,V>> entrySet() {
         if (entrySet==null)
-            entrySet = Collections.synchronizedSet(new EntrySet(), this);
+            entrySet = Collections_.synchronizedSet(new EntrySet(), this);
         return entrySet;
     }
 
@@ -761,7 +761,7 @@ public class Hashtable<K,V>
      */
     public Collection<V> values() {
         if (values==null)
-            values = Collections.synchronizedCollection(new ValueCollection(),
+            values = Collections_.synchronizedCollection(new ValueCollection(),
                                                         this);
         return values;
     }

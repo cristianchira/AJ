@@ -51,7 +51,7 @@ import java.util.function.Consumer;
  *
  * <p> Like most collection classes, this class is not synchronized.
  * A synchronized <tt>WeakHashMap</tt> may be constructed using the
- * {@link Collections#synchronizedMap Collections.synchronizedMap}
+ * {@link Collections_#synchronizedMap Collections.synchronizedMap}
  * method.
  *
  * <p> This class is intended primarily for use with key objects whose
@@ -863,14 +863,14 @@ public class WeakHashMap<K,V>
      * operations.  It does not support the <tt>add</tt> or <tt>addAll</tt>
      * operations.
      */
-    public Set<K> keySet() {
-        Set<K> ks = keySet;
-        if (ks == null) {
-            ks = new KeySet();
-            keySet = ks;
-        }
-        return ks;
-    }
+//    public Set<K> keySet() {
+//        Set<K> ks = keySet;
+//        if (ks == null) {
+//            ks = new KeySet();
+//            keySet = ks;
+//        }
+//        return ks;
+//    }
 
     private class KeySet extends AbstractSet<K> {
         public Iterator<K> iterator() {
@@ -916,14 +916,14 @@ public class WeakHashMap<K,V>
      * <tt>retainAll</tt> and <tt>clear</tt> operations.  It does not
      * support the <tt>add</tt> or <tt>addAll</tt> operations.
      */
-    public Collection<V> values() {
-        Collection<V> vs = values;
-        if (vs == null) {
-            vs = new Values();
-            values = vs;
-        }
-        return vs;
-    }
+//    public Collection<V> values() {
+//        Collection<V> vs = values;
+//        if (vs == null) {
+//            vs = new Values();
+//            values = vs;
+//        }
+//        return vs;
+//    }
 
     private class Values extends AbstractCollection<V> {
         public Iterator<V> iterator() {

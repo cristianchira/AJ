@@ -47,7 +47,7 @@ import java.util.function.Consumer;
  * encapsulates the list.
  *
  * If no such object exists, the list should be "wrapped" using the
- * {@link Collections#synchronizedList Collections.synchronizedList}
+ * {@link Collections_#synchronizedList Collections.synchronizedList}
  * method.  This is best done at creation time, to prevent accidental
  * unsynchronized access to the list:<pre>
  *   List list = Collections.synchronizedList(new LinkedList(...));</pre>

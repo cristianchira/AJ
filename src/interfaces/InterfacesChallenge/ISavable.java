@@ -1,6 +1,6 @@
 package interfaces.InterfacesChallenge;
 
-import collections.List;
+import java.util.List;
 
 public interface ISavable {
     List<String> write();

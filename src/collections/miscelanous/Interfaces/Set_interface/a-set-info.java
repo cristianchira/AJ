@@ -12,8 +12,6 @@ package collections.miscelanous.Interfaces.Set_interface;
 
 //Using JDK 8 Aggregate Operations:-------------------------------------------------------------------------------------
 
-import collections.List;
-import collections.Set;
 
 import java.util.*;
 import java.util.stream.Collectors;

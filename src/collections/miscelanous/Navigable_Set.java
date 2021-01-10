@@ -1,6 +1,7 @@
 package collections.miscelanous;
 
-import collections.NavigableSet;
+
+import java.util.NavigableSet;
 import java.util.TreeSet;
 
 public class Navigable_Set {

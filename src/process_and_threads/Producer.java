@@ -1,5 +1,7 @@
 package process_and_threads;
 
+import java.util.Random;
+
 public class Producer implements Runnable {
 	private Drop drop;
 

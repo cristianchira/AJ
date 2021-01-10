@@ -1,9 +1,10 @@
 package collections.miscelanous.Interfaces.Set_interface.Finishing_Off_Sets;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
-import collections.Map;
-import collections.Set;
 
 public class Main {
     private static Map<String, HeavenlyBody> solarSystem = new HashMap<>();

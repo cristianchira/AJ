@@ -1,7 +1,8 @@
 package collections.miscelanous;
 
+import java.util.Arrays;
 import java.util.Collections;
-import collections.List;
+import java.util.List;
 
 
 public class List2_Class {

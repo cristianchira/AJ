@@ -2,7 +2,8 @@ package comparation;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import collections.List;
+import java.util.List;
+
 
 public class App_Compare {
 	public static void main(String args[]) {

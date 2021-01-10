@@ -1,6 +1,7 @@
 package comparation;
 
-import collections.Comparator;
+
+import java.util.Comparator;
 
 public class StringCompare implements Comparator<String> {
 

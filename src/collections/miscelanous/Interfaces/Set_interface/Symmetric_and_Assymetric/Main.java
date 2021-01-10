@@ -1,9 +1,10 @@
 package collections.miscelanous.Interfaces.Set_interface.Symmetric_and_Assymetric;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 
-import collections.Map;
-import collections.Set;
 
 public class Main {
     private static Map<String, Dog.HeavenlyBody> solarSystem = new HashMap<>();

@@ -1,6 +1,6 @@
 package unsorted;
 
-import generics.Box;
+import Generics.Box;
 
 public class LearnTest {
 

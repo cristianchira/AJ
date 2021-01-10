@@ -1,5 +1,7 @@
 package arrays;
 
+import java.util.Iterator;
+
 public class Iterator_Class {
 
 	static int[] intArray = { 54, 75, 2, 33, 2, 0, 44 };

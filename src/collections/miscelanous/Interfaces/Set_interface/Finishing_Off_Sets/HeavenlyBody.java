@@ -1,6 +1,8 @@
 package collections.miscelanous.Interfaces.Set_interface.Finishing_Off_Sets;
 
-import collections.Set;
+
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * Created by dev on 12/01/2016.

@@ -1039,7 +1039,7 @@ public class Vector<E>
      *         {@code (fromIndex > toIndex)}
      */
     public synchronized List<E> subList(int fromIndex, int toIndex) {
-        return Collections.synchronizedList(super.subList(fromIndex, toIndex),
+        return Collections_.synchronizedList(super.subList(fromIndex, toIndex),
                                             this);
     }
 

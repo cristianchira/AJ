@@ -1,7 +1,7 @@
 package unsorted;
 
 import java.util.HashMap;
-import collections.Map;
+import java.util.Map;
 import java.util.Scanner;
 
 public class JavaLearnTest {

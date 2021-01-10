@@ -1,6 +1,6 @@
 package packages.package_game;
 
-import collections.List;
+import java.util.List;
 
 public interface ISavable {
     List<String> write();

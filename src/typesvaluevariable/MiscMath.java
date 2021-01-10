@@ -1,6 +1,8 @@
 package typesvaluevariable;
 
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Random;
 
 class MiscMath<T extends Number> {
 	int divisor;

@@ -1,10 +1,11 @@
 package collections.miscelanous.Interfaces.Set_interface.Finishing_Off_Sets;
 
-import collections.Set;
 
-/**
- * Created by dev on 3/02/2016.
- */
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
+
+
 public class SetMain {
     public static void main(String[] args) {
         Set<Integer> squares = new HashSet<>();
@@ -63,34 +64,24 @@ public class SetMain {
         unionTest.removeAll(intersectionTest);
         printSet(unionTest);
 
-        if(nature.containsAll(divine)) {
+        if (nature.containsAll(divine)) {
             System.out.println("divine is a subset of nature");
         }
 
-        if(nature.containsAll(intersectionTest)) {
+        if (nature.containsAll(intersectionTest)) {
             System.out.println("intersection is  subset of nature");
         }
 
-        if(divine.containsAll(intersectionTest)) {
+        if (divine.containsAll(intersectionTest)) {
             System.out.println("intersection is a subset of divine");
         }
-
-
-
-
-
-
-
-
-
-
 
 
     }
 
     private static void printSet(Set<String> set) {
         System.out.print("\t");
-        for(String s : set) {
+        for (String s : set) {
             System.out.print(s + " ");
         }
         System.out.println();

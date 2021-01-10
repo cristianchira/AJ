@@ -1,7 +1,6 @@
 package collections.miscelanous.Interfaces.LinkedList_Interface.LinkedListChallenge;
 
-import collections.List;
-import collections.ListIterator;
+
 
 import java.util.*;
 
@@ -168,7 +167,7 @@ public class Main {
     }
 
     private static void printList(List<Song> playList) {
-        collections.Iterator<Song> iterator = playList.iterator();
+        Iterator<Song> iterator = playList.iterator();
         System.out.println("================================");
         while (iterator.hasNext()) {
             System.out.println(iterator.next());

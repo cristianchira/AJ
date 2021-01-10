@@ -5,8 +5,8 @@ import interfaces.InterfacesChallenge.Monster;
 import interfaces.InterfacesChallenge.Player;
 
 import java.util.ArrayList;
-
-import collections.List;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 

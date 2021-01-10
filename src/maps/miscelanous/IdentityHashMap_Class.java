@@ -1,8 +1,7 @@
 package maps.miscelanous;
 
 import java.util.IdentityHashMap;
-import collections.Map;
-import collections.Map.Entry;
+import java.util.Map;
 
 public class IdentityHashMap_Class {
 	public static void main(String[] args) {
@@ -18,7 +17,7 @@ public class IdentityHashMap_Class {
 		/*
 		 * for (Integer i : ef.keySet()) { System.out.println(ef.get(i)); }
 		 */
-		for (Entry<Integer, String> i : ef.entrySet()) {
+		for (Map.Entry<Integer, String> i : ef.entrySet()) {
 			int size = ef.size();
 			System.out.println(i.getKey() + " " + i.getValue());
 

@@ -1,5 +1,7 @@
 package unsorted;
 
+import java.util.Arrays;
+
 public final class ByteKey {
 
 	byte[] data;

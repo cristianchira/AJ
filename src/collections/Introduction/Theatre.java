@@ -1,7 +1,5 @@
 package collections.Introduction;
 
-import collections.List;
-
 import java.util.*;
 
 public class Theatre {

@@ -2,7 +2,7 @@ package collections.Introduction;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import collections.List;
+import java.util.List;
 
 
 /*                                        Collection

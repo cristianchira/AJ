@@ -1,6 +1,7 @@
 package Java8.MethodReferences;
 
-import collections.List;
+import java.util.Arrays;
+import java.util.List;
 
 public class ArbitraryInstanceMethodReference {
 	

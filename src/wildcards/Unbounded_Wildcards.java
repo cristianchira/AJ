@@ -1,6 +1,7 @@
 package wildcards;
 
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class Unbounded_Wildcards {
 

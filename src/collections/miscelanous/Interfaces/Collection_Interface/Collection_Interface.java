@@ -1,6 +1,5 @@
 package collections.miscelanous.Interfaces.Collection_Interface;
 
-import collections.Collection;
 
 import java.util.*;
 public class Collection_Interface {
@@ -12,7 +11,7 @@ public class Collection_Interface {
             //Return Value: This method returns a boolean value depicting the successfulness of the operation.
             // If the element was added, it returns true, else it returns false
 
-        collections.miscelanous.Interfaces.Collection<String> collection = new ArrayList<>();
+        Collection<String> collection = new ArrayList<>();
         collection.add("element1");
         collection.add("element2");
         collection.add("element3");
@@ -23,7 +22,7 @@ public class Collection_Interface {
             //Return Value:
             // This method returns true if the collection changed as a result of the call.
 
-        collections.miscelanous.Interfaces.Collection<String> newColl = new ArrayList<>();
+        Collection<String> newColl = new ArrayList<>();
         newColl.add("last");
         newColl.add("elements");
         newColl.add("added");
@@ -56,7 +55,7 @@ public class Collection_Interface {
                 // The method returns True if ALL ELEMENTS in the collection col are present in the
                 // List otherwise it returns False.
 
-        collections.miscelanous.Interfaces.Collection<String> partial = new ArrayList<>();
+        Collection<String> partial = new ArrayList<>();
         partial.add("element1");
         partial.add("element29");
         partial.add("element6");
@@ -66,7 +65,7 @@ public class Collection_Interface {
 
         //using boolean equals(Object obj)------------------------------------------------------------------------------
 
-        collections.miscelanous.Interfaces.Collection<String> partial1 = new ArrayList<>();
+        Collection<String> partial1 = new ArrayList<>();
         partial1.add("element1");
         partial1.add("element2");
 //        System.out.println(partial.equals(partial1));

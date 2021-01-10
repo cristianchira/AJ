@@ -1,7 +1,6 @@
 package collections.miscelanous;
 
-import collections.List;
-import collections.ListIterator;
+
 
 import java.util.*;
 
@@ -14,14 +13,14 @@ public class List_Class {
 
 		List<Human> humans = Arrays.asList(h1, h2, new Human("Bob", 14));
 
-		Collections.sort(humans, new collections.Comparator<Human>() {
+		Collections.sort(humans, new Comparator<Human>() {
 			@Override
 			public int compare(Human h1, Human h2) {
 				return h1.getName().compareTo(h2.getName());
 			}
 		});
 		for (Human o : humans) {
-			//System.out.println(o.getName());
+			System.out.println(o.getName());
 		}
 		//assertEquals(humans.get(0), new Human("Jack", 12));
 	}

@@ -1,8 +1,7 @@
 package polimorfism;
 
 import java.util.ArrayList;
-
-import collections.List;
+import java.util.List;
 
 public class Animal {
 	void animalEat() {
