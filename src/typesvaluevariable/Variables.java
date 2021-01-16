@@ -1,9 +1,6 @@
 package typesvaluevariable;
 
-import java.lang.invoke.ConstantCallSite;
-
-import classes.Point;
-import objects.Points;
+import Classes.Point;
 
 /*
  * A variable is a storage location and has an associated type, sometimes called its

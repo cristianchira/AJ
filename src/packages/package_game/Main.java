@@ -1,8 +1,8 @@
 package packages.package_game;
 
-import interfaces.InterfacesChallenge.ISavable;
-import interfaces.InterfacesChallenge.Monster;
-import interfaces.InterfacesChallenge.Player;
+import Interfaces.InterfacesChallenge.ISavable;
+import Interfaces.InterfacesChallenge.Monster;
+import Interfaces.InterfacesChallenge.Player;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -52,8 +52,8 @@ public class Main {
 //        System.out.println("Strength = " + ((Monster) werewolf).getStrength());
 //        System.out.println(werewolf);
 //        saveObject(werewolf);
-        List<interfaces.InterfacesChallenge.ISavable> isList = Arrays.asList(new Player("Chrys", 2500, 1200), new Monster("Werewolf", 12, 36));
-        for (interfaces.InterfacesChallenge.ISavable isS : isList) {
+        List<Interfaces.InterfacesChallenge.ISavable> isList = Arrays.asList(new Player("Chrys", 2500, 1200), new Monster("Werewolf", 12, 36));
+        for (Interfaces.InterfacesChallenge.ISavable isS : isList) {
             System.out.println(isS.write());
         }
     }
@@ -87,7 +87,7 @@ public class Main {
         return values;
     }
 
-    public static void saveObject(interfaces.InterfacesChallenge.ISavable objToSave) {
+    public static void saveObject(Interfaces.InterfacesChallenge.ISavable objToSave) {
         for (int i = 0; i < objToSave.write().size(); i++) {
             System.out.println("Saving " + objToSave.write().get(i) + " to storage device");
         }

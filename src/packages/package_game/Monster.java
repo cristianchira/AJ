@@ -1,6 +1,6 @@
 package packages.package_game;
 
-import interfaces.InterfacesChallenge.ISavable;
+import Interfaces.InterfacesChallenge.ISavable;
 
 import java.util.ArrayList;
 import java.util.List;

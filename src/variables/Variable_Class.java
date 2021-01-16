@@ -1,6 +1,6 @@
 package variables;
 
-import classes.Point;
+import Classes.Point;
 
 public class Variable_Class {
 
