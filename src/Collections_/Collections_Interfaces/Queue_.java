@@ -177,7 +177,7 @@ public interface Queue_<E> extends Collection_<E> {
     boolean offer(E e);
 
     /**
-     * Retrieves and removes the head of this queue.  This method differs from  poll only in that it throws an
+     * Retrieves and removes the head of this queue.This method differs from  poll only in that it throws an
      * exception if this queue is empty.
      *
      * @return the head of this queue
@@ -193,9 +193,8 @@ public interface Queue_<E> extends Collection_<E> {
     E poll();
 
     /**
-     * Retrieves, but does not remove, the head of this queue.  This method
-     * differs from {@link #peek peek} only in that it throws an exception
-     * if this queue is empty.
+     * Retrieves, but does not remove, the head of this queue. This method
+     * differs from {@link #peek peek} only in that it throws an exception if this queue is empty.
      *
      * @return the head of this queue
      * @throws NoSuchElementException if this queue is empty

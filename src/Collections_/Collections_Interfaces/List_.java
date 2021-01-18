@@ -31,29 +31,21 @@ import java.util.function.UnaryOperator;
 
 /**                                       List interface
  *
- * An ordered collection (also known as a sequence</i>).
+ * An ordered collection (also known as a sequence).
  * lists typically allow duplicate elements.
  * allow null elements
 
-
- * The user of this
- * interface has precise control over where in the list each element is
- * inserted.  The user can access elements by their integer index (position in
- * the list), and search for elements in the list.<p>
+ * The user of this  interface has precise control over where in the list each element is
+ * inserted.  The user can access elements by their integer index (position in the list), and search for elements in the list.
  *
-   More formally,
- * lists typically allow pairs of elements <tt>e1</tt> and <tt>e2</tt>
- * such that <tt>e1.equals(e2)</tt>, and they typically allow multiple
- * null elements if they allow null elements at all.  It is not inconceivable
- * that someone might wish to implement a list that prohibits duplicates, by
- * throwing runtime exceptions when the user attempts to insert them, but we
- * expect this usage to be rare.<p>
+   More formally, lists typically allow pairs of elements e1 and e2  such that e1.equals(e2), and they typically allow multiple
+ * null elements if they allow null elements at all.  It is not inconceivable  that someone might wish to implement a list
+ * that prohibits duplicates, by  throwing runtime exceptions when the user attempts to insert them, but we
+ * expect this usage to be rare.
  *
- * The <tt>List</tt> interface places additional stipulations, beyond those
- * specified in the <tt>Collection</tt> interface, on the contracts of the
- * <tt>iterator</tt>, <tt>add</tt>, <tt>remove</tt>, <tt>equals</tt>, and
- * <tt>hashCode</tt> methods.  Declarations for other inherited methods are
- * also included here for convenience.<p>
+ * The List interface places additional stipulations, beyond those  specified in the Collection interface, on the contracts
+ * of the  <tt>iterator</tt>, <tt>add</tt>, <tt>remove</tt>, <tt>equals</tt>, and  <tt>hashCode</tt> methods.
+ * Declarations for other inherited methods are  also included here for convenience.
  *
  * The <tt>List</tt> interface provides four methods for positional (indexed)
  * access to list elements.  Lists (like Java arrays) are zero based.  Note
@@ -63,19 +55,14 @@ import java.util.function.UnaryOperator;
  * preferable to indexing through it if the caller does not know the
  * implementation.<p>
  *
- * The <tt>List</tt> interface provides a special iterator, called a
- * <tt>ListIterator</tt>, that allows element insertion and replacement, and
- * bidirectional access in addition to the normal operations that the
- * <tt>Iterator</tt> interface provides.  A method is provided to obtain a
- * list iterator that starts at a specified position in the list.<p>
+ * The <tt>List</tt> interface provides a special iterator, called a  <tt>ListIterator</tt>, that allows element insertion
+ * and replacement, and  bidirectional access in addition to the normal operations that the
+ * <tt>Iterator</tt> interface provides.  A method is provided to obtain a list iterator that starts at a specified position in the list
  *
- * The <tt>List</tt> interface provides two methods to search for a specified
- * object.  From a performance standpoint, these methods should be used with
- * caution.  In many implementations they will perform costly linear
- * searches.<p>
+ * The <tt>List</tt> interface provides two methods to search for a specified object. From a performance standpoint,
+ * these methods should be used with caution.In many implementations they will perform costly linear searches.
  *
- * The <tt>List</tt> interface provides two methods to efficiently insert and
- * remove multiple elements at an arbitrary point in the list.<p>
+ * The <tt>List</tt> interface provides two methods to efficiently insert and remove multiple elements at an arbitrary point in the list.
  *
  * Note: While it is permissible for lists to contain themselves as elements,
  * extreme caution is advised: the <tt>equals</tt> and <tt>hashCode</tt>
@@ -120,8 +107,7 @@ public interface List_<E> extends Collection_<E> {
     // Query Operations
 
     /**
-     * Returns the number of elements in this list.  If this list contains
-     * more than Integer.MAX_VALUE elements, returns
+     * Returns the number of elements in this list. If this list contains more than Integer.MAX_VALUE elements, returns
      * Integer.MAX_VALUE.
      */
     int size();
@@ -134,16 +120,13 @@ public interface List_<E> extends Collection_<E> {
     /**
      * Returns <tt>true</tt> if this list contains the specified element.
      * More formally, returns <tt>true</tt> if and only if this list contains
-     * at least one element <tt>e</tt> such that
-     * <tt>(o==null&nbsp;?&nbsp;e==null&nbsp;:&nbsp;o.equals(e))</tt>.
+     * at least one element <tt>e</tt> such that  (o==null ? e == null : o.equals(e))
      *
      * @param o element whose presence in this list is to be tested
      * @return <tt>true</tt> if this list contains the specified element
-     * @throws ClassCastException if the type of the specified element
-     *         is incompatible with this list
+     * @throws ClassCastException if the type of the specified element is incompatible with this list
      * (<a href="Collection.html#optional-restrictions">optional</a>)
-     * @throws NullPointerException if the specified element is null and this
-     *         list does not permit null elements
+     * @throws NullPointerException if the specified element is null and this list does not permit null elements
      * (<a href="Collection.html#optional-restrictions">optional</a>)
      */
     boolean contains(Object o);
@@ -156,8 +139,7 @@ public interface List_<E> extends Collection_<E> {
     Iterator<E> iterator();
 
     /**
-     * Returns an array containing all of the elements in this list in proper
-     * sequence (from first to last element).
+     * Returns an array containing all of the elements in this list in proper sequence (from first to last element).
      *
      * <p>The returned array will be "safe" in that no references to it are
      * maintained by this list.  (In other words, this method must
@@ -167,8 +149,7 @@ public interface List_<E> extends Collection_<E> {
      * <p>This method acts as bridge between array-based and collection-based
      * APIs.
      *
-     * @return an array containing all of the elements in this list in proper
-     *         sequence
+     * @return an array containing all of the elements in this list in proper sequence.
      * @see Arrays#asList(Object[])
      */
     Object[] toArray();
@@ -218,10 +199,9 @@ public interface List_<E> extends Collection_<E> {
     // Modification Operations
 
     /**
-     * Appends the specified element to the end of this list (optional
-     * operation).
+     * Appends the specified element to the end of this list (optional operation).
      *
-     * <p>Lists that support this operation may place limitations on what
+     * Lists that support this operation may place limitations on what
      * elements may be added to this list.  In particular, some
      * lists will refuse to add null elements, and others will impose
      * restrictions on the type of elements that may be added.  List

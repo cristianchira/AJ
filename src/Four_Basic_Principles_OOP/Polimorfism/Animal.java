@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Animal {
+
 	void animalEat() {
 		System.out.println("Animal eat");
 	}
@@ -18,8 +19,7 @@ public class Animal {
 		
 		for(Animal animal : animals) {
 		animal.animalEat();	
-	
-			
+
 		}
 	}
 }

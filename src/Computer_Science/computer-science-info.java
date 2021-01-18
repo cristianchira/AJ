@@ -2,7 +2,12 @@ package Computer_Science;
 
 /*                                          https://en.wikipedia.org/wiki/Computer_science
 
-                                                       Computer science,
+                                                       Computer science
+
+    Computer science is the study of algorithmic processes, computational machines and computation itself.[1]
+    As a discipline, computer science spans a range of topics from theoretical studies of algorithms, computation and
+    information to the practical issues of implementing computational systems in hardware and software.
+
 
         4.1	Theoretical computer science-------------------------------------------------------------------------------
 
@@ -29,7 +34,7 @@ package Computer_Science;
             4.3.3 Software engineering
 
 
-
+         5.Programming paradigm        https://en.wikipedia.org/wiki/Programming_paradigm
 
 
 

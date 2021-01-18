@@ -43,8 +43,8 @@ import java.util.function.Predicate;
  * subinterfaces like:
  *  Set
  *  List
- * Queue
- * Deque
+ *  Queue
+ *  Deque
 
  * <p><i>Bags</i> or <i>multisets</i> (unordered collections that may contain
  * duplicate elements) should implement this interface directly.
@@ -153,9 +153,8 @@ public interface Collection_<E> extends Iterable<E> {
     // Query Operations ------------------------------------------------------------------------------------------------
 
     /**
-     * Returns the number of elements in this collection.  If this collection
-     * contains more than <tt>Integer.MAX_VALUE</tt> elements, returns
-     * Integer.MAX_VALUE
+     * Returns the number of elements in this collection.  If this collection  contains more than Integer.MAX_VALUE
+     * elements, returns  Integer.MAX_VALUE
      */
     int size();
 
@@ -166,25 +165,20 @@ public interface Collection_<E> extends Iterable<E> {
 
     /**
      * Returns true if this collection contains the specified element.
-     * More formally, returns true if and only if this collection
-     * contains at least one element e  such that
+     * More formally, returns true if and only if this collection contains at least one element e  such that
      * (o==null ? e==null : o.equals(e)).
      *
      * @param o element whose presence in this collection is to be tested
-     * @throws ClassCastException if the type of the specified element
-     *         is incompatible with this collection
+     * @throws ClassCastException if the type of the specified element is incompatible with this collection
      *         (<a href="#optional-restrictions">optional</a>)
-     * @throws NullPointerException if the specified element is null and this
-     *         collection does not permit null elements
+     * @throws NullPointerException if the specified element is null and this collection does not permit null elements
      *         (<a href="#optional-restrictions">optional</a>)
      */
     boolean contains(Object o);
 
     /**
-     * Returns an iterator over the elements in this collection.  There are no
-     * guarantees concerning the order in which the elements are returned
-     * (unless this collection is an instance of some class that provides a
-     * guarantee).
+     * Returns an iterator over the elements in this collection.  There are no guarantees concerning the order in which
+     * the elements are returned (unless this collection is an instance of some class that provides a guarantee).
      *
      * @return an <tt>Iterator</tt> over the elements in this collection
      */
@@ -256,10 +250,9 @@ public interface Collection_<E> extends Iterable<E> {
     // Modification Operations -----------------------------------------------------------------------------------------
 
     /**
-     * Ensures that this collection contains the specified element (optional
-     * operation).  Returns <tt>true</tt> if this collection changed as a
-     * result of the call.  (Returns <tt>false</tt> if this collection does
-     * not permit duplicates and already contains the specified element.)<p>
+     * Ensures that this collection contains the specified element (optional operation).
+     * Returns true if this collection changed as a  result of the call.
+     * (Returns false if this collection does not permit duplicates and already contains the specified element.)
      *
      * Collections that support this operation may place limitations on what
      * elements may be added to this collection.  In particular, some
@@ -338,21 +331,16 @@ public interface Collection_<E> extends Iterable<E> {
     boolean containsAll(Collection_<?> c);
 
     /**
-     * Adds all of the elements in the specified collection to this collection
-     * (optional operation).  The behavior of this operation is undefined if
-     * the specified collection is modified while the operation is in progress.
-     * (This implies that the behavior of this call is undefined if the
-     * specified collection is this collection, and this collection is
-     * nonempty.)
+     * Adds all of the elements in the specified collection to this collection (optional operation).
+     * The behavior of this operation is undefined if the specified collection is modified while the operation is in progress.
+     * (This implies that the behavior of this call is undefined if the specified collection is this collection, and this
+     * collection is nonempty.)
      *
      * @param c collection containing elements to be added to this collection
      * @return <tt>true</tt> if this collection changed as a result of the call
-     * @throws UnsupportedOperationException if the <tt>addAll</tt> operation
-     *         is not supported by this collection
-     * @throws ClassCastException if the class of an element of the specified
-     *         collection prevents it from being added to this collection
-     * @throws NullPointerException if the specified collection contains a
-     *         null element and this collection does not permit null elements,
+     * @throws UnsupportedOperationException if the <tt>addAll</tt> operation is not supported by this collection
+     * @throws ClassCastException if the class of an element of the specified collection prevents it from being added to this collection
+     * @throws NullPointerException if the specified collection contains a null element and this collection does not permit null elements,
      *         or if the specified collection is null
      * @throws IllegalArgumentException if some property of an element of the
      *         specified collection prevents it from being added to this

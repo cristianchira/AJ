@@ -2,7 +2,7 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
 
 /*
 
- An algorithm
+                                                      An algorithm
 
           is a specific procedure for solving a well-defined computational problem.
           The development and analysis of algorithms is fundamental to all aspects of computer science:
