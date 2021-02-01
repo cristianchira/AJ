@@ -16,14 +16,13 @@ package Java.Data_Structures_in_Java;
 
      Linear Data Structures Types-------------------------------------------------------------------------------------------
 
-         1. Arrays
+         1.Arrays
          2.Linked List
              2.1 Singly linked list
              2.2 Doubly linked list
              2.3 Circular Linked List
          3.Stacks
          4.Queues
-         5.Sets
 
      Non linear Data StructuresTypes-------------------------------------------------------------------------------------
 
@@ -35,11 +34,8 @@ package Java.Data_Structures_in_Java;
              Splay tree
              Treap
              B-tree
-          Graph
-          Heap
-          Hash
-
-
+             Heap
+         Graph
 
 
 

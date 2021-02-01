@@ -6,6 +6,8 @@ An exception is an event that occurs during the execution of a program that disr
 Objects of type Throwable and its subtypes can be sent up the stack with the throw keyword and caught with
 try…catch statements.
 
+    Order of exceptions is from specific to generic in order to avoid compilation errors.
+
  ------------------------------------------------- Throwable: ---------------------------------------------------------
 
     Exception ---------------------------------------------------------------------------------------------------------
@@ -85,7 +87,9 @@ try…catch statements.
 
  --------------------------------------What happens when a method throws an exception?----------------------------------
 
-       If a method is declared with the throws keyword then any other method that wishes to call that method must either be prepared to catch it or declare that itself will throw an exception. It can happen, even with checked exceptions. And sometimes it can break logging.Feb 4, 2011
+       If a method is declared with the throws keyword then any other method that wishes to call that method must either
+       be prepared to catch it or declare that itself will throw an exception. It can happen, even with checked exceptions.
+       And sometimes it can break logging.
 
 
 * */

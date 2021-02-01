@@ -34,6 +34,8 @@
 
 package Collections_.Collections_Classes;
 
+import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.LinkedList_;
+import Collections_.Collections_Interfaces.List_.List_Implemented_By.Stack_.Stack_;
 import sun.misc.SharedSecrets;
 
 import java.io.Serializable;

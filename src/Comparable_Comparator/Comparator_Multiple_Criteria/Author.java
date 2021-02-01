@@ -5,11 +5,13 @@ public class Author {
     String firstName;
     String lastName;
     String bookName;
+    int pageNumber;
 
-    Author(String first, String last, String book) {
+    Author(String first, String last, String book, int pageNumber) {
         this.firstName = first;
         this.lastName = last;
         this.bookName = book;
+        this.pageNumber = pageNumber;
     }
 
     public String getFirstName() {
@@ -34,5 +36,13 @@ public class Author {
 
     public void setBookName(String bookName) {
         this.bookName = bookName;
+    }
+
+    public int getPageNumber() {
+        return pageNumber;
+    }
+
+    public void setPageNumber(int pageNumber) {
+        this.pageNumber = pageNumber;
     }
 }

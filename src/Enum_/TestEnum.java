@@ -1,48 +1,57 @@
 package Enum_;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
-
 public class TestEnum {
 
-	@SuppressWarnings("unused")
-	public static void main(String[] args) throws UnsupportedOperationException {
+    @SuppressWarnings("unused")
+    public static void main(String[] args) throws UnsupportedOperationException {
 
-		EnumExample mobile = EnumExample.APPLE;
-		EnumExample[] el = EnumExample.values();
+        // get a specific element -------------------------------------------------------------------------------------
+        EnumExample mobile = EnumExample.APPLE;
 
-		for (EnumExample e : el) {
-			// e.print();
-			// e.go();
+        // get an array of collections elements -----------------------------------------------------------------------
+        EnumExample[] el = EnumExample.values ();
 
-			System.out.println(e.name() + " " + e.i + " " + e.type);
-		}
+        // enhanced loop through array ---------------------------------------------------------------------------------
+        for (EnumExample e : el) {
 
-		List<String> listA = Arrays.asList("S", "T", "S");
-		List<String> listB = new ArrayList<>();
-		listB.add("AS");
-		listB.add("jhj");
 
-		List<String> concat = Stream.concat(listA.stream(), listB.stream()).collect(Collectors.toList());
+            //System.out.println(e.name() + " " + e.i + " " + e.type);
+        }
 
-		// create array list object
-		List<String> arrlist = new ArrayList<>();
+        // using forEach method ----------------------------------------------------------------------------------------
+        //Arrays.stream (el).forEach (e -> System.out.println (e.i + " " + e.type));
 
-		// populate the list
-		arrlist.add("A");
-		arrlist.add("B");
-		arrlist.add("C");
+        // get element by id -------------------------------------------------------------------------------------------
+        // getElementById(3);
+        getExpectedTelephone("Samsung");
 
-		// System.out.println("Initial collection value: " + arrlist);
+    }
 
-		// add values to this collection
-		boolean b = Collections.addAll(arrlist, "SD");
+    public static EnumExample getElementById(int id) {
 
-		// System.out.println("Final collection value: " + arrlist);
+        for (EnumExample en : EnumExample.values ()) {
+            if (id == en.getI ()) {
+                System.out.println (en.toString ());
+                return en;
+            }
+        }
+        throw new RuntimeException ("Value not found");
+    }
+    //Using	switch	statement	on	an	enum
 
-	}
+    public static void getExpectedTelephone(String mark) {
+
+        switch (mark) {
+            case "Apple":
+                System.out.println ("Apple is ok");
+                break;
+            case "HTC":
+                System.out.println ("Htc is cheap");
+                break;
+            case "Samsung":
+                System.out.println ("Samsung is the best");
+                default:
+                new RuntimeException ("No phone found");
+        }
+    }
 }

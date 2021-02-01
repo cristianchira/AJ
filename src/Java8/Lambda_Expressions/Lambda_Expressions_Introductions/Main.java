@@ -11,33 +11,33 @@ public class Main {
         // one statement method implementation -------------------------------------------------------------------------
         // when the body only had one statement you'd get a compile error if we add the semi colon
 
-         new Thread (() -> System.out.println("Printing from the Anonimous class")).start ();
+        new Thread (() -> System.out.println ("Printing from the Lambda one statement")).start ();
 
         // multiple statements (lines) method implementation -----------------------------------------------------------
 
-        new Thread(()-> {
-            System.out.println("Printing from the Runnable");
-            System.out.println("Line 2");
-            System.out.format("This is line %d\n", 3);
-        }).start();
+        new Thread (() -> {
+            System.out.println ("Printing from the Runnable");
+            System.out.println ("Line 2");
+            System.out.format ("This is line %d\n", 3);
+        }).start ();
 
 
-        Employee john = new Employee("John Doe", 30);
-        Employee tim = new Employee("Tim Buchalka", 21);
-        Employee jack = new Employee("Jack Hill", 40);
-        Employee snow = new Employee("Snow White", 22);
+        Employee john = new Employee ("John Doe", 30);
+        Employee tim = new Employee ("Tim Buchalka", 21);
+        Employee jack = new Employee ("Jack Hill", 40);
+        Employee snow = new Employee ("Snow White", 22);
 
-        List<Employee> employees = new ArrayList<>();
-        employees.add(john);
-        employees.add(tim);
-        employees.add(jack);
-        employees.add(snow);
+        List<Employee> employees = new ArrayList<> ();
+        employees.add (john);
+        employees.add (tim);
+        employees.add (jack);
+        employees.add (snow);
 
 
         // lambda single statement method implementation ---------------------------------------------------------------
 
         // Collections.sort(employees, (e1,e2) -> Integer.compare (e1.getAge (), e2.getAge ()));
-         Collections.sort(employees, (e1,e2) -> e1.getName ().compareTo (e1.getName ()));
+        Collections.sort (employees, (e1, e2) -> e1.getName ().compareTo (e1.getName ()));
 
         // using anonimous class  -------------------------------------------------------------------------------------
 
@@ -48,8 +48,8 @@ public class Main {
 //            }
 //        });
 
-        for(Employee employee : employees) {
-            System.out.println(employee.getName () + " " + employee.getAge());
+        for (Employee employee : employees) {
+            System.out.println (employee.getName () + " " + employee.getAge ());
         }
     }
 }

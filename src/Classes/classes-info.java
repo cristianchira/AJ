@@ -28,12 +28,21 @@ package Classes;
 
                                    Class Members
 
-        The members of a class type are all of the following:
+            Members inherited from its direct superclass , except in class Object, which has no direct superclass
+            Members inherited from any direct superinterfaces
+            Members declared in the body of the class
 
-        Members inherited from its direct superclass , except in class Object, which has no direct superclass
+                               Types of Nested classes
 
-        Members inherited from any direct superinterfaces
+        There are two types of nested classes:
+            non-static (inner class)
+                Member inner class
+                Anonymous inner class
+                Local inner class
 
-        Members declared in the body of the class
+           static nested classes.
+
+
+
 
         */

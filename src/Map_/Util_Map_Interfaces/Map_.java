@@ -27,7 +27,7 @@ package Map_.Util_Map_Interfaces;
 
 import Collections_.Collections_Interfaces.Collection_;
 import Collections_.Collections_Interfaces.Comparator_;
-import Collections_.Collections_Interfaces.Set_;
+import Collections_.Collections_Interfaces.Set_.Set_;
 
 import java.util.Comparator;
 
@@ -38,10 +38,10 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * An object that maps keys to values.  A map cannot contain duplicate keys;
- * each key can map to at most one value.
+ * An object that maps keys to values. A map cannot contain duplicate keys.Each key can map to at most one value.
  *
- * <p>This interface takes the place of the <tt>Dictionary</tt> class, which
+ * <p>
+ *     This interface takes the place of the <tt>Dictionary</tt> class, which
  * was a totally abstract class rather than an interface.
  *
  * <p>The <tt>Map</tt> interface provides three <i>collection views</i>, which
@@ -157,8 +157,7 @@ public interface Map_<K,V> {
      * (There can be at most one such mapping.)
      *
      * @param key key whose presence in this map is to be tested
-     * @return <tt>true</tt> if this map contains a mapping for the specified
-     *         key
+     * @return <tt>true</tt> if this map contains a mapping for the specified  key
      * @throws ClassCastException if the key is of an inappropriate type for
      *         this map
      * (<a href="{@docRoot}/java/util/Collection.html#optional-restrictions">optional</a>)

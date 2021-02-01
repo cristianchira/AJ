@@ -1,6 +1,6 @@
 package miscellaneous;
 
-import Classes.Shape;
+import Classes.Miscelanous.Shape;
 
 public class Pentagon extends Shape {
 

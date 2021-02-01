@@ -25,6 +25,8 @@
 
 package Collections_.Collections_Interfaces;
 
+import Collections_.Collections_Interfaces.List_.List_;
+import Collections_.Collections_Interfaces.Set_.Set_;
 import Map_.Util_Map_Interfaces.Map_;
 import Map_.Util_Map_Interfaces.SortedMap_;
 
@@ -185,10 +187,8 @@ public interface Collection_<E> extends Iterable<E> {
     java.util.Iterator<E> iterator();
 
     /**
-     * Returns an array containing all of the elements in this collection.
-     * If this collection makes any guarantees as to what order its elements
-     * are returned by its iterator, this method must return the elements in
-     * the same order.
+     * Returns an array containing all of the elements in this collection.If this collection makes any guarantees as
+     * to what order its elements are returned by its iterator, this method must return the elements in the same order.
      *
      * <p>The returned array will be "safe" in that no references to it are
      * maintained by this collection.  (In other words, this method must

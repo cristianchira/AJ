@@ -2,6 +2,7 @@ package Concurency_.Threads;
 /*                                     THREAD
 
       Is a unit of execution within a PROCESS.
+
       Every PROCESS have at least one THREAD(main) but can have multiple threads which handle tasks like: memory
       managements, andI/O.
       Our code RUN in MAIN THREAD or in other THREADS that we explicitly create.
@@ -14,6 +15,23 @@ package Concurency_.Threads;
 
           m1.setPriority(Thread.MIN_PRIORITY);
           m2.setPriority(Thread.MAX_PRIORITY);
+
+      States of a Thread: ----------------------------------------------------------------------------------------------
+
+           1. NEW;
+              A	thread is in NEW state when	an object of the thread	is created but the start method	is not yet called.
+          2. RUNNABLE;
+              A thread is in RUNNABLE state when it is eligible to run, but not running yet.(A number of Threads can
+              be in RUNNABLE state.Scheduler selects which Thread to move to RUNNING state
+          3. RUNNING;
+              A thread is RUNNING state when it’s the one that is currently, what else to say, Running
+          4. BLOCKED/WAITING;
+             A thread is in BLOCKED/WAITING/SLEEPING state when it is not eligible to be run by the Scheduler.
+          5. TERMINATED/DEAD;
+              A thread is in DEAD/TERMINATED state when it has completed its execution. Once a thread enters dead
+              state, it cannot be made active again.
+
+
 
       Threads with higher priority are executed in preference to threads with lower
       priority. Each thread may or may not also be marked as a daemon. When code running in some thread creates a new

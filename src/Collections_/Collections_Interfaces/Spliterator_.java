@@ -24,6 +24,9 @@
  */
 package Collections_.Collections_Interfaces;
 
+import Collections_.Collections_Interfaces.List_.List_;
+import Collections_.Collections_Interfaces.Set_.Set_;
+
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;
 import java.util.HashSet;

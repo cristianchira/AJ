@@ -1,6 +1,5 @@
 package Map_.Util_Map_Classes.HashMap_Example;
 
-import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -23,7 +22,7 @@ public class MapProgram {
 
         // V put(K key, V value)----------------------------------------------------------------------------------------
 
-        // return old value of this pair
+            // return old value of this pair
 
         languages.put("Python", "an interpreted, object-oriented, high-level programming language with dynamic semantics");
         languages.put("Algol", "first Algol");
@@ -46,8 +45,8 @@ public class MapProgram {
 
         // int size()--------------------------------------------------------------------------------------------------
 
-        // Returns the number of key-value mappings in this map. If the map contains more than Integer.MAX_VALUE
-        // elements, returns Integer.MAX_VALUE
+            // Returns the number of key-value mappings in this map. If the map contains more than Integer.MAX_VALUE
+            // elements, returns Integer.MAX_VALUE
         System.out.println("languages size =" + languages.size());
 
         // boolean isEmpty()--------------------------------------------------------------------------------------------
@@ -70,8 +69,8 @@ public class MapProgram {
         System.out.println(languages.size());
 
         // default boolean remove(Object key, Object value)-------------------------------------------------------------
-        //true if the value was removed
-        // return false if key or value not foud
+            //true if the value was removed
+            //return false if key or value not foud
 
 //        if (languages.remove("Algol", "last Algol")) {
 //            System.out.println("Algol removed");
@@ -81,9 +80,9 @@ public class MapProgram {
 
         // V get(Object key)-------------------------------------------------------------------------------------------
 
-        //Returns the value to which the specified key is mapped,or null if this map contains no mapping for the key.
-        // return null if key doesn't exist
-        System.out.println("Get null=== " + languages.get("Zuza"));
+            //Returns the value to which the specified key is mapped,or null if this map contains no mapping for the key
+            // return null if key doesn't exist
+               // System.out.println("Get null=== " + languages.get("Zuza"));
 
         //replace elements from map-------------------------------------------------------------------------------------
 
@@ -108,12 +107,12 @@ public class MapProgram {
             //reflected in the set, and vice-versa.
             // print values
 
-        // Collection<V> values();
-        Collection<String> langValues = languages.values();
-
-        for (String value : langValues) {
-            System.out.println(value);
-        }
+        // Collection<V> values() --------------------------------------------------------------------------------------
+//            Collection<String> langValues = languages.values();
+//
+//            for (String value : langValues) {
+//                System.out.println(value);
+//            }
 
 //        Set<String> languagesSet = languages.keySet();
 //        Iterator<String> its = languages.keySet().iterator();
@@ -121,12 +120,12 @@ public class MapProgram {
 //            System.out.println(languages.get(its.next()));
 //        }
 //        System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-        if (languages.keySet().contains("Java") || !languages.isEmpty()) {
-            for (String key : languages.keySet()) {
-                System.out.println(key + " : " + languages.get(key));
-            }
-        } else {
-            System.out.println("Map is empty");
-        }
+//        if (languages.keySet().contains("Java") || !languages.isEmpty()) {
+//            for (String key : languages.keySet()) {
+//                System.out.println(key + " : " + languages.get(key));
+//            }
+//        } else {
+//            System.out.println("Map is empty");
+//        }
    }
 }

@@ -5,11 +5,11 @@ public class RecursionClass {
     public static void main(String[] args) {
         // System.out.println (sum(-4));
         //System.out.println (tailSum (4, 4));
-        System.out.println (powerOf10 (2));
+      // System.out.println (powerOf10 (2));
         System.out.println (getFactorial (4));
     }
 
-    // head-recursion -means recursive call is not last thing that function execute
+    // head-recursion -means recursive call is not last thing that function execute ------------------------------------
 
     public static int sum(int n) {
         if (n >= 1) {
@@ -18,7 +18,7 @@ public class RecursionClass {
         return n;
     }
 
-    // tail-recursion when the recursive call is the last thing that function executes
+    // tail-recursion when the recursive call is the last thing that function executes ---------------------------------
 
     public static int tailSum(int currentSum, int n) {
 
@@ -28,7 +28,7 @@ public class RecursionClass {
         return tailSum (currentSum + n, n - 1);
     }
 
-    // Finding N-Th Power of Ten
+    // Finding N-Th Power of Ten ---------------------------------------------------------------------------------------
 
     public static int powerOf10(int n) {
         if (n == 0) {
@@ -36,7 +36,7 @@ public class RecursionClass {
         }
         return powerOf10 (n - 1) * 10;
     }
-    // nfactorial
+    // n factorial -----------------------------------------------------------------------------------------------------
 
     public static int getFactorial(int n) {
         if (n < 2) {

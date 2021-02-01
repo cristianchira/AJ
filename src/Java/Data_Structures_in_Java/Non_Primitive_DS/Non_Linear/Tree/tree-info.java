@@ -36,7 +36,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
                   bottom-most node of the tree. There can be any number of leaf nodes present in a general tree. Leaf
                   nodes can also be called external nodes.
           Internal nodes:
-                   A node has atleast one child node known as an internal
+                   A node has at least one child node known as an internal
           Ancestor node:
                    - An ancestor of a node is any predecessor node on a path from the root to that node. The root node
                     doesn't have any ancestors. In the tree shown in the above image, nodes 1, 2, and 5 are the ancestors of node 10.
@@ -45,22 +45,22 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
 
     Properties of Tree data structure ----------------------------------------------------------------------------------
 
-        Recursive data structure:
+       1.Recursive data structure:
             The tree is also known as a recursive data structure. A tree can be defined as recursively because the
             distinguished node in a tree data structure is known as a root node. The root node of the tree contains a
             link to all the roots of its subtrees. The left subtree is shown in the yellow color in the below figure,
             and the right subtree is shown in the red color. The left subtree can be further split into subtrees shown in
             three different colors. Recursion means reducing something in a self-similar manner. So, this recursive property
             of the tree data structure is implemented in various applications.
-        Number of edges:
+       2.Number of edges:
             If there are n nodes, then there would n-1 edges. Each arrow in the structure represents the link or path.
-            Each node, except the root node, will have atleast one incoming link known as an edge. There would be one
+            Each node, except the root node, will have at least one incoming link known as an edge. There would be one
             link for the parent-child relationship.
-        Depth of node x:
+       3.Depth of node x:
             The depth of node x can be defined as the length of the path from the root to the node x. One edge contributes
             one-unit length in the path. So, the depth of node x can also be defined as the number of edges between the
             root node and the node x. The root node has 0 depth.
-        Height of node x:
+        4.Height of node x:
             The height of node x can be defined as the longest path from the node x to the leaf node.
 
     Implementation of Tree ---------------------------------------------------------------------------------------------
@@ -80,7 +80,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
               data and stored in the form of trees.
     Organize data:
         It is used to organize data for efficient insertion, deletion and searching. For example, a binary tree has a
-        logN time for searching an element.
+        O(log N) time for searching an element.
     Trie:
         It is a special kind of tree that is used to store the dictionary. It is a fast and efficient way for dynamic
         spell checking.
@@ -115,17 +115,10 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
              Every node in the left subtree must contain a value less than the value of the root node, and the value of
              each node in the right subtree must be bigger than the value of the root node.
              A node can be created with the help of a user-defined data type known as struct, as shown below:
-
-                        struct node
-                        {
-                           int data;
-                           struct node *left;
-                            struct node *right;
-                         }
-            The above is the node structure with three fields: data field, the second field is the left pointer of the
-            node type, and the third field is the right pointer of the node type.
-            To know more about the binary search tree, click on the link given below:
-            https://www.javatpoint.com/binary-search-tree
+             The above is the node structure with three fields: data field, the second field is the left pointer of the
+             node type, and the third field is the right pointer of the node type.
+             To know more about the binary search tree, click on the link given below:
+              https://www.javatpoint.com/binary-search-tree
         AVL tree
             It is one of the types of the binary tree, or we can say that it is a variant of the binary search tree.
             AVL tree satisfies the property of the binary tree as well as of the binary search tree. It is a self-balancing
@@ -183,4 +176,22 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
                 children and internal nodes can contain maximum 3 children.
                 Each node has maximum (m-1) keys.
                 The root node must contain minimum 1 key and all other nodes must contain atleast ceiling of m/2 minus 1 keys.
+
+                                                   A balanced binary tree
+
+    also referred to as a height-balanced binary tree, is defined as a binary tree in which:
+        the height of the left and right subtree of any node differ by not more than 1.
+
+            df =| height of the left child - height of the right child | = 1
+
+                                                   Self-Balancing-Binary-Search-Trees
+
+    Self-Balancing Binary Search Trees are height-balanced binary search trees that automatically keeps height as small
+    as possible when insertion and deletion operations are performed on tree.The height is typically maintained in order
+    of Log N so that all operations take O(Log N) time on average.
+
+                                                   How do Self-Balancing-Tree maintain height?
+
+    A typical operation done by trees is rotation.(left rotation and Right rotation)
+
  */
