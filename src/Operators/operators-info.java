@@ -1,36 +1,36 @@
 package Operators;
 
 /*
-    Operators	Precedence
+    Operators	           Precedence
 
 
-    postfix	    expr++ expr--
+    postfix	                expr++ expr--
 
-    unary	    ++expr --expr +expr -expr ~ !
+    unary	                ++expr --expr +expr -expr ~ !
 
-    multiplicative	    * / %
+    multiplicative	        * / %
 
-    additive	    + -
+    additive	           + -
 
-    shift	        << >> >>>
+    shift	               << >> >>>
 
-    relational	    < > <= >= instanceof
+    relational	          < > <= >= instanceof
 
-    equality	    == !=
+    equality	              == !=
 
-    bitwise AND	    &
+    bitwise AND	               &
 
-    bitwise exclusive OR	 ^
+    bitwise exclusive OR	    ^
 
-    bitwise inclusive OR	 |
+    bitwise inclusive OR	    |
 
-    logical AND   	&&
+    logical AND              	&&
 
-    logical OR  	||
+    logical OR  	             ||
 
-    ternary	        ? :
+    ternary	                     ? :
 
-    assignment	    = += -= *= /= %= &= ^= |= <<= >>= >>>=
+    assignment	                 = += -= *= /= %= &= ^= |= <<= >>= >>>=
 
     method reference operator    ::     (double colon)
 

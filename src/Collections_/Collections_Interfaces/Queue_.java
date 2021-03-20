@@ -169,8 +169,7 @@ public interface Queue_<E> extends Collection_<E> {
      * @return true if the element was added to this queue, else false.
      * @throws ClassCastException if the class of the specified element
      *         prevents it from being added to this queue
-     * @throws NullPointerException if the specified element is null and
-     *         this queue does not permit null elements
+     * @throws NullPointerException if the specified element is null and this queue does not permit null elements
      * @throws IllegalArgumentException if some property of this element
      *         prevents it from being added to this queue
      */
