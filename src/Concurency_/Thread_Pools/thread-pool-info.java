@@ -2,8 +2,7 @@ package Concurency_.Thread_Pools;
 /*
                             Service interface
 
-         service interface now this is also found in the java.util.concurrent package and we use implementations of this
-         interface to manage threads for us
+         service interface now this is also found in the java.util.concurrent package and we use implementations of this  interface to manage threads for us
          so that we don't have to explicitly create and start threads and unlike what we've been doing so far now the
          implementation is provided by the jdk manage things like thread scheduling and they also optimize the creation
          of threads which can generally be expensive in terms of performance and memory.
@@ -17,8 +16,7 @@ package Concurency_.Thread_Pools;
 
                                      Thread Poll
 
-          the thread poll is a managed set of threads
-          we use thread polls through the executive service implementations
+          the thread poll is a managed set of threads  we use thread polls through the executive service implementations
           now if we want to we can actually implement our own thread poll by creating a class that implements one of
           the thread poll interfaces and by doing so we can configure how the underlying thread poll  ultimately is
           managed but it's recommended that we use the implementations provided by the jvm in most situations

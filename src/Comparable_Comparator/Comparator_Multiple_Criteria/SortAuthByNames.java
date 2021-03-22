@@ -18,6 +18,7 @@ import java.util.stream.Collectors;
 
 public class SortAuthByNames {
     public static void main(String args[]) {
+      	
         // List of objects of Author class
         ArrayList<Author> al = new ArrayList<Author> ();
         al.add (new Author ("Henry", "Miller", "Tropic of Cancer", 225));
@@ -27,14 +28,14 @@ public class SortAuthByNames {
         al.add (new Author ("George R. R.", "Martin", "Song of Ice and Fire",554));
 
         //compare by pageNumber  lambda --------------------------------------------------------------------------------
-
+//
               Comparator<Author> pn = (a1, a2) -> Integer.compare (a1.getPageNumber (),a2.getPageNumber ());
               Comparator<Author> reversePn = (a1, a2) -> Integer.compare (a2.getPageNumber (),a1.getPageNumber ());
 
         //compare by firstname  lambda ---------------------------------------------------------------------------------
 
-                Comparator<Author> normalOrder = (a1, a2) -> a1.firstName.compareTo(a2.firstName);
-                Comparator<Author> reverse = (a1, a2) -> a2.firstName.compareTo(a1.firstName);
+//                Comparator<Author> normalOrder = (a1, a2) -> a1.firstName.compareTo(a2.firstName);
+//                Comparator<Author> reverse = (a1, a2) -> a2.firstName.compareTo(a1.firstName);
 
 
         //comparing method by firstname  stream ------------------------------------------------------------------------
@@ -44,10 +45,10 @@ public class SortAuthByNames {
 
         //comparing method by firstname then lastName then book name----------------------------------------------------
 
-//             Comparator<Author> normal = Comparator.comparing (Author::getFirstName).thenComparing (Author::getLastName)
-//                 .thenComparing (Author::getBookName);
+             Comparator<Author> normal = Comparator.comparing (Author::getFirstName).thenComparing (Author::getLastName)
+                 .thenComparing (Author::getBookName);
 //
-            List<Author> fn = al.stream ().sorted (pn).collect (Collectors.toList ());
+           List<Author> fn = al.stream ().sorted (pn).collect (Collectors.toList ());
 //
 //        for (Author str : fn) {
 //            System.out.println (str.firstName + " " + str.lastName + " " + "Book: " + str.bookName + " Page numbers "
@@ -56,5 +57,7 @@ public class SortAuthByNames {
 
          Collections.sort(al,pn);
          al.forEach (e -> System.out.println ("First name " + e.getFirstName () + " Page numbers " + e.pageNumber));
+                
+      //          al.stream().forEach(a -> System.out.println(a));
     }
 }

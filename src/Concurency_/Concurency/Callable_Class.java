@@ -1,4 +1,4 @@
-package Concurency_.concurency;
+package Concurency_.Concurency;
 
 import java.util.ArrayList;
 import java.util.List;
