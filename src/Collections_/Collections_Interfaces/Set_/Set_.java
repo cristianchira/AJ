@@ -10,7 +10,7 @@ import java.util.*;
 import java.util.Iterator;
 
 /**
- * A collection that contains no duplicate elements.  More formally, sets
+ * ATest.A collection that contains no duplicate elements.  More formally, sets
  * contain no pair of elements <code>e1</code> and <code>e2</code> such that
  * <code>e1.equals(e2)</code>, and at most one null element.  As implied by
  * its name, this interface models the mathematical <i>set</i> abstraction.
@@ -30,7 +30,7 @@ import java.util.Iterator;
  * <p>Note: Great care must be exercised if mutable objects are used as set
  * elements.  The behavior of a set is not specified if the value of an object
  * is changed in a manner that affects <tt>equals</tt> comparisons while the
- * object is an element in the set.  A special case of this prohibition is
+ * object is an element in the set.  ATest.A special case of this prohibition is
  * that it is not permissible for a set to contain itself as an element.
  *
  * <p>Some set implementations have restrictions on the elements that

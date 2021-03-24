@@ -41,7 +41,7 @@ import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * A {@link Deque} that additionally supports blocking operations that wait
+ * ATest.A {@link Deque} that additionally supports blocking operations that wait
  * for the deque to become non-empty when retrieving an element, and wait for
  * space to become available in the deque when storing an element.
  *
@@ -124,7 +124,7 @@ import java.util.concurrent.TimeUnit;
  * does not permit null elements, and may (or may not) be
  * capacity-constrained.
  *
- * <p>A {@code BlockingDeque} implementation may be used directly as a FIFO
+ * <p>ATest.A {@code BlockingDeque} implementation may be used directly as a FIFO
  * {@code BlockingQueue}. The methods inherited from the
  * {@code BlockingQueue} interface are precisely equivalent to
  * {@code BlockingDeque} methods as indicated in the following table:

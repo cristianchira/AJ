@@ -11,7 +11,7 @@ public class Producer implements Runnable {
 
 	public void run() {
 		String importantInfo[] = { "Mares eat oats", "Does eat oats", "Little lambs eat ivy",
-				"A kid will eat ivy too" };
+				"ATest.A kid will eat ivy too" };
 		Random random = new Random();
 
 		for (int i = 0; i < importantInfo.length; i++) {

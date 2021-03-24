@@ -6,11 +6,11 @@ package Object;
     The reference values (often just references) are pointers to these objects, and a special null reference, which refers
     to no object.
 
-    A class instance is explicitly created by a class instance creation expression (§15.9).
-    An array is explicitly created by an array creation expression (§15.10.1).
-    A new class instance is implicitly created when the string concatenation operator +
-    is used in a non-constant expression (§15.28), resulting in a new object of type String.
-    A new array object is implicitly created when an array initializer expression is evaluated; this can occur when a
+    ATest.A class instance is explicitly created by a class instance creation expression (ï¿½15.9).
+    An array is explicitly created by an array creation expression (ï¿½15.10.1).
+    ATest.A new class instance is implicitly created when the string concatenation operator +
+    is used in a non-constant expression (ï¿½15.28), resulting in a new object of type String.
+    ATest.A new array object is implicitly created when an array initializer expression is evaluated; this can occur when a
     class or interface is initialized , when a new instance of a class is created , or when a local variable declaration
     statement is executed .
 

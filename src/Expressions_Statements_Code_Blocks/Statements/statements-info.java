@@ -4,7 +4,7 @@ package Expressions_Statements_Code_Blocks.Statements;
                                                    Java Statements
 
                     Java statements are instructions that tell the programming language what to do.
-                    A basic statement, like an assignment statement, assigns a value to a variable
+                    ATest.A basic statement, like an assignment statement, assigns a value to a variable
 
        Example:
 

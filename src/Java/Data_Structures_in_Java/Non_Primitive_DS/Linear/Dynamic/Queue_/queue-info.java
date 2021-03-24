@@ -1,7 +1,7 @@
 package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.Queue_;
 
 /*
-                                               A queue can be defined as
+                                               ATest.A queue can be defined as
 
           an ordered list which enables insert operations to be performed at one end called REAR and delete operations
           to be performed at another end called FRONT.
@@ -64,7 +64,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.Queue_;
 
                Priority Queue
 
-                   A priority queue is another special type of Queue data structure in which each element has some priority
+                   ATest.A priority queue is another special type of Queue data structure in which each element has some priority
                    associated with it. Based on the priority of the element, the elements are arranged in a priority queue.
                    If the elements occur with the same priority, then they are served according to the FIFO principle.
                    In priority Queue, the insertion takes place based on the arrival while the deletion occurs based on

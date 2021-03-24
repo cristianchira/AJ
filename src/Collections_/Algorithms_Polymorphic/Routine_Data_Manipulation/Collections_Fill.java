@@ -38,8 +38,8 @@ public class Collections_Fill {
         List<String> arrlist = new ArrayList<String> ();
 
         // Adding element to srclst
-        arrlist.add ("A");
-        arrlist.add ("B");
+        arrlist.add ("ATest.A");
+        arrlist.add ("ATest.B");
         arrlist.add ("C");
 
         // print the elements

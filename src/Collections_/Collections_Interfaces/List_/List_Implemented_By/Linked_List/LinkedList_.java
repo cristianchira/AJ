@@ -40,7 +40,7 @@ import java.util.function.Consumer;
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access a linked list concurrently, and at least
  * one of the threads modifies the list structurally, it <i>must</i> be
- * synchronized externally.  (A structural modification is any operation
+ * synchronized externally.  (ATest.A structural modification is any operation
  * that adds or deletes one or more elements; merely setting the value of
  * an element is not a structural modification.)  This is typically
  * accomplished by synchronizing on some object that naturally
@@ -1171,7 +1171,7 @@ public class LinkedList_<E>
         return new LLSpliterator<E>(this, -1, 0);
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class LLSpliterator<E> implements Spliterator<E> {
         static final int BATCH_UNIT = 1 << 10;  // batch array size increment
         static final int MAX_BATCH = 1 << 25;  // max batch array size;

@@ -19,16 +19,16 @@ package Concurency_.Threads;
       States of a Thread: ----------------------------------------------------------------------------------------------
 
            1. NEW;
-              A	thread is in NEW state when	an object of the thread	is created but the start method	is not yet called.
+              ATest.A	thread is in NEW state when	an object of the thread	is created but the start method	is not yet called.
           2. RUNNABLE;
-              A thread is in RUNNABLE state when it is eligible to run, but not running yet.(A number of Threads can
+              ATest.A thread is in RUNNABLE state when it is eligible to run, but not running yet.(ATest.A number of Threads can
               be in RUNNABLE state.Scheduler selects which Thread to move to RUNNING state
           3. RUNNING;
-              A thread is RUNNING state when it’s the one that is currently, what else to say, Running
+              ATest.A thread is RUNNING state when itï¿½s the one that is currently, what else to say, Running
           4. BLOCKED/WAITING;
-             A thread is in BLOCKED/WAITING/SLEEPING state when it is not eligible to be run by the Scheduler.
+             ATest.A thread is in BLOCKED/WAITING/SLEEPING state when it is not eligible to be run by the Scheduler.
           5. TERMINATED/DEAD;
-              A thread is in DEAD/TERMINATED state when it has completed its execution. Once a thread enters dead
+              ATest.A thread is in DEAD/TERMINATED state when it has completed its execution. Once a thread enters dead
               state, it cannot be made active again.
 
 
@@ -46,7 +46,7 @@ package Concurency_.Threads;
 
  *    FIRST REASON:--------------------------------------------------------------------------------------------------------
 
-         perform a task that's going to TAKE A LONG TIME: QUERRY A DATABASE OR FETCH DATA FROM SOMWHERE FROM INTERNET
+         perform a task that's going to TAKE ATest.A LONG TIME: QUERRY ATest.A DATABASE OR FETCH DATA FROM SOMWHERE FROM INTERNET
          We could do in MAIN THREAD but code within MAIN THREAD EXECUTES LINEAR AND IT WON'T BE ABLE TO DO ANYTHING ELSE
          WHILE IT'S === WAITING === FOR  THE DATA.
          The MAIN THREAD WILL BE === SUSPENDED === SO IT HAS TO WAIT FOR THE DATA TO BE RETURNED BEFORE EXECUTES NEXT LINE OF

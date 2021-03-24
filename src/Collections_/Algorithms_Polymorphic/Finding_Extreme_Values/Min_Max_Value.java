@@ -44,7 +44,7 @@ public static <T extends Object & Comparable<? super T>> T min(Collection<? exte
  * @param  <T> the class of the objects in the collection
  * @param  coll the collection whose minimum element is to be determined.
  * @param  comp the comparator with which to determine the minimum element.
- *         A <tt>null</tt> value indicates that the elements' <i>natural
+ *         ATest.A <tt>null</tt> value indicates that the elements' <i>natural
  *         ordering</i> should be used.
  * @return the minimum element of the given collection, according
  *         to the specified comparator.

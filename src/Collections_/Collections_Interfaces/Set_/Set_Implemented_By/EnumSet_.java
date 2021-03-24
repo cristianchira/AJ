@@ -30,7 +30,7 @@ import sun.misc.SharedSecrets;
 import java.util.*;
 
 /**
- * A specialized {@link Set} implementation for use with enum types.  All of
+ * ATest.A specialized {@link Set} implementation for use with enum types.  All of
  * the elements in an enum set must come from a single enum type that is
  * specified, explicitly or implicitly, when the set is created.  Enum sets
  * are represented internally as bit vectors.  This representation is
@@ -147,7 +147,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      *
      * @param <E> The class of the elements in the set
      * @param s the enum set from which to initialize this enum set
-     * @return A copy of the specified enum set.
+     * @return ATest.A copy of the specified enum set.
      * @throws NullPointerException if <tt>s</tt> is null
      */
     public static <E extends Enum<E>> EnumSet_<E> copyOf(EnumSet_<E> s) {
@@ -203,7 +203,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      * Creates an enum set initially containing the specified element.
      *
      * Overloadings of this method exist to initialize an enum set with
-     * one through five elements.  A sixth overloading is provided that
+     * one through five elements.  ATest.A sixth overloading is provided that
      * uses the varargs feature.  This overloading may be used to create
      * an enum set initially containing an arbitrary number of elements, but
      * is likely to run slower than the overloadings that do not use varargs.
@@ -223,7 +223,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      * Creates an enum set initially containing the specified elements.
      *
      * Overloadings of this method exist to initialize an enum set with
-     * one through five elements.  A sixth overloading is provided that
+     * one through five elements.  ATest.A sixth overloading is provided that
      * uses the varargs feature.  This overloading may be used to create
      * an enum set initially containing an arbitrary number of elements, but
      * is likely to run slower than the overloadings that do not use varargs.
@@ -245,7 +245,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      * Creates an enum set initially containing the specified elements.
      *
      * Overloadings of this method exist to initialize an enum set with
-     * one through five elements.  A sixth overloading is provided that
+     * one through five elements.  ATest.A sixth overloading is provided that
      * uses the varargs feature.  This overloading may be used to create
      * an enum set initially containing an arbitrary number of elements, but
      * is likely to run slower than the overloadings that do not use varargs.
@@ -269,7 +269,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      * Creates an enum set initially containing the specified elements.
      *
      * Overloadings of this method exist to initialize an enum set with
-     * one through five elements.  A sixth overloading is provided that
+     * one through five elements.  ATest.A sixth overloading is provided that
      * uses the varargs feature.  This overloading may be used to create
      * an enum set initially containing an arbitrary number of elements, but
      * is likely to run slower than the overloadings that do not use varargs.
@@ -295,7 +295,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
      * Creates an enum set initially containing the specified elements.
      *
      * Overloadings of this method exist to initialize an enum set with
-     * one through five elements.  A sixth overloading is provided that
+     * one through five elements.  ATest.A sixth overloading is provided that
      * uses the varargs feature.  This overloading may be used to create
      * an enum set initially containing an arbitrary number of elements, but
      * is likely to run slower than the overloadings that do not use varargs.

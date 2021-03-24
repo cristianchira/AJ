@@ -12,7 +12,7 @@ public class Main {
             want it to be set up to be a first come first served or to use a first-come first-served order now a few
             important notes about using a fair re entrant lock only
 
-        A few important notes about using a fair re entrant lock: -----------------------------------------------------
+        ATest.A few important notes about using a fair re entrant lock: -----------------------------------------------------
 
          only fairness in acquiring the lock is guaranteed not fairness in threads scheduling so it's possible that the
          thread that gets the lock will execute a task that takes a long time so when using fair locks it's possible

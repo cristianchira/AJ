@@ -2,16 +2,16 @@ package Collections_;
 
 /*                                              Collection
 
-      A collection — sometimes called a container — is simply an object that groups multiple elements into a single unit.
+      ATest.A collection ï¿½ sometimes called a container ï¿½ is simply an object that groups multiple elements into a single unit.
       Collections are used to store, retrieve, manipulate, and communicate aggregate data
 
                                              Java Collections Framework.
 
-       A collections framework is a unified architecture for representing and manipulating collections.
+       ATest.A collections framework is a unified architecture for representing and manipulating collections.
 
        Here, you will learn what collections are and how they can make your job easier and programs better.
-       You'll learn about the core elements — interfaces, implementations, aggregate operations, and algorithms
-       — that comprise the Java Collections Framework.
+       You'll learn about the core elements ï¿½ interfaces, implementations, aggregate operations, and algorithms
+       ï¿½ that comprise the Java Collections Framework.
 
       Introduction------------------------------------------------------------------------------------------------------
 

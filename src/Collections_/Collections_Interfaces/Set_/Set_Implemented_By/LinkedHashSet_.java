@@ -68,7 +68,7 @@ import java.util.*;
  * its capacity.  Iteration over a <tt>HashSet</tt> is likely to be more
  * expensive, requiring time proportional to its <i>capacity</i>.
  *
- * <p>A linked hash set has two parameters that affect its performance:
+ * <p>ATest.A linked hash set has two parameters that affect its performance:
  * <i>initial capacity</i> and <i>load factor</i>.  They are defined precisely
  * as for <tt>HashSet</tt>.  Note, however, that the penalty for choosing an
  * excessively high value for initial capacity is less severe for this class

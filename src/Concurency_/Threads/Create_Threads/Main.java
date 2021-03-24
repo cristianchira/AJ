@@ -15,7 +15,7 @@ package Concurency_.Threads.Create_Threads;
  *
  * FIRST REASON:--------------------------------------------------------------------------------------------------------
 
- * * perform a task that's going to TAKE A LONG TIME: QUERRY A DATABASE OR FETCH DATA FROM SOMWHERE FROM INTERNET
+ * * perform a task that's going to TAKE ATest.A LONG TIME: QUERRY ATest.A DATABASE OR FETCH DATA FROM SOMWHERE FROM INTERNET
  * We could do in MAIN THREAD but code within MAIN THREAD EXECUTES LINEAR AND IT WON'T BE ABLE TO DO ANYTHING ELSE
  *  WHILE IT'S === WAITING === FOR  THE DATA.
  * The MAIN THREAD WILL BE === SUSPENDED === SO IT HAS TO WAIT FOR THE DATA TO BE RETURNED BEFORE EXECUTES NEXT LINE OF

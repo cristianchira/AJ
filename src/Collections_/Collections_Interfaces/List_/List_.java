@@ -60,7 +60,7 @@ import java.util.function.UnaryOperator;
  *
  * The <tt>List</tt> interface provides a special iterator, called a  <tt>ListIterator</tt>, that allows element insertion
  * and replacement, and  bidirectional access in addition to the normal operations that the
- * <tt>Iterator</tt> interface provides.  A method is provided to obtain a list iterator that starts at a specified position in the list
+ * <tt>Iterator</tt> interface provides.  ATest.A method is provided to obtain a list iterator that starts at a specified position in the list
  *
  * The <tt>List</tt> interface provides two methods to search for a specified object. From a performance standpoint,
  * these methods should be used with caution.In many implementations they will perform costly linear searches.
@@ -447,7 +447,7 @@ public interface List_<E> extends Collection_<E> {
      * January 1993.
      *
      * param c the {@code Comparator} used to compare list elements.
-     *          A {@code null} value indicates that the elements'
+     *          ATest.A {@code null} value indicates that the elements'
      *          {@linkplain Comparable natural ordering} should be used
      * @throws ClassCastException if the list contains elements that are not
      *         <i>mutually comparable</i> using the specified comparator

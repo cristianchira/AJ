@@ -1,9 +1,9 @@
 package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Graph;
 
-/*                                               A graph
+/*                                               ATest.A graph
 
     is a data structure for storing connected data like a network of people on a social media platform.
-    A graph consists of vertices and edges. A vertex represents the entity (for example, people) and an edge represents
+    ATest.A graph consists of vertices and edges. ATest.A vertex represents the entity (for example, people) and an edge represents
     the relationship between entities (for example, a person's friendships).
 
     Different Variants Of Graph:

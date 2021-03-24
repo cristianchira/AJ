@@ -4,7 +4,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree.Binary_Sea
 // Java program to construct BST from given preorder
 // traversal
 
-// A binary tree node
+// ATest.A binary tree node
 class Node {
 
     int data;
@@ -25,7 +25,7 @@ class Binary_Search_Tree {
 
     Index index = new Index ();
 
-    // A recursive function to construct Full from pre[].
+    // ATest.A recursive function to construct Full from pre[].
     // preIndex is used to keep track of index in pre[].
     Node constructTreeUtil(int pre[], Index preIndex,
                            int low, int high, int size) {
@@ -74,7 +74,7 @@ class Binary_Search_Tree {
                 size);
     }
 
-    // A utility function to print inorder traversal of a
+    // ATest.A utility function to print inorder traversal of a
     // Binary Tree
     void printInorder(Node node) {
         if (node == null) {

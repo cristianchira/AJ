@@ -41,7 +41,7 @@ import java.util.NavigableSet;
 import java.util.SortedMap;
 
 /**
- * A {@link SortedMap} extended with navigation methods returning the
+ * ATest.A {@link SortedMap} extended with navigation methods returning the
  * closest matches for given search targets. Methods
  * {@code lowerEntry}, {@code floorEntry}, {@code ceilingEntry},
  * and {@code higherEntry} return {@code Map.Entry} objects
@@ -52,7 +52,7 @@ import java.util.SortedMap;
  * {@code higherKey} return only the associated keys. All of these
  * methods are designed for locating, not traversing entries.
  *
- * <p>A {@code NavigableMap} may be accessed and traversed in either
+ * <p>ATest.A {@code NavigableMap} may be accessed and traversed in either
  * ascending or descending key order.  The {@code descendingMap}
  * method returns a view of the map with the senses of all relational
  * and directional methods inverted. The performance of ascending

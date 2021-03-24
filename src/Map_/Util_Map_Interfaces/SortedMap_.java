@@ -29,7 +29,7 @@ import java.util.*;
 import java.util.TreeMap;
 
 /**
- * A Map that further provides a total ordering on its keys. The map is ordered according to the Comparable natural ordering
+ * ATest.A Map that further provides a total ordering on its keys. The map is ordered according to the Comparable natural ordering
  * of its keys, or by a Comparator typically provided at sorted map creation time.This order is reflected when iterating
  * over the sorted map's collection views (returned by the entrySet, keySet and values methods).
  * Several additional operations are provided to take advantage of the ordering.
@@ -62,14 +62,14 @@ import java.util.TreeMap;
  * though as required constructors cannot be specified by interfaces. The
  * expected "standard" constructors for all sorted map implementations are:
  * <ol>
- *   <li>A void (no arguments) constructor, which creates an empty sorted map
+ *   <li>ATest.A void (no arguments) constructor, which creates an empty sorted map
  *   sorted according to the natural ordering of its keys.</li>
- *   <li>A constructor with a single argument of type {@code Comparator}, which
+ *   <li>ATest.A constructor with a single argument of type {@code Comparator}, which
  *   creates an empty sorted map sorted according to the specified comparator.</li>
- *   <li>A constructor with a single argument of type {@code Map}, which creates
+ *   <li>ATest.A constructor with a single argument of type {@code Map}, which creates
  *   a new map with the same key-value mappings as its argument, sorted
  *   according to the keys' natural ordering.</li>
- *   <li>A constructor with a single argument of type {@code SortedMap}, which
+ *   <li>ATest.A constructor with a single argument of type {@code SortedMap}, which
  *   creates a new sorted map with the same key-value mappings and the same
  *   ordering as the input sorted map.</li>
  * </ol>
@@ -86,7 +86,7 @@ import java.util.TreeMap;
  * between {@code low} and {@code high}, inclusive:<pre>
  *   SortedMap&lt;String, V&gt; sub = m.subMap(low, high+"\0");</pre>
  *
- * A similar technique can be used to generate an <em>open range</em>
+ * ATest.A similar technique can be used to generate an <em>open range</em>
  * (which contains neither endpoint).  The following idiom obtains a
  * view containing all of the key-value mappings in {@code m} whose keys
  * are between {@code low} and {@code high}, exclusive:<pre>

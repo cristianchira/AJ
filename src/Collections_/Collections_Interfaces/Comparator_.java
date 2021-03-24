@@ -36,7 +36,7 @@ import java.util.function.ToIntFunction;
 import java.util.function.ToLongFunction;
 
 /**
- * A comparison function, which imposes a <i>total ordering</i> on some
+ * ATest.A comparison function, which imposes a <i>total ordering</i> on some
  * collection of objects.  Comparators can be passed to a sort method (such
  * as {@link Collections sort(List,Comparator) Collections.sort} or {@link
  * Arrays sort(Object[],Comparator) Arrays.sort}) to allow precise control

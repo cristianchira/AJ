@@ -50,7 +50,7 @@ import java.util.function.Consumer;
  * blocking retrieval operations.  While this queue is logically
  * unbounded, attempted additions may fail due to resource exhaustion
  * (causing {@code OutOfMemoryError}). This class does not permit
- * {@code null} elements.  A priority queue relying on {@linkplain
+ * {@code null} elements.  ATest.A priority queue relying on {@linkplain
  * Comparable natural ordering} also does not permit insertion of
  * non-comparable objects (doing so results in
  * {@code ClassCastException}).
@@ -171,7 +171,7 @@ public class PriorityBlockingQueue_<E> extends AbstractQueue<E>
     private transient volatile int allocationSpinLock;
 
     /**
-     * A plain PriorityQueue used only for serialization,
+     * ATest.A plain PriorityQueue used only for serialization,
      * to maintain compatibility with previous versions
      * of this class. Non-null only during serialization/deserialization.
      */

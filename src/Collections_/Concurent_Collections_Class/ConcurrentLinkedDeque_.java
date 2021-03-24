@@ -42,7 +42,7 @@ import java.util.function.Consumer;
  * An unbounded concurrent {@linkplain Deque deque} based on linked nodes.
  * Concurrent insertion, removal, and access operations execute safely
  * across multiple threads.
- * A {@code ConcurrentLinkedDeque} is an appropriate choice when
+ * ATest.A {@code ConcurrentLinkedDeque} is an appropriate choice when
  * many threads will share access to a common collection.
  * Like most other concurrent collection implementations, this class
  * does not permit the use of {@code null} elements.
@@ -101,12 +101,12 @@ public class ConcurrentLinkedDeque_<E>
      * and mixing volatile and non-volatile writes of the same memory
      * locations.
      *
-     * A node contains the expected E ("item") and links to predecessor
+     * ATest.A node contains the expected E ("item") and links to predecessor
      * ("prev") and successor ("next") nodes:
      *
      * class Node<E> { volatile Node<E> prev, next; volatile E item; }
      *
-     * A node p is considered "live" if it contains a non-null item
+     * ATest.A node p is considered "live" if it contains a non-null item
      * (p.item != null).  When an item is CASed to null, the item is
      * atomically logically deleted from the collection.
      *
@@ -117,20 +117,20 @@ public class ConcurrentLinkedDeque_<E>
      * a live node.  The "first" and "last" nodes may or may not be live.
      * The "first" and "last" nodes are always mutually reachable.
      *
-     * A new element is added atomically by CASing the null prev or
+     * ATest.A new element is added atomically by CASing the null prev or
      * next reference in the first or last node to a fresh node
      * containing the element.  The element's node atomically becomes
      * "live" at that point.
      *
-     * A node is considered "active" if it is a live node, or the
+     * ATest.A node is considered "active" if it is a live node, or the
      * first or last node.  Active nodes cannot be unlinked.
      *
-     * A "self-link" is a next or prev reference that is the same node:
+     * ATest.A "self-link" is a next or prev reference that is the same node:
      *   p.prev == p  or  p.next == p
      * Self-links are used in the node unlinking process.  Active nodes
      * never have self-links.
      *
-     * A node p is active if and only if:
+     * ATest.A node p is active if and only if:
      *
      * p.item != null ||
      * (p.prev == null && p.next != p) ||
@@ -225,9 +225,9 @@ public class ConcurrentLinkedDeque_<E>
      * operations (e.g., addFirst, peekLast, pollLast) are linearizable
      * (see Herlihy and Shavit's book).  However, some combinations of
      * operations are known not to be linearizable.  In particular,
-     * when an addFirst(A) is racing with pollFirst() removing B, it is
+     * when an addFirst(ATest.A) is racing with pollFirst() removing ATest.B, it is
      * possible for an observer iterating over the elements to observe
-     * A B C and subsequently observe A C, even though no interior
+     * ATest.A ATest.B C and subsequently observe ATest.A C, even though no interior
      * removes are ever performed.  Nevertheless, iterators behave
      * reasonably, providing the "weakly consistent" guarantees.
      *
@@ -239,7 +239,7 @@ public class ConcurrentLinkedDeque_<E>
     private static final long serialVersionUID = 876323262645176354L;
 
     /**
-     * A node from which the first node on list (that is, the unique node p
+     * ATest.A node from which the first node on list (that is, the unique node p
      * with p.prev == null && p.next != p) can be reached in O(1) time.
      * Invariants:
      * - the first node is always O(1) reachable from head via prev links
@@ -254,7 +254,7 @@ public class ConcurrentLinkedDeque_<E>
     private transient volatile Node<E> head;
 
     /**
-     * A node from which the last node on list (that is, the unique node p
+     * ATest.A node from which the last node on list (that is, the unique node p
      * with p.next == null && p.prev != p) can be reached in O(1) time.
      * Invariants:
      * - the last node is always O(1) reachable from tail via next links
@@ -1384,7 +1384,7 @@ public class ConcurrentLinkedDeque_<E>
         Node<E> nextNode(Node<E> p) { return pred(p); }
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class CLDSpliterator<E> implements Spliterator<E> {
         static final int MAX_BATCH = 1 << 25;  // max batch array size;
         final ConcurrentLinkedDeque_<E> queue;

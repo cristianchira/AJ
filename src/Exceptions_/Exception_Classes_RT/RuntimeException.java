@@ -71,7 +71,7 @@ public class RuntimeException extends Exception {
      * @param  message the detail message (which is saved for later retrieval
      *         by the {@link #getMessage()} method).
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A <tt>null</tt> value is
+     *         {@link #getCause()} method).  (ATest.A <tt>null</tt> value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      * @since  1.4
@@ -87,7 +87,7 @@ public class RuntimeException extends Exception {
      * that are little more than wrappers for other throwables.
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A <tt>null</tt> value is
+     *         {@link #getCause()} method).  (ATest.A <tt>null</tt> value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      * @since  1.4
@@ -102,7 +102,7 @@ public class RuntimeException extends Exception {
      * stack trace enabled or disabled.
      *
      * @param  message the detail message.
-     * @param cause the cause.  (A {@code null} value is permitted,
+     * @param cause the cause.  (ATest.A {@code null} value is permitted,
      * and indicates that the cause is nonexistent or unknown.)
      * @param enableSuppression whether or not suppression is enabled
      *                          or disabled

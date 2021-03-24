@@ -6,7 +6,7 @@ package Java.Big_O_Notation.Complexity_Evaluation.Time_Complexity.Mathematical_C
 
     N!
     2?
-    N²
+    Nï¿½
     N * log(2)N
     N
     ?N
@@ -15,12 +15,12 @@ package Java.Big_O_Notation.Complexity_Evaluation.Time_Complexity.Mathematical_C
 
     Function as sum of function: ---------------------------------------------------------------------------------------
 
-        T(N) = N² + 12 * N + 5
+        T(N) = Nï¿½ + 12 * N + 5
 
     It's so clear that each term is represented by separate function
 
-     F1(N) = N²
-     F2(N) = 12 × N
+     F1(N) = Nï¿½
+     F2(N) = 12 ï¿½ N
      F3(N) = 5
 
     In other words our function is represented by some of the functions
@@ -31,7 +31,7 @@ package Java.Big_O_Notation.Complexity_Evaluation.Time_Complexity.Mathematical_C
 
                                               Leading Term of a function
 
-                T(N) = 5 * N² + 9,999,999 * N + 9,999,999 * ?N
+                T(N) = 5 * Nï¿½ + 9,999,999 * N + 9,999,999 * ?N
 
     Since every term has the different order the value of the resulting function is defined by the term with
         the biggest order.
@@ -39,7 +39,7 @@ package Java.Big_O_Notation.Complexity_Evaluation.Time_Complexity.Mathematical_C
     The term that defined the value of a function is called the:
        leading term ----------------------------------------------------------------------------------------------------
 
-    In our case it is: 5 * N²
+    In our case it is: 5 * Nï¿½
 
     We can easily find a long term using our table(on top of this page) -------------------------------------------------
 
@@ -53,25 +53,25 @@ package Java.Big_O_Notation.Complexity_Evaluation.Time_Complexity.Mathematical_C
 
           Orders                                    Constants
 
-        T(N)  = 2 * N²                                T1(N) = 3* N
+        T(N)  = 2 * Nï¿½                                T1(N) = 3* N
         T(N)   5+ N                                   T2(N) = 7 * N
 
-            •Positions are different:
+            ï¿½Positions are different:
                 function with lower position will take smaller value as N grows
-            •Positions are the same:
+            ï¿½Positions are the same:
                 function with smaller constant will take smaller values as N grows
 
                                                     Formal notation of a Function Order
 
-        T(N) = 3 * N² + N  has leading terms of 3 * N² -----------------------------------------------------------------
+        T(N) = 3 * Nï¿½ + N  has leading terms of 3 * Nï¿½ -----------------------------------------------------------------
             pronunciation:    (T of N  equal  3 times N square plus N)
 
         We will print like:
 
-        T1(N) = N² + 12 * N + 5  -> N²
+        T1(N) = Nï¿½ + 12 * N + 5  -> Nï¿½
         T2(N) = log(2)N + 3 * N   -> 3 * N
 
-    A formal way to denote an order of a function.
+    ATest.A formal way to denote an order of a function.
         Big O notation -------------------------------------------------------------------------------------------------
 
 */

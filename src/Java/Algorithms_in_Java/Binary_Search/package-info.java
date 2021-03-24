@@ -5,11 +5,11 @@ package Java.Algorithms_in_Java.Binary_Search;
 /*                                                  Binary Search Algorithm
 
     works on the idea of neglecting half of the list on every iteration.It keeps on splitting the list until it finds
-    the value it is looking for in a given list.A binary search algorithm is a quick upgrade to a simple linear search algorithm.
+    the value it is looking for in a given list.ATest.A binary search algorithm is a quick upgrade to a simple linear search algorithm.
 
-        • A binary search algorithm always works on a sorted list
-        • Binary search runs in logarithmic time in the worst case, making  O(log n) for ordered list
-        • Must added O (log N)  if arr is not sorted (Quick Sort algorithm)
+        ï¿½ ATest.A binary search algorithm always works on a sorted list
+        ï¿½ Binary search runs in logarithmic time in the worst case, making  O(log n) for ordered list
+        ï¿½ Must added O (log N)  if arr is not sorted (Quick Sort algorithm)
 
     	                                      Variations of Binary Search
 

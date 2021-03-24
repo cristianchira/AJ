@@ -4,7 +4,7 @@ package Hashing_in_Java;
                                                         Hashing
 
           Transformation of a string of characters(Text) to a shorted fixed-length value that represent original string.
-          A shorter value helps in indexing and faster search.
+          ATest.A shorter value helps in indexing and faster search.
 
 
         In hashing there is a hash function that maps keys to some values.

@@ -1,7 +1,7 @@
 package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.Stack_;
 
 /*
-                                                A Stack
+                                                ATest.A Stack
 
           is a linear data structure that follows the LIFO (Last-In-First-Out) principle. Stack has one end, whereas the
           Queue has two ends (front and rear). It contains only one pointer top pointer pointing to the topmost element
@@ -12,7 +12,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.Stack_;
       Some key points related to stack:
 
           It is called as stack because it behaves like a real-world stack, piles of books, etc.
-          A Stack is an abstract data type with a pre-defined capacity, which means that it can store the elements of
+          ATest.A Stack is an abstract data type with a pre-defined capacity, which means that it can store the elements of
           a limited size.
           It is a data structure that follows some order to insert and delete the elements, and that order can be
           LIFO or FILO.

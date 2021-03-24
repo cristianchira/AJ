@@ -90,7 +90,7 @@ import java.util.function.Function;
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access a hash map concurrently, and at least one of
  * the threads modifies the map structurally, it <i>must</i> be
- * synchronized externally.  (A structural modification is any operation
+ * synchronized externally.  (ATest.A structural modification is any operation
  * that adds or deletes one or more mappings; merely changing the value
  * associated with a key that an instance already contains is not a
  * structural modification.)  This is typically accomplished by
@@ -546,7 +546,7 @@ public class HashMap_<K,V> extends AbstractMap_<K,V>
      * key.equals(k))}, then this method returns {@code v}; otherwise
      * it returns {@code null}.  (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
+     * <p>ATest.A return value of {@code null} does not <i>necessarily</i>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to
@@ -607,7 +607,7 @@ public class HashMap_<K,V> extends AbstractMap_<K,V>
      * @param value value to be associated with the specified key
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      */
     public V put(K key, V value) {
@@ -793,7 +793,7 @@ public class HashMap_<K,V> extends AbstractMap_<K,V>
      * @param  key key whose mapping is to be removed from the map
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      */
     public V remove(Object key) {

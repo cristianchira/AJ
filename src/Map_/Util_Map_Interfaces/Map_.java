@@ -38,7 +38,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * An object that maps keys to values. A map cannot contain duplicate keys.Each key can map to at most one value.
+ * An object that maps keys to values. ATest.A map cannot contain duplicate keys.Each key can map to at most one value.
  *
  * <p>
  *     This interface takes the place of the <tt>Dictionary</tt> class, which
@@ -55,7 +55,7 @@ import java.util.function.Function;
  * <p>Note: great care must be exercised if mutable objects are used as map
  * keys.  The behavior of a map is not specified if the value of an object is
  * changed in a manner that affects <tt>equals</tt> comparisons while the
- * object is a key in the map.  A special case of this prohibition is that it
+ * object is a key in the map.  ATest.A special case of this prohibition is that it
  * is not permissible for a map to contain itself as a key.  While it is
  * permissible for a map to contain itself as a value, extreme caution is
  * advised: the <tt>equals</tt> and <tt>hashCode</tt> methods are no longer
@@ -211,14 +211,14 @@ public interface Map_<K,V> {
 
     /**
      * Associates the specified value with the specified key in this map (optional operation). If the map previously
-     * contained a mapping for the key, the old value is replaced by the specified value.(A map m is said to contain a
+     * contained a mapping for the key, the old value is replaced by the specified value.(ATest.A map m is said to contain a
      * mapping for a key k if and only if {@link #containsKey(Object) m.containsKey(k)} would return true.
      *
      * @param key key with which the specified value is to be associated
      * @param value value to be associated with the specified key
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>,
      *         if the implementation supports <tt>null</tt> values.)
      * @throws UnsupportedOperationException if the <tt>put</tt> operation
@@ -342,7 +342,7 @@ public interface Map_<K,V> {
      Set<Entry<K, V>> entrySet();
 
     /**
-     * A map entry (key-value pair).  The <tt>Map.entrySet</tt> method returns
+     * ATest.A map entry (key-value pair).  The <tt>Map.entrySet</tt> method returns
      * a collection-view of the map, whose elements are of this class.  The
      * <i>only</i> way to obtain a reference to a map entry is from the
      * iterator of this collection-view.  These <tt>Map.Entry</tt> objects are
@@ -703,7 +703,7 @@ public interface Map_<K,V> {
      * @param value value to be associated with the specified key
      * @return the previous value associated with the specified key, or
      *         {@code null} if there was no mapping for the key.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with the key,
      *         if the implementation supports null values.)
      * @throws UnsupportedOperationException if the {@code put} operation
@@ -848,7 +848,7 @@ public interface Map_<K,V> {
      * @param value value to be associated with the specified key
      * @return the previous value associated with the specified key, or
      *         {@code null} if there was no mapping for the key.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with the key,
      *         if the implementation supports null values.)
      * @throws UnsupportedOperationException if the {@code put} operation

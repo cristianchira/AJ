@@ -103,7 +103,7 @@ public class GenericsExamples3 {
 		restrictedListInteger.add(1);
 		restrictedListInteger.add(2);
 
-		// A generic type can be declared as part of method declaration as well.
+		// ATest.A generic type can be declared as part of method declaration as well.
 		// Then the generic type can be used anywhere in the method (return
 		// type, parameter type, local or block variable type)
 		Integer i = 5;

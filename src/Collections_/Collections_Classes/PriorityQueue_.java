@@ -35,8 +35,8 @@ import java.util.function.Consumer;
  * The elements of the priority queue are ordered according to their
  * {@linkplain Comparable natural ordering}, or by a {@link Comparator}
  * provided at queue construction time, depending on which constructor is
- * used.  A priority queue does not permit {@code null} elements.
- * A priority queue relying on natural ordering also does not permit
+ * used.  ATest.A priority queue does not permit {@code null} elements.
+ * ATest.A priority queue relying on natural ordering also does not permit
  * insertion of non-comparable objects (doing so may result in
  * {@code ClassCastException}).
  *
@@ -47,7 +47,7 @@ import java.util.function.Consumer;
  * {@code remove}, {@code peek}, and {@code element} access the
  * element at the head of the queue.
  *
- * <p>A priority queue is unbounded, but has an internal
+ * <p>ATest.A priority queue is unbounded, but has an internal
  * <i>capacity</i> governing the size of an array used to store the
  * elements on the queue.  It is always at least as large as the queue
  * size.  As elements are added to a priority queue, its capacity
@@ -502,7 +502,7 @@ public class PriorityQueue_<E> extends AbstractQueue<E>
         private int lastRet = -1;
 
         /**
-         * A queue of elements that were moved from the unvisited portion of
+         * ATest.A queue of elements that were moved from the unvisited portion of
          * the heap into the visited portion as a result of "unlucky" element
          * removals during the iteration.  (Unlucky element removals are those
          * that require a siftup instead of a siftdown.)  We must visit all of

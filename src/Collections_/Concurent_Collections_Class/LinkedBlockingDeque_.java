@@ -1142,7 +1142,7 @@ public class LinkedBlockingDeque_<E>
         Node<E> nextNode(Node<E> n) { return n.prev; }
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class LBDSpliterator<E> implements Spliterator<E> {
         static final int MAX_BATCH = 1 << 25;  // max batch array size;
         final LinkedBlockingDeque_<E> queue;

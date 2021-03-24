@@ -30,7 +30,7 @@ import sun.misc.SharedSecrets;
 import java.util.*;
 
 /**
- * A specialized Map implementation for use with enum type keys. All of the keys in an enum map must come from a single enum type
+ * ATest.A specialized Map implementation for use with enum type keys. All of the keys in an enum map must come from a single enum type
  * that is specified, explicitly or implicitly, when the map is created.  Enum maps are represented internally as arrays.
  * This representation is extremely compact and efficient.
  *
@@ -233,7 +233,7 @@ public class EnumMap_<K extends Enum<K>, V> extends AbstractMap_<K, V>
      * then this method returns {@code v}; otherwise it returns
      * {@code null}.  (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
+     * <p>ATest.A return value of {@code null} does not <i>necessarily</i>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to
@@ -255,7 +255,7 @@ public class EnumMap_<K extends Enum<K>, V> extends AbstractMap_<K, V>
      * @param value the value to be associated with the specified key
      *
      * @return the previous value associated with specified key, or
-     *     <tt>null</tt> if there was no mapping for key.  (A <tt>null</tt>
+     *     <tt>null</tt> if there was no mapping for key.  (ATest.A <tt>null</tt>
      *     return can also indicate that the map previously associated
      *     <tt>null</tt> with the specified key.)
      * @throws NullPointerException if the specified key is null
@@ -276,7 +276,7 @@ public class EnumMap_<K extends Enum<K>, V> extends AbstractMap_<K, V>
      *
      * @param key the key whose mapping is to be removed from the map
      * @return the previous value associated with specified key, or
-     *     <tt>null</tt> if there was no entry for key.  (A <tt>null</tt>
+     *     <tt>null</tt> if there was no entry for key.  (ATest.A <tt>null</tt>
      *     return can also indicate that the map previously associated
      *     <tt>null</tt> with the specified key.)
      */

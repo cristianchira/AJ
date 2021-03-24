@@ -45,7 +45,7 @@ import java.util.function.Consumer;
 import java.util.function.Function;
 
 /**
- * A scalable concurrent {@link ConcurrentNavigableMap} implementation.
+ * ATest.A scalable concurrent {@link ConcurrentNavigableMap} implementation.
  * The map is sorted according to the {@linkplain Comparable natural
  * ordering} of its keys, or by a {@link Comparator} provided at map
  * creation time, depending on which constructor is used.
@@ -123,11 +123,11 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
      *  v              |    |         |              |         |
      * Nodes  next     v    v         v              v         v
      * +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+
-     * | |->|A|->|B|->|C|->|D|->|E|->|F|->|G|->|H|->|I|->|J|->|K|->null
+     * | |->|ATest.A|->|ATest.B|->|C|->|D|->|E|->|F|->|G|->|H|->|I|->|J|->|K|->null
      * +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+  +-+
      *
      * The base lists use a variant of the HM linked ordered set
-     * algorithm. See Tim Harris, "A pragmatic implementation of
+     * algorithm. See Tim Harris, "ATest.A pragmatic implementation of
      * non-blocking linked lists"
      * http://www.cl.cam.ac.uk/~tlh20/publications.html and Maged
      * Michael "High Performance Dynamic Lock-Free Hash Tables and
@@ -208,7 +208,7 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
      *   ...  |   b  |----------------------------------->|   f  | ...
      *        +------+                                    +------+
      *
-     * A failure at step 1 leads to simple retry due to a lost race
+     * ATest.A failure at step 1 leads to simple retry due to a lost race
      * with another operation. Steps 2-3 can fail because some other
      * thread noticed during a traversal a node with null value and
      * helped out by marking and/or unlinking.  This helping-out
@@ -306,7 +306,7 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
      * "secondary seed", to avoid interference with user-level
      * ThreadLocalRandom.)
      *
-     * A previous version of this class wrapped non-comparable keys
+     * ATest.A previous version of this class wrapped non-comparable keys
      * with their comparators to emulate Comparables when using
      * comparators vs Comparables.  However, JVMs now appear to better
      * handle infusing comparator-vs-comparable choice into search
@@ -414,7 +414,7 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
         }
 
         /**
-         * Creates a new marker node. A marker is distinguished by
+         * Creates a new marker node. ATest.A marker is distinguished by
          * having its value field point to itself.  Marker nodes also
          * have null keys, a fact that is exploited in a few places,
          * but this doesn't distinguish markers from the base-level

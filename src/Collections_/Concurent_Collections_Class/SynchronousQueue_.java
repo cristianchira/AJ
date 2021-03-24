@@ -43,9 +43,9 @@ import java.util.concurrent.locks.LockSupport;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * A {@linkplain BlockingQueue blocking queue} in which each insert
+ * ATest.A {@linkplain BlockingQueue blocking queue} in which each insert
  * operation must wait for a corresponding remove operation by another
- * thread, and vice versa.  A synchronous queue does not have any
+ * thread, and vice versa.  ATest.A synchronous queue does not have any
  * internal capacity, not even a capacity of one.  You cannot
  * {@code peek} at a synchronous queue because an element is only
  * present when you try to remove it; you cannot insert an element
@@ -99,10 +99,10 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
      * contention but Lifo maintains higher thread locality in common
      * applications.
      *
-     * A dual queue (and similarly stack) is one that at any given
+     * ATest.A dual queue (and similarly stack) is one that at any given
      * time either holds "data" -- items provided by put operations,
      * or "requests" -- slots representing take operations, or is
-     * empty. A call to "fulfill" (i.e., a call requesting an item
+     * empty. ATest.A call to "fulfill" (i.e., a call requesting an item
      * from a queue holding data or vice versa) dequeues a
      * complementary node.  The most interesting feature of these
      * queues is that any operation can figure out which mode the
@@ -204,7 +204,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * The number of nanoseconds for which it is faster to spin
-     * rather than to use timed park. A rough estimate suffices.
+     * rather than to use timed park. ATest.A rough estimate suffices.
      */
     static final long spinForTimeoutThreshold = 1000L;
 
@@ -958,7 +958,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns {@code true}.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @return {@code true}
      */
@@ -968,7 +968,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns zero.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @return zero
      */
@@ -978,7 +978,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns zero.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @return zero
      */
@@ -988,14 +988,14 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Does nothing.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      */
     public void clear() {
     }
 
     /**
      * Always returns {@code false}.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @param o the element
      * @return {@code false}
@@ -1006,7 +1006,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns {@code false}.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @param o the element to remove
      * @return {@code false}
@@ -1017,7 +1017,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Returns {@code false} unless the given collection is empty.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @param c the collection
      * @return {@code false} unless given collection is empty
@@ -1028,7 +1028,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns {@code false}.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @param c the collection
      * @return {@code false}
@@ -1039,7 +1039,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns {@code false}.
-     * A {@code SynchronousQueue} has no internal capacity.
+     * ATest.A {@code SynchronousQueue} has no internal capacity.
      *
      * @param c the collection
      * @return {@code false}
@@ -1050,7 +1050,7 @@ public class SynchronousQueue_<E> extends AbstractQueue<E>
 
     /**
      * Always returns {@code null}.
-     * A {@code SynchronousQueue} does not return elements
+     * ATest.A {@code SynchronousQueue} does not return elements
      * unless actively waited on.
      *
      * @return {@code null}

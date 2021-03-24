@@ -3,7 +3,7 @@ package Control_Flow.miscelanous;
 public class Switch_Class {
 	public static void main(String[] args) {
 		/*
-		 * A switch works with the byte, short, char, and int primitive data types. It
+		 * ATest.A switch works with the byte, short, char, and int primitive data types. It
 		 * also works with enumerated types (discussed in Enum Types), the String class,
 		 * and a few special classes that wrap certain primitive types: Character, Byte,
 		 * Short, and Integer (discussed in Numbers and Strings).

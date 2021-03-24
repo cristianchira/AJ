@@ -40,7 +40,7 @@ import java.util.function.Consumer;
 import java.util.function.Predicate;
 
 /**
- * A {@link Set} that uses an internal {@link CopyOnWriteArrayList_}
+ * ATest.A {@link Set} that uses an internal {@link CopyOnWriteArrayList_}
  * for all of its operations.  Thus, it shares the same basic properties:
  * <ul>
  *  <li>It is best suited for applications in which set sizes generally

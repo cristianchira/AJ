@@ -40,7 +40,7 @@ import java.util.Queue;
 import java.util.concurrent.TimeUnit;
 
 /**
- * A {@link Queue} that additionally supports operations that wait for the queue to become non-empty when retrieving an
+ * ATest.A {@link Queue} that additionally supports operations that wait for the queue to become non-empty when retrieving an
  * element, and wait for space to become available in the queue when storing an element.
  *
  * <p>{@code BlockingQueue} methods come in four forms, with different ways
@@ -84,16 +84,16 @@ import java.util.concurrent.TimeUnit;
  *  </tr>
  * </table>
  *
- * <p>A {@code BlockingQueue} does not accept {@code null} elements.
+ * <p>ATest.A {@code BlockingQueue} does not accept {@code null} elements.
  * Implementations throw {@code NullPointerException} on attempts
- * to {@code add}, {@code put} or {@code offer} a {@code null}.  A
+ * to {@code add}, {@code put} or {@code offer} a {@code null}.  ATest.A
  * {@code null} is used as a sentinel value to indicate failure of
  * {@code poll} operations.
  *
- * <p>A {@code BlockingQueue} may be capacity bounded. At any given
+ * <p>ATest.A {@code BlockingQueue} may be capacity bounded. At any given
  * time it may have a {@code remainingCapacity} beyond which no
  * additional elements can be {@code put} without blocking.
- * A {@code BlockingQueue} without any intrinsic capacity constraints always
+ * ATest.A {@code BlockingQueue} without any intrinsic capacity constraints always
  * reports a remaining capacity of {@code Integer.MAX_VALUE}.
  *
  * <p>{@code BlockingQueue} implementations are designed to be used
@@ -114,7 +114,7 @@ import java.util.concurrent.TimeUnit;
  * {@code addAll(c)} to fail (throwing an exception) after adding
  * only some of the elements in {@code c}.
  *
- * <p>A {@code BlockingQueue} does <em>not</em> intrinsically support
+ * <p>ATest.A {@code BlockingQueue} does <em>not</em> intrinsically support
  * any kind of &quot;close&quot; or &quot;shutdown&quot; operation to
  * indicate that no more items will be added.  The needs and usage of
  * such features tend to be implementation-dependent. For example, a
@@ -326,7 +326,7 @@ public interface BlockingQueue_<E> extends Queue<E> {
     /**
      * Removes all available elements from this queue and adds them
      * to the given collection.  This operation may be more
-     * efficient than repeatedly polling this queue.  A failure
+     * efficient than repeatedly polling this queue.  ATest.A failure
      * encountered while attempting to add elements to
      * collection {@code c} may result in elements being in neither,
      * either or both collections when the associated exception is
@@ -350,7 +350,7 @@ public interface BlockingQueue_<E> extends Queue<E> {
 
     /**
      * Removes at most the given number of available elements from
-     * this queue and adds them to the given collection.  A failure
+     * this queue and adds them to the given collection.  ATest.A failure
      * encountered while attempting to add elements to
      * collection {@code c} may result in elements being in neither,
      * either or both collections when the associated exception is

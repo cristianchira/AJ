@@ -37,7 +37,7 @@ import java.util.function.Predicate;
 
                                                      Collection interface
 
- * The root interface in the collection hierarchy.A collection represents  a group of objects, known as its elements.
+ * The root interface in the collection hierarchy.ATest.A collection represents  a group of objects, known as its elements.
  * This interface is typically used to pass collections around and manipulate them where maximum generality is desired
  * Some collections allow duplicate elements and others do not.
  * Some are ordered  and others unordered.

@@ -4,7 +4,7 @@ public class TestObject {
 
 	public static void main(String[] args) {
 		/*
-		 * A Point is explicitly created using newInstance:
+		 * ATest.A Point is explicitly created using newInstance:
 		 */
 		Points p = null;
 

@@ -47,7 +47,7 @@ import java.util.*;
  * are freshly created in the context of the exceptional situation so
  * as to include relevant information (such as stack trace data).
  *
- * <p>A throwable contains a snapshot of the execution stack of its
+ * <p>ATest.A throwable contains a snapshot of the execution stack of its
  * thread at the time it was created. It can also contain a message
  * string that gives more information about the error. Over time, a
  * throwable can  Throwable addSuppressed suppress other
@@ -72,7 +72,7 @@ import java.util.*;
  * changing its API (in particular, the set of exceptions thrown by its
  * methods).
  *
- * <p>A second reason that a throwable may have a cause is that the method
+ * <p>ATest.A second reason that a throwable may have a cause is that the method
  * that throws it must conform to a general-purpose interface that does not
  * permit the method to throw the cause directly.  For example, suppose
  * a persistent collection conforms to the {@link Collection
@@ -85,7 +85,7 @@ import java.util.*;
  * specification for the persistent collection should indicate that it is
  * capable of throwing such exceptions.)
  *
- * <p>A cause can be associated with a throwable in two ways: via a
+ * <p>ATest.A cause can be associated with a throwable in two ways: via a
  * constructor that takes the cause as an argument, or via the
  * initCause(Throwable) method.  New throwable classes that
  * wish to allow causes to be associated with them should provide constructors
@@ -155,7 +155,7 @@ public class Throwable implements Serializable {
     }
 
     /**
-     * A shared value for an empty stack.
+     * ATest.A shared value for an empty stack.
      */
     private static final StackTraceElement[] UNASSIGNED_STACK = new StackTraceElement[0];
 
@@ -200,7 +200,7 @@ public class Throwable implements Serializable {
     /**
      * The stack trace, as returned by {@link #getStackTrace()}.
      *
-     * The field is initialized to a zero-length array.  A {@code
+     * The field is initialized to a zero-length array.  ATest.A {@code
      * null} value of this field indicates subsequent calls to {@link
      * #setStackTrace(StackTraceElement[])} and {@link
      * #fillInStackTrace()} will be be no-ops.
@@ -279,7 +279,7 @@ public class Throwable implements Serializable {
      * @param  message the detail message (which is saved for later retrieval
      *         by the {@link #getMessage()} method).
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A {@code null} value is
+     *         {@link #getCause()} method).  (ATest.A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      * @since  1.4
@@ -302,7 +302,7 @@ public class Throwable implements Serializable {
      * the stack trace data in the newly created throwable.
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A {@code null} value is
+     *         {@link #getCause()} method).  (ATest.A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      * @since  1.4
@@ -343,7 +343,7 @@ public class Throwable implements Serializable {
      * immutable throwable objects would be appropriate.
      *
      * @param  message the detail message.
-     * @param cause the cause.  (A {@code null} value is permitted,
+     * @param cause the cause.  (ATest.A {@code null} value is permitted,
      * and indicates that the cause is nonexistent or unknown.)
      * @param enableSuppression whether or not suppression is enabled or disabled
      * @param writableStackTrace whether or not the stack trace should be
@@ -440,12 +440,12 @@ public class Throwable implements Serializable {
      * </pre>
      *
      * @param  cause the cause (which is saved for later retrieval by the
-     *         {@link #getCause()} method).  (A {@code null} value is
+     *         {@link #getCause()} method).  (ATest.A {@code null} value is
      *         permitted, and indicates that the cause is nonexistent or
      *         unknown.)
      * @return  a reference to this {@code Throwable} instance.
      * @throws IllegalArgumentException if {@code cause} is this
-     *         throwable.  (A throwable cannot be its own cause.)
+     *         throwable.  (ATest.A throwable cannot be its own cause.)
      * @throws IllegalStateException if this throwable was
      *         created with {@link #Throwable(Throwable)} or
      *         {@link #Throwable(String,Throwable)}, or this method has already
@@ -900,8 +900,8 @@ public class Throwable implements Serializable {
      * well-formedness constraints on fields.  Null entries and
      * self-pointers are not allowed in the list of {@code
      * suppressedExceptions}.  Null entries are not allowed for stack
-     * trace elements.  A null stack trace in the serial form results
-     * in a zero-length stack element array. A single-element stack
+     * trace elements.  ATest.A null stack trace in the serial form results
+     * in a zero-length stack element array. ATest.A single-element stack
      * trace whose entry is equal to {@code new StackTraceElement("",
      * "", null, Integer.MIN_VALUE)} results in a {@code null} {@code
      * stackTrace} field.
@@ -972,7 +972,7 @@ public class Throwable implements Serializable {
                 }
             }
         }
-        // A null stackTrace field in the serial form can result from
+        // ATest.A null stackTrace field in the serial form can result from
         // an exception serialized without that field in older JDK
         // releases; treat such exceptions as having empty stack
         // traces by leaving stackTrace assigned to a clone of
@@ -1005,7 +1005,7 @@ public class Throwable implements Serializable {
     /**
      * Write a {@code Throwable} object to a stream.
      *
-     * A {@code null} stack trace field is represented in the serial
+     * ATest.A {@code null} stack trace field is represented in the serial
      * form as a one-element array whose element is equal to {@code
      * new StackTraceElement("", "", null, Integer.MIN_VALUE)}.
      */

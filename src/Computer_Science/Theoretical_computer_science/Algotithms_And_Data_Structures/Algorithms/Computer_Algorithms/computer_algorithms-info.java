@@ -10,12 +10,12 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
 
                                               Computer systems
 
-        A computer:
+        ATest.A computer:
             is a machine that can be instructed to carry out sequences of arithmetic or logical operations automatically
             via computer programming. Modern computers have the ability to follow generalized sets of operations,called programs.
             These programs enable computers to perform an extremely wide range of tasks.
 
-        A "complete" computer:
+        ATest.A "complete" computer:
             including the hardware,
             the operating system (main software),
             and peripheral equipment required
@@ -30,7 +30,7 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
 
                                                     Control system
 
-        A control system manages, commands, directs, or regulates the behavior of other devices or systems using control loops.
+        ATest.A control system manages, commands, directs, or regulates the behavior of other devices or systems using control loops.
         It can range from a single home heating controller using a thermostat controlling a domestic boiler to large
         Industrial control systems which are used for controlling processes or machines.
 */

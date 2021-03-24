@@ -10,7 +10,7 @@ package Collections_.Algorithms_Polymorphic.Sorting;
 
     Fast:
         It is guaranteed to run in n log(n) time and runs substantially faster on nearly sorted lists. Empirical tests
-        showed it to be as fast as a highly optimized quicksort. A quicksort is generally considered to be faster than
+        showed it to be as fast as a highly optimized quicksort. ATest.A quicksort is generally considered to be faster than
         a merge sort but isn't stable and doesn't guarantee n log(n) performance.
     Stable:
         It doesn't reorder equal elements. This is important if you sort the same list repeatedly on different attributes.
@@ -40,7 +40,7 @@ package Collections_.Algorithms_Polymorphic.Sorting;
 
     The second form of sort takes
         a Comparator in addition to a List and sorts the elements with the Comparator. Suppose you want to print out
-        the anagram groups from our earlier example in reverse order of size — largest anagram group first. The example
+        the anagram groups from our earlier example in reverse order of size ï¿½ largest anagram group first. The example
         that follows shows you how to achieve this with the help of the second form of the sort method.
         Recall that the anagram groups are stored as values in a Map, in the form of List instances. The revised printing
         code iterates through the Map's values view, putting every List that passes the minimum-size test into a

@@ -38,7 +38,7 @@ import java.util.function.Consumer;
  * all of its entries.  This linked list defines the iteration ordering,
  * which is normally the order in which keys were inserted into the map
  * (<i>insertion-order</i>).  Note that insertion order is not affected
- * if a key is <i>re-inserted</i> into the map.  (A key <tt>k</tt> is
+ * if a key is <i>re-inserted</i> into the map.  (ATest.A key <tt>k</tt> is
  * reinserted into a map <tt>m</tt> if <tt>m.put(k, v)</tt> is invoked when
  * <tt>m.containsKey(k)</tt> would return <tt>true</tt> immediately prior to
  * the invocation.)
@@ -59,7 +59,7 @@ import java.util.function.Consumer;
  * the copy.  (Clients generally appreciate having things returned in the same
  * order they were presented.)
  *
- * <p>A special {@link #LinkedHashMap_(int,float,boolean) constructor} is
+ * <p>ATest.A special {@link #LinkedHashMap_(int,float,boolean) constructor} is
  * provided to create a linked hash map whose order of iteration is the order
  * in which its entries were last accessed, from least-recently accessed to
  * most-recently (<i>access-order</i>).  This kind of map is well-suited to
@@ -91,7 +91,7 @@ import java.util.function.Consumer;
  * is likely to be more expensive, requiring time proportional to its
  * <i>capacity</i>.
  *
- * <p>A linked hash map has two parameters that affect its performance:
+ * <p>ATest.A linked hash map has two parameters that affect its performance:
  * <i>initial capacity</i> and <i>load factor</i>.  They are defined precisely
  * as for <tt>HashMap</tt>.  Note, however, that the penalty for choosing an
  * excessively high value for initial capacity is less severe for this class
@@ -110,7 +110,7 @@ import java.util.function.Consumer;
  * unsynchronized access to the map:<pre>
  *   Map m = Collections.synchronizedMap(new LinkedHashMap(...));</pre>
  *
- * A structural modification is any operation that adds or deletes one or more
+ * ATest.A structural modification is any operation that adds or deletes one or more
  * mappings or, in the case of access-ordered linked hash maps, affects
  * iteration order.  In insertion-ordered linked hash maps, merely changing
  * the value associated with a key that is already contained in the map is not
@@ -167,7 +167,7 @@ public class LinkedHashMap_<K,V>
 {
 
     /*
-     * Implementation note.  A previous version of this class was
+     * Implementation note.  ATest.A previous version of this class was
      * internally structured a little differently. Because superclass
      * HashMap now uses trees for some of its nodes, class
      * LinkedHashMap.Entry is now treated as intermediary node class
@@ -430,7 +430,7 @@ public class LinkedHashMap_<K,V>
      * key.equals(k))}, then this method returns {@code v}; otherwise
      * it returns {@code null}.  (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
+     * <p>ATest.A return value of {@code null} does not <i>necessarily</i>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to

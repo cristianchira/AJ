@@ -3,75 +3,75 @@ package miscellaneous.typesvaluevariable;
 import Classes.Miscelanous.Point;
 
 /*
- * A variable is a storage location and has an associated type, sometimes called its
-compile-time type, that is either a primitive type (§4.2) or a reference type (§4.3).
+ * ATest.A variable is a storage location and has an associated type, sometimes called its
+compile-time type, that is either a primitive type (ï¿½4.2) or a reference type (ï¿½4.3).
 
 There are eight kinds of variables:
 
-1. A class variable is a field declared using the keyword static within a class
-declaration (§8.3.1.1), or with or without the keyword static within an
-interface declaration (§9.3).
-A class variable is created when its class or interface is prepared (§12.3.2) and
-is initialized to a default value (§4.12.5). The class variable effectively ceases
-to exist when its class or interface is unloaded (§12.7).
+1. ATest.A class variable is a field declared using the keyword static within a class
+declaration (ï¿½8.3.1.1), or with or without the keyword static within an
+interface declaration (ï¿½9.3).
+ATest.A class variable is created when its class or interface is prepared (ï¿½12.3.2) and
+is initialized to a default value (ï¿½4.12.5). The class variable effectively ceases
+to exist when its class or interface is unloaded (ï¿½12.7).
 
 2. An instance variable is a field declared within a class declaration without using
-the keyword static (§8.3.1.1).
+the keyword static (ï¿½8.3.1.1).
 If a class T has a field a that is an instance variable, then a new instance variable
-a is created and initialized to a default value (§4.12.5) as part of each newly
-created object of class T or of any class that is a subclass of T (§8.1.4). The
+a is created and initialized to a default value (ï¿½4.12.5) as part of each newly
+created object of class T or of any class that is a subclass of T (ï¿½8.1.4). The
 4.12 Variables TYPES, VALUES, AND VARIABLES
 84
 instance variable effectively ceases to exist when the object of which it is a field
-is no longer referenced, after any necessary finalization of the object (§12.6)
+is no longer referenced, after any necessary finalization of the object (ï¿½12.6)
 has been completed.
 
 3. Array components are unnamed variables that are created and initialized to
-default values (§4.12.5) whenever a new object that is an array is created (§10
-(Arrays), §15.10.2). The array components effectively cease to exist when the
+default values (ï¿½4.12.5) whenever a new object that is an array is created (ï¿½10
+(Arrays), ï¿½15.10.2). The array components effectively cease to exist when the
 array is no longer referenced.
 
-4. Method parameters (§8.4.1) name argument values passed to a method.
+4. Method parameters (ï¿½8.4.1) name argument values passed to a method.
 For every parameter declared in a method declaration, a new parameter variable
-is created each time that method is invoked (§15.12). The new variable is
+is created each time that method is invoked (ï¿½15.12). The new variable is
 initialized with the corresponding argument value from the method invocation.
 The method parameter effectively ceases to exist when the execution of the
 body of the method is complete.
 
-5. Constructor parameters (§8.8.1) name argument values passed to a
+5. Constructor parameters (ï¿½8.8.1) name argument values passed to a
 constructor.
 For every parameter declared in a constructor declaration, a new parameter
-variable is created each time a class instance creation expression (§15.9) or
-explicit constructor invocation (§8.8.7) invokes that constructor. The new
+variable is created each time a class instance creation expression (ï¿½15.9) or
+explicit constructor invocation (ï¿½8.8.7) invokes that constructor. The new
 variable is initialized with the corresponding argument value from the creation
 expression or constructor invocation. The constructor parameter effectively
 ceases to exist when the execution of the body of the constructor is complete.
 
-6. Lambda parameters (§15.27.1) name argument values passed to a lambda
-expression body (§15.27.2).
+6. Lambda parameters (ï¿½15.27.1) name argument values passed to a lambda
+expression body (ï¿½15.27.2).
 For every parameter declared in a lambda expression, a new parameter variable
 is created each time a method implemented by the lambda body is invoked
-(§15.12). The new variable is initialized with the corresponding argument
+(ï¿½15.12). The new variable is initialized with the corresponding argument
 value from the method invocation. The lambda parameter effectively ceases to
 exist when the execution of the lambda expression body is complete.
 
 7. An exception parameter is created each time an exception is caught by a catch
-clause of a try statement (§14.20).
+clause of a try statement (ï¿½14.20).
 The new variable is initialized with the actual object associated with the
-exception (§11.3, §14.18). The exception parameter effectively ceases to exist
+exception (ï¿½11.3, ï¿½14.18). The exception parameter effectively ceases to exist
 when execution of the block associated with the catch clause is complete.
 
-8. Local variables are declared by local variable declaration statements (§14.4).
-Whenever the flow of control enters a block (§14.2) or for statement
-(§14.14), a new variable is created for each local variable declared in a local
+8. Local variables are declared by local variable declaration statements (ï¿½14.4).
+Whenever the flow of control enters a block (ï¿½14.2) or for statement
+(ï¿½14.14), a new variable is created for each local variable declared in a local
 TYPES, VALUES, AND VARIABLES Variables 4.12
 85
 variable declaration statement immediately contained within that block or for
 statement.
-A local variable declaration statement may contain an expression which
+ATest.A local variable declaration statement may contain an expression which
 initializes the variable. The local variable with an initializing expression is not
 initialized, however, until the local variable declaration statement that declares
-it is executed. (The rules of definite assignment (§16 (Definite Assignment))
+it is executed. (The rules of definite assignment (ï¿½16 (Definite Assignment))
 prevent the value of a local variable from being used before it has been
 initialized or otherwise assigned a value.) The local variable effectively ceases
 to exist when the execution of the block or for statement is complete.

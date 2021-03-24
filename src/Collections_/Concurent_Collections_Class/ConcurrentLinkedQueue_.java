@@ -47,7 +47,7 @@ import java.util.function.Consumer;
  * queue the shortest time. New elements
  * are inserted at the tail of the queue, and the queue retrieval
  * operations obtain elements at the head of the queue.
- * A {@code ConcurrentLinkedQueue} is an appropriate choice when
+ * ATest.A {@code ConcurrentLinkedQueue} is an appropriate choice when
  * many threads will share access to a common collection.
  * Like most other concurrent collection implementations, this class
  * does not permit the use of {@code null} elements.
@@ -123,7 +123,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
      *   reference of a Node to null atomically removes it from the
      *   queue.  Reachability of all elements from head must remain
      *   true even in the case of concurrent modifications that cause
-     *   head to advance.  A dequeued Node may remain in use
+     *   head to advance.  ATest.A dequeued Node may remain in use
      *   indefinitely due to creation of an Iterator or simply a
      *   poll() that has lost its time slice.
      *
@@ -215,7 +215,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
     }
 
     /**
-     * A node from which the first live (non-deleted) node (if any)
+     * ATest.A node from which the first live (non-deleted) node (if any)
      * can be reached in O(1) time.
      * Invariants:
      * - all live nodes are reachable from head via succ()
@@ -229,7 +229,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
     private transient volatile Node<E> head;
 
     /**
-     * A node from which the last node on list (that is, the unique
+     * ATest.A node from which the last node on list (that is, the unique
      * node with node.next == null) can be reached in O(1) time.
      * Invariants:
      * - the last node is always reachable from tail via succ()
@@ -796,7 +796,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
         tail = t;
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class CLQSpliterator<E> implements Spliterator<E> {
         static final int MAX_BATCH = 1 << 25;  // max batch array size;
         final ConcurrentLinkedQueue_<E> queue;

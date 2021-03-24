@@ -33,7 +33,7 @@ import java.util.Spliterator;
 import java.util.TreeSet;
 
 /**
- * A {@link Set_} that further provides a <i>total ordering</i> on its elements.
+ * ATest.A {@link Set_} that further provides a <i>total ordering</i> on its elements.
  * The elements are ordered using their {@linkplain Comparable natural
  * ordering}, or by a {@link Comparator_} typically provided at sorted
  * set creation time.  The set's iterator will traverse the set in
@@ -64,15 +64,15 @@ import java.util.TreeSet;
  * contract of the <tt>Set</tt> interface.
  *
  * <p>All general-purpose sorted set implementation classes should
- * provide four "standard" constructors: 1) A void (no arguments)
+ * provide four "standard" constructors: 1) ATest.A void (no arguments)
  * constructor, which creates an empty sorted set sorted according to
- * the natural ordering of its elements.  2) A constructor with a
+ * the natural ordering of its elements.  2) ATest.A constructor with a
  * single argument of type <tt>Comparator</tt>, which creates an empty
- * sorted set sorted according to the specified comparator.  3) A
+ * sorted set sorted according to the specified comparator.  3) ATest.A
  * constructor with a single argument of type <tt>Collection</tt>,
  * which creates a new sorted set with the same elements as its
  * argument, sorted according to the natural ordering of the elements.
- * 4) A constructor with a single argument of type <tt>SortedSet</tt>,
+ * 4) ATest.A constructor with a single argument of type <tt>SortedSet</tt>,
  * which creates a new sorted set with the same elements and the same
  * ordering as the input sorted set.  There is no way to enforce this
  * recommendation, as interfaces cannot contain constructors.
@@ -89,7 +89,7 @@ import java.util.TreeSet;
  * <tt>high</tt>, inclusive:<pre>
  *   SortedSet&lt;String&gt; sub = s.subSet(low, high+"\0");</pre>
  *
- * A similar technique can be used to generate an <i>open range</i> (which
+ * ATest.A similar technique can be used to generate an <i>open range</i> (which
  * contains neither endpoint).  The following idiom obtains a view
  * containing all of the Strings in <tt>s</tt> from <tt>low</tt> to
  * <tt>high</tt>, exclusive:<pre>

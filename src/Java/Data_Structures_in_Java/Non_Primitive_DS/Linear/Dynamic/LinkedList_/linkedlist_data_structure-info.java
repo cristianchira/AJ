@@ -9,7 +9,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.LinkedList_
 
     Characteristics of LinkedList: -------------------------------------------------------------------------------------
 
-              A linked list is a collection of objects known as a node where node consists of two parts:
+              ATest.A linked list is a collection of objects known as a node where node consists of two parts:
                  data
                  and address.
               Linked list elements can be stored anywhere in the memory or randomly stored.
@@ -39,11 +39,11 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.LinkedList_
 
     The important points about Java LinkedList are: --------------------------------------------------------------------
 
-              • Java LinkedList class can contain duplicate elements.
-              • Java LinkedList class maintains insertion order.
-              • Java LinkedList class is non synchronized.
-              • In Java LinkedList class, manipulation is fast because no shifting needs to occur.
-              • Java LinkedList class can be used as a list, stack or queue.
+              ï¿½ Java LinkedList class can contain duplicate elements.
+              ï¿½ Java LinkedList class maintains insertion order.
+              ï¿½ Java LinkedList class is non synchronized.
+              ï¿½ In Java LinkedList class, manipulation is fast because no shifting needs to occur.
+              ï¿½ Java LinkedList class can be used as a list, stack or queue.
 
     Types of linked List: ----------------------------------------------------------------------------------------------
 

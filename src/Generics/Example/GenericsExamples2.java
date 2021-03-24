@@ -71,10 +71,10 @@ public class GenericsExamples2 {
 		doSomethingListModifiedSuper(animalsList);
 		doSomethingListModifiedSuper(dogsList);
 
-		// A method declared with List<Object> can only be called with a List
+		// ATest.A method declared with List<Object> can only be called with a List
 		// declared with type Object. None of the other classes are valid.
-		// A method declared with List<?> can be called with a List of any type.
-		// A method declared with List<? extends Object> can be called with a
+		// ATest.A method declared with List<?> can be called with a List of any type.
+		// ATest.A method declared with List<? extends Object> can be called with a
 		// List of any type - since all classes are sub classes of Object.
 
 		// ? can only be used in Declaring a type. Cannot be used as part of

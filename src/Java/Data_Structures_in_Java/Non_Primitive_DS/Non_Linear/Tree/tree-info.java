@@ -7,9 +7,9 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
 
     Some key points of the Tree data structure: -----------------------------------------------------------------------
 
-          A tree data structure is
+          ATest.A tree data structure is
               defined as a collection of objects or entities known as nodes that are linked together to represent or simulate hierarchy.
-          A tree data structure is
+          ATest.A tree data structure is
                 a non-linear data structure because it does not store in a sequential manner. It is a hierarchical structure
                 as elements in a Tree are arranged in multiple levels.
 
@@ -32,11 +32,11 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
           Sibling:
                  The nodes that have the same parent are known as siblings.
           Leaf Node:
-                 - The node of the tree, which doesn't have any child node, is called a leaf node. A leaf node is the
+                 - The node of the tree, which doesn't have any child node, is called a leaf node. ATest.A leaf node is the
                   bottom-most node of the tree. There can be any number of leaf nodes present in a general tree. Leaf
                   nodes can also be called external nodes.
           Internal nodes:
-                   A node has at least one child node known as an internal
+                   ATest.A node has at least one child node known as an internal
           Ancestor node:
                    - An ancestor of a node is any predecessor node on a path from the root to that node. The root node
                     doesn't have any ancestors. In the tree shown in the above image, nodes 1, 2, and 5 are the ancestors of node 10.
@@ -46,7 +46,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
     Properties of Tree data structure ----------------------------------------------------------------------------------
 
        1.Recursive data structure:
-            The tree is also known as a recursive data structure. A tree can be defined as recursively because the
+            The tree is also known as a recursive data structure. ATest.A tree can be defined as recursively because the
             distinguished node in a tree data structure is known as a root node. The root node of the tree contains a
             link to all the roots of its subtrees. The left subtree is shown in the yellow color in the below figure,
             and the right subtree is shown in the red color. The left subtree can be further split into subtrees shown in
@@ -86,8 +86,8 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
         spell checking.
     Heap:
         It is also a tree data structure implemented using arrays. It is used to implement priority queues.
-    B-Tree and B+Tree:
-        B-Tree and B+Tree are the tree data structures used to implement indexing in databases.
+    ATest.B-Tree and ATest.B+Tree:
+        ATest.B-Tree and ATest.B+Tree are the tree data structures used to implement indexing in databases.
     Routing table:
         The tree data structure is also used to store the data in routing tables in the routers.
 
@@ -109,12 +109,12 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
             https://www.javatpoint.com/binary-tree
         Binary Search tree:
              Binary search tree is a non-linear data structure in which one node is connected to n number of nodes.
-             t is a node-based data structure. A node can be represented in a binary search tree with three fields, i.e.,
-             data part, left-child, and right-child. A node can be connected to the utmost two child nodes in a binary search
+             t is a node-based data structure. ATest.A node can be represented in a binary search tree with three fields, i.e.,
+             data part, left-child, and right-child. ATest.A node can be connected to the utmost two child nodes in a binary search
              tree, so the node contains two pointers (left child and right child pointer).
              Every node in the left subtree must contain a value less than the value of the root node, and the value of
              each node in the right subtree must be bigger than the value of the root node.
-             A node can be created with the help of a user-defined data type known as struct, as shown below:
+             ATest.A node can be created with the help of a user-defined data type known as struct, as shown below:
              The above is the node structure with three fields: data field, the second field is the left pointer of the
              node type, and the third field is the right pointer of the node type.
              To know more about the binary search tree, click on the link given below:
@@ -163,8 +163,8 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
             The Treap data structure follows two properties which are given below:
                  Right child of a node>=current node and left child of a node <=current node (binary tree)
                  Children of any subtree must be greater than the node (heap)
-        B-tree
-            B-tree is a balanced m-way tree where m defines the order of the tree. Till now, we read that the node contains
+        ATest.B-tree
+            ATest.B-tree is a balanced m-way tree where m defines the order of the tree. Till now, we read that the node contains
             only one key but b-tree can have more than one key, and more than 2 children. It always maintains the sorted data.
             In binary tree, it is possible that leaf nodes can be at different levels, but in b-tree, all the leaf nodes
             must be at the same level.
@@ -177,7 +177,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
                 Each node has maximum (m-1) keys.
                 The root node must contain minimum 1 key and all other nodes must contain atleast ceiling of m/2 minus 1 keys.
 
-                                                   A balanced binary tree
+                                                   ATest.A balanced binary tree
 
     also referred to as a height-balanced binary tree, is defined as a binary tree in which:
         the height of the left and right subtree of any node differ by not more than 1.
@@ -192,6 +192,6 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree;
 
                                                    How do Self-Balancing-Tree maintain height?
 
-    A typical operation done by trees is rotation.(left rotation and Right rotation)
+    ATest.A typical operation done by trees is rotation.(left rotation and Right rotation)
 
  */

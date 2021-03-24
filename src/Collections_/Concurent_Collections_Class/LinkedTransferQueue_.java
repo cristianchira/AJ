@@ -103,7 +103,7 @@ public class LinkedTransferQueue_<E> extends AbstractQueue<E>
      * block.  Dual Transfer Queues support all of these modes, as
      * dictated by callers.
      *
-     * A FIFO dual queue may be implemented using a variation of the
+     * ATest.A FIFO dual queue may be implemented using a variation of the
      * Michael & Scott (M&S) lock-free queue algorithm
      * (http://www.cs.rochester.edu/u/scott/papers/1996_PODC_queues.pdf).
      * It maintains two pointer fields, "head", pointing to a
@@ -138,7 +138,7 @@ public class LinkedTransferQueue_<E> extends AbstractQueue<E>
      * linking, and unavailable by matching.) Compared to plain M&S
      * queues, this property of dual queues requires one additional
      * successful atomic operation per enq/deq pair. But it also
-     * enables lower cost variants of queue maintenance mechanics. (A
+     * enables lower cost variants of queue maintenance mechanics. (ATest.A
      * variation of this idea applies even for non-dual queues that
      * support deletion of interior elements, such as
      * j.u.c.ConcurrentLinkedQueue.)
@@ -930,7 +930,7 @@ public class LinkedTransferQueue_<E> extends AbstractQueue<E>
         }
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class LTQSpliterator<E> implements Spliterator<E> {
         static final int MAX_BATCH = 1 << 25;  // max batch array size;
         final LinkedTransferQueue_<E> queue;

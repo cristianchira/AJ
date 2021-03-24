@@ -70,7 +70,7 @@ class Merge_Sort_Class {
         }
     }
 
-    /* A utility function to print array of size n */
+    /* ATest.A utility function to print array of size n */
     static void printArray(int arr[]) {
         int n = arr.length;
         for (int i = 0; i < n; ++i)

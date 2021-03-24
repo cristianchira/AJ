@@ -28,7 +28,7 @@
  * from JDK ArrayList.java which carries the following copyright:
  *
  * Copyright 1997 by Sun Microsystems, Inc.,
- * 901 San Antonio Road, Palo Alto, California, 94303, U.S.A.
+ * 901 San Antonio Road, Palo Alto, California, 94303, U.S.ATest.A.
  * All rights reserved.
  */
 
@@ -43,7 +43,7 @@ import java.util.function.Predicate;
 import java.util.function.UnaryOperator;
 
 /**
- * A thread-safe variant of {@link java.util.ArrayList} in which all mutative
+ * ATest.A thread-safe variant of {@link java.util.ArrayList} in which all mutative
  * operations ({@code add}, {@code set}, and so on) are implemented by
  * making a fresh copy of the underlying array.
  *
@@ -519,7 +519,7 @@ public class CopyOnWriteArrayList_<E>
     }
 
     /**
-     * A version of remove(Object) using the strong hint that given
+     * ATest.A version of remove(Object) using the strong hint that given
      * recent snapshot contains o at the given index.
      */
     private boolean remove(Object o, Object[] snapshot, int index) {
@@ -606,7 +606,7 @@ public class CopyOnWriteArrayList_<E>
     }
 
     /**
-     * A version of addIfAbsent using the strong hint that given
+     * ATest.A version of addIfAbsent using the strong hint that given
      * recent snapshot does not contain e.
      */
     private boolean addIfAbsent(E e, Object[] snapshot) {

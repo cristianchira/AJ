@@ -8,10 +8,10 @@ package Recursion_In_Java;
 
     There are two main requirements of a recursive function:
 
-        A Stop Condition
-            – the function returns a value when a certain condition is satisfied, without a further recursive call
+        ATest.A Stop Condition
+            ï¿½ the function returns a value when a certain condition is satisfied, without a further recursive call
         The Recursive Call
-            – the function calls itself with an input which is a step closer to the stop condition
+            ï¿½ the function calls itself with an input which is a step closer to the stop condition
 
         For example, suppose we want to sum the integers from 0 to some value n:
 

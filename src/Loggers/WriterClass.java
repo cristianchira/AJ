@@ -3,7 +3,7 @@ package Loggers;
 public class WriterClass {
 	public static void main(String[] args) {
 		MyFileWriter writer = new MyFileWriter();
-		String string = "A lot of thing to talk about...";
+		String string = "ATest.A lot of thing to talk about...";
 		
 		writer.write(string);
 	}

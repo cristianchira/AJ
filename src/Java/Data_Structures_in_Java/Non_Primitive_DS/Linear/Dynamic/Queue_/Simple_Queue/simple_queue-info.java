@@ -4,7 +4,7 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.Queue_.Simp
 
 /*                                             Simple Queue
 
-    A queue is an object (an abstract data structure - ADT)
+    ATest.A queue is an object (an abstract data structure - ADT)
 
     In a simple queue,
 

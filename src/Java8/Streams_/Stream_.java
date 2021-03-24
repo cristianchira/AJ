@@ -33,7 +33,7 @@ import java.util.function.*;
 import java.util.stream.*;
 
 /**
- * A sequence of elements supporting sequential and parallel aggregate operations. The following example illustrates
+ * ATest.A sequence of elements supporting sequential and parallel aggregate operations. The following example illustrates
  * an aggregate operation using  {@link Stream_} and {@link IntStream}:
  *
  * <pre>{@code
@@ -56,7 +56,7 @@ import java.util.stream.*;
  *
  * <p>To perform a computation, stream
  * <a href="package-summary.html#StreamOps">operations</a> are composed into a
- * <em>stream pipeline</em>.  A stream pipeline consists of a source (which
+ * <em>stream pipeline</em>.  ATest.A stream pipeline consists of a source (which
  * might be an array, a collection, a generator function, an I/O channel,
  * etc), zero or more <em>intermediate operations</em> (which transform a
  * stream into another stream, such as {@link Stream_#filter(Predicate)}), and a
@@ -76,7 +76,7 @@ import java.util.stream.*;
  * functionality, the {@link #iterator()} and {@link #spliterator()} operations
  * can be used to perform a controlled traversal.
  *
- * <p>A stream pipeline, like the "widgets" example above, can be viewed as
+ * <p>ATest.A stream pipeline, like the "widgets" example above, can be viewed as
  * a <em>query</em> on the stream source.  Unless the source was explicitly
  * designed for concurrent modification (such as a {@link ConcurrentHashMap}),
  * unpredictable or erroneous behavior may result from modifying the stream
@@ -100,10 +100,10 @@ import java.util.stream.*;
  * method references.  Unless otherwise specified these parameters must be
  * <em>non-null</em>.
  *
- * <p>A stream should be operated on (invoking an intermediate or terminal stream
+ * <p>ATest.A stream should be operated on (invoking an intermediate or terminal stream
  * operation) only once.  This rules out, for example, "forked" streams, where
  * the same source feeds two or more pipelines, or multiple traversals of the
- * same stream.  A stream implementation may throw {@link IllegalStateException}
+ * same stream.  ATest.A stream implementation may throw {@link IllegalStateException}
  * if it detects that the stream is being reused. However, since some stream
  * operations may return their receiver rather than a new stream object, it may
  * not be possible to detect reuse in all cases.
@@ -678,7 +678,7 @@ public interface Stream_<T> extends BaseStream<T, Stream_<T>> {
 
     /**
      * Performs a <a href="package-summary.html#MutableReduction">mutable
-     * reduction</a> operation on the elements of this stream.  A mutable
+     * reduction</a> operation on the elements of this stream.  ATest.A mutable
      * reduction is one in which the reduced value is a mutable result container,
      * such as an {@code ArrayList}, and elements are incorporated by updating
      * the state of the result rather than by replacing the result.  This
@@ -734,7 +734,7 @@ public interface Stream_<T> extends BaseStream<T, Stream_<T>> {
     /**
      * Performs a <a href="package-summary.html#MutableReduction">mutable
      * reduction</a> operation on the elements of this stream using a
-     * {@code Collector}.  A {@code Collector}
+     * {@code Collector}.  ATest.A {@code Collector}
      * encapsulates the functions used as arguments to
      * {@link #collect(Supplier, BiConsumer, BiConsumer)}, allowing for reuse of
      * collection strategies and composition of collect operations such as
@@ -1062,12 +1062,12 @@ public interface Stream_<T> extends BaseStream<T, Stream_<T>> {
 //    }
 
     /**
-     * A mutable builder for a {@code Stream}.  This allows the creation of a
+     * ATest.A mutable builder for a {@code Stream}.  This allows the creation of a
      * {@code Stream} by generating elements individually and adding them to the
      * {@code Builder} (without the copying overhead that comes from using
      * an {@code ArrayList} as a temporary buffer.)
      *
-     * <p>A stream builder has a lifecycle, which starts in a building
+     * <p>ATest.A stream builder has a lifecycle, which starts in a building
      * phase, during which elements can be added, and then transitions to a built
      * phase, after which elements may not be added.  The built phase begins
      * when the {@link #build()} method is called, which creates an ordered

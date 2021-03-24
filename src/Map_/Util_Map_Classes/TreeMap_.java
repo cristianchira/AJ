@@ -34,7 +34,7 @@ import java.util.function.BiFunction;
 import java.util.function.Consumer;
 
 /**
- * A Red-Black tree based {@link NavigableMap} implementation.
+ * ATest.A Red-Black tree based {@link NavigableMap} implementation.
  * The map is sorted according to the {@linkplain Comparable natural
  * ordering} of its keys, or by a {@link Comparator} provided at map
  * creation time, depending on which constructor is used.
@@ -60,7 +60,7 @@ import java.util.function.Consumer;
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access a map concurrently, and at least one of the
  * threads modifies the map structurally, it <em>must</em> be synchronized
- * externally.  (A structural modification is any operation that adds or
+ * externally.  (ATest.A structural modification is any operation that adds or
  * deletes one or more mappings; merely changing the value associated
  * with an existing key is not a structural modification.)  This is
  * typically accomplished by synchronizing on some object that naturally
@@ -262,7 +262,7 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      * method returns {@code v}; otherwise it returns {@code null}.
      * (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <em>necessarily</em>
+     * <p>ATest.A return value of {@code null} does not <em>necessarily</em>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to
@@ -524,7 +524,7 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      *
      * @return the previous value associated with {@code key}, or
      *         {@code null} if there was no mapping for {@code key}.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with {@code key}.)
      * @throws ClassCastException if the specified key cannot be compared
      *         with the keys currently in the map
@@ -591,7 +591,7 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      * @param  key key for which mapping should be removed
      * @return the previous value associated with {@code key}, or
      *         {@code null} if there was no mapping for {@code key}.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with {@code key}.)
      * @throws ClassCastException if the specified key cannot be compared
      *         with the keys currently in the map
@@ -2476,9 +2476,9 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      *
      *    1) An iterator of Map.Entries.  (it != null, defaultVal == null).
      *    2) An iterator of keys.         (it != null, defaultVal != null).
-     *    3) A stream of alternating serialized keys and values.
+     *    3) ATest.A stream of alternating serialized keys and values.
      *                                   (it == null, defaultVal == null).
-     *    4) A stream of serialized keys. (it == null, defaultVal != null).
+     *    4) ATest.A stream of serialized keys. (it == null, defaultVal != null).
      *
      * It is assumed that the comparator of the TreeMap is already set prior
      * to calling this method.

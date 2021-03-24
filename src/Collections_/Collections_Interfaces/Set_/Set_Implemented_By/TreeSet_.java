@@ -5,7 +5,7 @@ import Collections_.Collections_Classes.Collections_;
 import java.util.*;
 
 /**
- * A {@link NavigableSet} implementation based on a {@link TreeMap}.
+ * ATest.A {@link NavigableSet} implementation based on a {@link TreeMap}.
  * The elements are ordered using their {@linkplain Comparable natural
  * ordering}, or by a {@link Comparator} provided at set creation
  * time, depending on which constructor is used.

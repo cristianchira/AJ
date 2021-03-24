@@ -41,12 +41,12 @@ import java.util.Iterator;
 import java.util.SortedSet;
 
 /**
- * A {@link SortedSet} extended with navigation methods reporting
+ * ATest.A {@link SortedSet} extended with navigation methods reporting
  * closest matches for given search targets. Methods {@code lower},
  * {@code floor}, {@code ceiling}, and {@code higher} return elements
  * respectively less than, less than or equal, greater than or equal,
  * and greater than a given element, returning {@code null} if there
- * is no such element.  A {@code NavigableSet} may be accessed and
+ * is no such element.  ATest.A {@code NavigableSet} may be accessed and
  * traversed in either ascending or descending order.  The {@code
  * descendingSet} method returns a view of the set with the senses of
  * all relational and directional methods inverted. The performance of

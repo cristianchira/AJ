@@ -6,7 +6,7 @@ package Java.Coupling;
     So, we should always aim for low coupling between classes.
 
     In object oriented design, Coupling refers to the degree of direct knowledge that one element has of another.
-    In other words, how often do changes in class A force related changes in class B.
+    In other words, how often do changes in class ATest.A force related changes in class ATest.B.
 
     Tight coupling ----------------------------------------------------------------------------------------------------
 

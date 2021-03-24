@@ -46,7 +46,7 @@ import java.util.function.Consumer;
  * and <em>load factor</em>.
  *
  * <p> Like most collection classes, this class is not synchronized.
- * A synchronized <tt>WeakHashMap</tt> may be constructed using the
+ * ATest.A synchronized <tt>WeakHashMap</tt> may be constructed using the
  * {@link Collections#synchronizedMap Collections.synchronizedMap}
  * method.
  *
@@ -377,7 +377,7 @@ public class WeakHashMap_<K,V> extends AbstractMap_<K,V> implements Map<K,V> {
      * key.equals(k))}, then this method returns {@code v}; otherwise
      * it returns {@code null}.  (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
+     * <p>ATest.A return value of {@code null} does not <i>necessarily</i>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to
@@ -435,7 +435,7 @@ public class WeakHashMap_<K,V> extends AbstractMap_<K,V> implements Map<K,V> {
      * @param value value to be associated with the specified key.
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      */
     public V put(K key, V value) {
@@ -568,7 +568,7 @@ public class WeakHashMap_<K,V> extends AbstractMap_<K,V> implements Map<K,V> {
      * at most one such mapping.)
      *
      * <p>Returns the value to which this map previously associated the key,
-     * or <tt>null</tt> if the map contained no mapping for the key.  A
+     * or <tt>null</tt> if the map contained no mapping for the key.  ATest.A
      * return value of <tt>null</tt> does not <i>necessarily</i> indicate
      * that the map contained no mapping for the key; it's also possible
      * that the map explicitly mapped the key to <tt>null</tt>.

@@ -2,17 +2,17 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree.Heap;
 
 // https://www.geeksforgeeks.org/heap-data-structure/
 
-/*                                                       A Heap
+/*                                                       ATest.A Heap
 
     is a special Tree-based data structure in which the tree is a complete binary tree.
 
     Generally, Heaps can be of two types:
 
         1.Max-Heap:
-            In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children.
+            In a Max-Heap the key present at the root node must be greatest among the keys present at all of itï¿½s children.
             The same property must be recursively true for all sub-trees in that Binary Tree.
         2.Min-Heap:
-            In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children.
+            In a Min-Heap the key present at the root node must be minimum among the keys present at all of itï¿½s children.
             The same property must be recursively true for all sub-trees in that Binary Tree.
 
   https://www.geeksforgeeks.org/heap-data-structure/
@@ -26,8 +26,8 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree.Heap;
     K-ary Heap
     Heap Sort
     Iterative Heap Sort
-    K’th Largest Element in an array
-    K’th Smallest/Largest Element in Unsorted Array | Set 1
+    Kï¿½th Largest Element in an array
+    Kï¿½th Smallest/Largest Element in Unsorted Array | Set 1
     Sort an almost sorted array/
     Tournament Tree (Winner Tree) and Binary Heap
     Check if a given Binary Tree is Heap
@@ -59,9 +59,9 @@ package Java.Data_Structures_in_Java.Non_Primitive_DS.Non_Linear.Tree.Heap;
     Rearrange characters in a string such that no two adjacent are same
     Implementation of Binomial Heap
     Array Representation Of Binary Heap
-    Sum of all elements between k1’th and k2’th smallest elements
+    Sum of all elements between k1ï¿½th and k2ï¿½th smallest elements
     Minimum sum of two numbers formed from digits of an array
-    K’th largest element in a stream
+    Kï¿½th largest element in a stream
     k largest(or smallest) elements in an array | added Min Heap method
     Median in a stream of integers (running integers)
     Sort a nearly sorted (or K sorted) array

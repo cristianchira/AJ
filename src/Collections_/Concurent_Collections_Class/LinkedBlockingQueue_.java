@@ -79,7 +79,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
     private static final long serialVersionUID = -6903933977591709194L;
 
     /*
-     * A variant of the "two lock queue" algorithm.  The putLock gates
+     * ATest.A variant of the "two lock queue" algorithm.  The putLock gates
      * entry to put (and offer), and has an associated condition for
      * waiting puts.  Similarly for the takeLock.  The "count" field
      * that they both rely on is maintained as an atomic to avoid
@@ -94,7 +94,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
      * Visibility between writers and readers is provided as follows:
      *
      * Whenever an element is enqueued, the putLock is acquired and
-     * count updated.  A subsequent reader guarantees visibility to the
+     * count updated.  ATest.A subsequent reader guarantees visibility to the
      * enqueued Node by either acquiring the putLock (via fullyLock)
      * or by acquiring the takeLock, and then reading n = count.get();
      * this gives visibility to the first n items.
@@ -852,7 +852,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
         }
     }
 
-    /** A customized variant of Spliterators.IteratorSpliterator */
+    /** ATest.A customized variant of Spliterators.IteratorSpliterator */
     static final class LBQSpliterator<E> implements Spliterator<E> {
         static final int MAX_BATCH = 1 << 25;  // max batch array size;
         final LinkedBlockingQueue_<E> queue;

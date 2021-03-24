@@ -50,7 +50,7 @@ import java.util.function.*;
 import java.util.stream.Stream;
 
 /**
- * A hash table supporting full concurrency of retrievals and
+ * ATest.A hash table supporting full concurrency of retrievals and
  * high expected concurrency for updates. This class obeys the
  * same functional specification as {@link Hashtable}, and
  * includes versions of methods corresponding to each method of
@@ -104,13 +104,13 @@ import java.util.stream.Stream;
  * hash table. To ameliorate impact, when keys are {@link Comparable},
  * this class may use comparison order among keys to help break ties.
  *
- * <p>A {@link Set} projection of a ConcurrentHashMap may be created
+ * <p>ATest.A {@link Set} projection of a ConcurrentHashMap may be created
  * (using {@link #newKeySet()} or {@link #newKeySet(int)}), or viewed
  * (using {@link #keySet(Object)} when only keys are of interest, and the
  * mapped values are (perhaps transiently) not used or all take the
  * same mapping value.
  *
- * <p>A ConcurrentHashMap can be used as scalable frequency map (a
+ * <p>ATest.A ConcurrentHashMap can be used as scalable frequency map (a
  * form of histogram or multiset) by using {@link
  * java.util.concurrent.atomic.LongAdder} values and initializing via
  * {@link #computeIfAbsent computeIfAbsent}. For example, to add a count
@@ -142,7 +142,7 @@ import java.util.stream.Stream;
  *
  * <ul>
  * <li> forEach: Perform a given action on each element.
- * A variant form applies a given transformation on each element
+ * ATest.A variant form applies a given transformation on each element
  * before performing the action.</li>
  *
  * <li> search: Return the first available non-null result of
@@ -357,7 +357,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
      * progress.  Resizing proceeds by transferring bins, one by one,
      * from the table to the next table. However, threads claim small
      * blocks of indices to transfer (via field transferIndex) before
-     * doing so, reducing contention.  A generation stamp in field
+     * doing so, reducing contention.  ATest.A generation stamp in field
      * sizeCtl ensures that resizings do not overlap. Because we are
      * using power-of-two expansion, the elements from each bin must
      * either stay at same index, or move with a power of two
@@ -2135,7 +2135,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     /* ---------------- Special Nodes -------------- */
 
     /**
-     * A node inserted at head of bins during transfer operations.
+     * ATest.A node inserted at head of bins during transfer operations.
      */
     static final class ForwardingNode<K,V> extends Node<K,V> {
         final Node<K,V>[] nextTable;
@@ -2172,7 +2172,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     }
 
     /**
-     * A place-holder node used in computeIfAbsent and compute
+     * ATest.A place-holder node used in computeIfAbsent and compute
      */
     static final class ReservationNode<K,V> extends Node<K,V> {
         ReservationNode() {
@@ -2477,7 +2477,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     /* ---------------- Counter support -------------- */
 
     /**
-     * A padded cell for distributing counts.  Adapted from LongAdder
+     * ATest.A padded cell for distributing counts.  Adapted from LongAdder
      * and Striped64.  See their internal docs for explanation.
      */
     @sun.misc.Contended static final class CounterCell {
@@ -4500,7 +4500,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     }
 
     /**
-     * A view of a ConcurrentHashMap as a {@link Set} of keys, in
+     * ATest.A view of a ConcurrentHashMap as a {@link Set} of keys, in
      * which additions may optionally be enabled by mapping to a
      * common value.  This class cannot be directly instantiated.
      * See {@link #keySet() keySet()},
@@ -4629,7 +4629,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     }
 
     /**
-     * A view of a ConcurrentHashMap as a {@link Collection} of
+     * ATest.A view of a ConcurrentHashMap as a {@link Collection} of
      * values, in which additions are disabled. This class cannot be
      * directly instantiated. See {@link #values()}.
      */
@@ -4687,7 +4687,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
     }
 
     /**
-     * A view of a ConcurrentHashMap as a {@link Set} of (key, value)
+     * ATest.A view of a ConcurrentHashMap as a {@link Set} of (key, value)
      * entries.  This class cannot be directly instantiated. See
      * {@link #entrySet()}.
      */

@@ -62,7 +62,7 @@ import java.util.function.UnaryOperator;
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access an <tt>ArrayList</tt> instance concurrently,
  * and at least one of the threads modifies the list structurally, it
- * <i>must</i> be synchronized externally.  (A structural modification is
+ * <i>must</i> be synchronized externally.  (ATest.A structural modification is
  * any operation that adds or deletes one or more elements, or explicitly
  * resizes the backing array; merely setting the value of an element is not
  * a structural modification.)  This is typically accomplished by
@@ -657,7 +657,7 @@ public class ArrayList_<E> extends AbstractList<E>
     }
 
     /**
-     * A version of rangeCheck used by add and addAll.
+     * ATest.A version of rangeCheck used by add and addAll.
      */
     private void rangeCheckForAdd(int index) {
         if (index > size || index < 0)

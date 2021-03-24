@@ -155,7 +155,7 @@ public class Collections_ {
      *
      * @param  <T> the class of the objects in the list
      * @param  list the list to be sorted.
-     * @param  c the comparator to determine the order of the list.  A
+     * @param  c the comparator to determine the order of the list.  ATest.A
      *        {@code null} value indicates that the elements' <i>natural
      *        ordering</i> should be used.
      * @throws ClassCastException if the list contains elements that are not
@@ -292,7 +292,7 @@ public class Collections_ {
      * @param  list the list to be searched.
      * @param  key the key to be searched for.
      * @param  c the comparator by which the list is ordered.
-     *         A <tt>null</tt> value indicates that the elements'
+     *         ATest.A <tt>null</tt> value indicates that the elements'
      *         {@linkplain Comparable natural ordering} should be used.
      * @return the index of the search key, if it is contained in the list;
      *         otherwise, <tt>(-(<i>insertion point</i>) - 1)</tt>.  The
@@ -613,7 +613,7 @@ public class Collections_ {
      * @param  <T> the class of the objects in the collection
      * @param  coll the collection whose minimum element is to be determined.
      * @param  comp the comparator with which to determine the minimum element.
-     *         A <tt>null</tt> value indicates that the elements' <i>natural
+     *         ATest.A <tt>null</tt> value indicates that the elements' <i>natural
      *         ordering</i> should be used.
      * @return the minimum element of the given collection, according
      *         to the specified comparator.
@@ -686,7 +686,7 @@ public class Collections_ {
      * @param  <T> the class of the objects in the collection
      * @param  coll the collection whose maximum element is to be determined.
      * @param  comp the comparator with which to determine the maximum element.
-     *         A <tt>null</tt> value indicates that the elements' <i>natural
+     *         ATest.A <tt>null</tt> value indicates that the elements' <i>natural
      *        ordering</i> should be used.
      * @return the maximum element of the given collection, according
      *         to the specified comparator.
@@ -1209,7 +1209,7 @@ public class Collections_ {
         private static final long serialVersionUID = -6027448201786391929L;
 
         /**
-         * A singleton empty unmodifiable navigable set used for
+         * ATest.A singleton empty unmodifiable navigable set used for
          * {@link #emptyNavigableSet()}.
          *
          * @param <E> type of elements, if there were any, and bounds
@@ -1835,7 +1835,7 @@ public class Collections_ {
         private static final long serialVersionUID = -4858195264774772197L;
 
         /**
-         * A class for the {@link EMPTY_NAVIGABLE_MAP} which needs readResolve
+         * ATest.A class for the {@link EMPTY_NAVIGABLE_MAP} which needs readResolve
          * to preserve singleton property.
          *
          * @param <K> type of keys, if there were any, and of bounds
@@ -2836,7 +2836,7 @@ public class Collections_ {
     }
 
     /**
-     * A synchronized NavigableMap.
+     * ATest.A synchronized NavigableMap.
      *
      * @serial include
      */
@@ -3101,7 +3101,7 @@ public class Collections_ {
                 for (Object o : a)
                     typeCheck(o);
             }
-            // A slight abuse of the type system, but safe here.
+            // ATest.A slight abuse of the type system, but safe here.
             return (Collection<E>) Arrays.asList(a);
         }
 
@@ -3137,7 +3137,7 @@ public class Collections_ {
      * takes place through the view, it is <i>guaranteed</i> that the
      * queue cannot contain an incorrectly typed element.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3192,7 +3192,7 @@ public class Collections_ {
      * takes place through the view, it is <i>guaranteed</i> that the
      * set cannot contain an incorrectly typed element.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3238,7 +3238,7 @@ public class Collections_ {
      * <i>guaranteed</i> that the sorted set cannot contain an incorrectly
      * typed element.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3301,7 +3301,7 @@ public class Collections_ {
      * <em>guaranteed</em> that the navigable set cannot contain an incorrectly
      * typed element.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3382,7 +3382,7 @@ public class Collections_ {
      * takes place through the view, it is <i>guaranteed</i> that the
      * list cannot contain an incorrectly typed element.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3526,7 +3526,7 @@ public class Collections_ {
      * (or one of its collection views), it is <i>guaranteed</i> that the
      * map cannot contain an incorrectly typed key or value.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3922,7 +3922,7 @@ public class Collections_ {
      * (or one of its collection views), it is <i>guaranteed</i> that the
      * map cannot contain an incorrectly typed key or value.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -3996,7 +3996,7 @@ public class Collections_ {
      * (or one of its collection views), it is <em>guaranteed</em> that the
      * map cannot contain an incorrectly typed key or value.
      *
-     * <p>A discussion of the use of dynamically typesafe views may be
+     * <p>ATest.A discussion of the use of dynamically typesafe views may be
      * found in the documentation for the {@link #checkedCollection
      * checkedCollection} method.
      *
@@ -4694,7 +4694,7 @@ public class Collections_ {
      * Creates a {@code Spliterator} with only the specified element
      *
      * @param <T> Type of elements
-     * @return A singleton {@code Spliterator}
+     * @return ATest.A singleton {@code Spliterator}
      */
     static <T> Spliterator<T> singletonSpliterator(final T element) {
         return new Spliterator<T>() {
@@ -5140,7 +5140,7 @@ public class Collections_ {
      * The returned comparator is serializable.
      *
      * @param  <T> the class of the objects compared by the comparator
-     * @return A comparator that imposes the reverse of the <i>natural
+     * @return ATest.A comparator that imposes the reverse of the <i>natural
      *         ordering</i> on a collection of objects that implement
      *         the <tt>Comparable</tt> interface.
      * @see Comparable
@@ -5186,7 +5186,7 @@ public class Collections_ {
      * @param <T> the class of the objects compared by the comparator
      * @param cmp a comparator who's ordering is to be reversed by the returned
      * comparator or {@code null}
-     * @return A comparator that imposes the reverse ordering of the
+     * @return ATest.A comparator that imposes the reverse ordering of the
      *         specified comparator.
      * @since 1.5
      */

@@ -7,7 +7,7 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
     Is a mathematical notation:-----------------------------------------------------------------------------------------
         that describes the limiting behavior of a function when the argument tends towards a particular value or infinity.
         Big O is a member of a family of notations invented by Paul Bachmann, Edmund Landau, and others, collectively
-        called Bachmann–Landau notation or asymptotic notation.
+        called Bachmannï¿½Landau notation or asymptotic notation.
 
     In computer science, big O notation is used to classify algorithms ------------------------------------------------
         according to:
@@ -21,7 +21,7 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
     Big O notation characterizes functions according to their growth rates:
         different functions with the same growth rate may be represented using the same O notation.
         The letter O is used because the growth rate of a function is also referred to as the order of the function.
-        A description of a function in terms of big O notation usually only provides an upper bound on the growth rate
+        ATest.A description of a function in terms of big O notation usually only provides an upper bound on the growth rate
         of the function. Associated with big O notation are several related notations, using the symbols o, ?, ?, and ?,
         to describe other kinds of bounds on asymptotic growth rates.
 

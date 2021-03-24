@@ -1,7 +1,7 @@
 package Control_Flow.miscelanous;
 
 public class Labeled_continue_Class {
-	/*A labeled continue statement skips the current iteration of an outer loop 
+	/*ATest.A labeled continue statement skips the current iteration of an outer loop
 	 * marked with the given label
 	 */
 	

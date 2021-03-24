@@ -49,7 +49,7 @@ import java.util.function.Consumer;
  * designed for use only in the rare cases wherein reference-equality
  * semantics are required.</b>
  *
- * <p>A typical use of this class is <i>topology-preserving object graph
+ * <p>ATest.A typical use of this class is <i>topology-preserving object graph
  * transformations</i>, such as serialization or deep-copying.  To perform such
  * a transformation, a program must maintain a "node table" that keeps track
  * of all the object references that have already been processed.  The node
@@ -87,7 +87,7 @@ import java.util.function.Consumer;
  * <p><strong>Note that this implementation is not synchronized.</strong>
  * If multiple threads access an identity hash map concurrently, and at
  * least one of the threads modifies the map structurally, it <i>must</i>
- * be synchronized externally.  (A structural modification is any operation
+ * be synchronized externally.  (ATest.A structural modification is any operation
  * that adds or deletes one or more mappings; merely changing the value
  * associated with a key that an instance already contains is not a
  * structural modification.)  This is typically accomplished by
@@ -315,7 +315,7 @@ public class IdentityHashMap_<K,V>
      * then this method returns {@code v}; otherwise it returns
      * {@code null}.  (There can be at most one such mapping.)
      *
-     * <p>A return value of {@code null} does not <i>necessarily</i>
+     * <p>ATest.A return value of {@code null} does not <i>necessarily</i>
      * indicate that the map contains no mapping for the key; it's also
      * possible that the map explicitly maps the key to {@code null}.
      * The {@link #containsKey containsKey} operation may be used to
@@ -413,7 +413,7 @@ public class IdentityHashMap_<K,V>
      * @param value the value to be associated with the specified key
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      * @see     Object#equals(Object)
      * @see     #get(Object)
@@ -515,7 +515,7 @@ public class IdentityHashMap_<K,V>
      * @param key key whose mapping is to be removed from the map
      * @return the previous value associated with <tt>key</tt>, or
      *         <tt>null</tt> if there was no mapping for <tt>key</tt>.
-     *         (A <tt>null</tt> return can also indicate that the map
+     *         (ATest.A <tt>null</tt> return can also indicate that the map
      *         previously associated <tt>null</tt> with <tt>key</tt>.)
      */
     public V remove(Object key) {
@@ -1155,7 +1155,7 @@ public class IdentityHashMap_<K,V>
      * returned by this method define key and value equality as
      * reference-equality rather than object-equality.  This affects the
      * behavior of the <tt>equals</tt> and <tt>hashCode</tt> methods of these
-     * <tt>Map.Entry</tt> objects.  A reference-equality based <tt>Map.Entry
+     * <tt>Map.Entry</tt> objects.  ATest.A reference-equality based <tt>Map.Entry
      * e</tt> is equal to an object <tt>o</tt> if and only if <tt>o</tt> is a
      * <tt>Map.Entry</tt> and <tt>e.getKey()==o.getKey() &amp;&amp;
      * e.getValue()==o.getValue()</tt>.  To accommodate these equals

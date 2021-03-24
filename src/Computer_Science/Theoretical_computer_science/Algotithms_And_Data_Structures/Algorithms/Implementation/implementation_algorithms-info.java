@@ -8,10 +8,10 @@ package Computer_Science.Theoretical_computer_science.Algotithms_And_Data_Struct
 
                                        Computer program
 
-         A computer program is a collection of instructions that can be executed by a computer to perform a specific task.
+         ATest.A computer program is a collection of instructions that can be executed by a computer to perform a specific task.
 
-         A computer program is usually written by a computer programmer in a programming language. From the program in its
-         human-readable form of source code, a compiler or assembler can derive machine code—a form consisting of instructions
+         ATest.A computer program is usually written by a computer programmer in a programming language. From the program in its
+         human-readable form of source code, a compiler or assembler can derive machine codeï¿½a form consisting of instructions
          that the computer can directly execute.
          Alternatively, a computer program may be executed with the aid of an interpreter.
  */

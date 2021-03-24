@@ -3,7 +3,7 @@ package Comparable_Comparator;
 /*                                                     Comparable and comparator
 
 
-    A comparable object is capable of comparing itself with another object. The class itself must implements the
+    ATest.A comparable object is capable of comparing itself with another object. The class itself must implements the
     java.lang.Comparable interface to compare its instances.
 
     Both are an interface that can be used to sort the elements of the collection. ...

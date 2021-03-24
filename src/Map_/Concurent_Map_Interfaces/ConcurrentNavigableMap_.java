@@ -41,7 +41,7 @@ import java.util.NavigableMap;
 import java.util.NavigableSet;
 
 /**
- * A {@link ConcurrentMap_} supporting {@link NavigableMap} operations,
+ * ATest.A {@link ConcurrentMap_} supporting {@link NavigableMap} operations,
  * and recursively so for its navigable sub-maps.
  *
  * <p>This interface is a member of the

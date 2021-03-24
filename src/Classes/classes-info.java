@@ -7,8 +7,8 @@ package Classes;
 
                                      final Classes
 
-          A class can be declared final if its definition is complete and no subclasses are desired or required.
-          A final class cannot have any subclasses.
+          ATest.A class can be declared final if its definition is complete and no subclasses are desired or required.
+          ATest.A final class cannot have any subclasses.
 
                                  strictfp Classes
 
@@ -19,7 +19,7 @@ package Classes;
 
                           Generic Classes and Type Parameters
 
-          A class is generic if it declares one or more type variables (§4.4).
+          ATest.A class is generic if it declares one or more type variables (ï¿½4.4).
 
                             Inner Classes and Enclosing Instances
 

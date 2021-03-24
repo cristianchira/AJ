@@ -840,7 +840,7 @@ public class Hashtable_<K,V>
          * applets with self-referential hash tables to work.  This code
          * abuses the loadFactor field to do double-duty as a hashCode
          * in progress flag, so as not to worsen the space performance.
-         * A negative load factor indicates that hash code computation is
+         * ATest.A negative load factor indicates that hash code computation is
          * in progress.
          */
         int h = 0;
@@ -1315,7 +1315,7 @@ public class Hashtable_<K,V>
     private static final int ENTRIES = 2;
 
     /**
-     * A hashtable enumerator class.  This class implements both the
+     * ATest.A hashtable enumerator class.  This class implements both the
      * Enumeration and Iterator interfaces, but individual instances
      * can be created with the Iterator methods disabled.  This is necessary
      * to avoid unintentionally increasing the capabilities granted a user

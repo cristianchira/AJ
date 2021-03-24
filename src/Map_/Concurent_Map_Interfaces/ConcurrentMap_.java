@@ -41,7 +41,7 @@ import java.util.function.BiFunction;
 import java.util.function.Function;
 
 /**
- * A {@link Map} providing thread safety and atomicity  guarantees.
+ * ATest.A {@link Map} providing thread safety and atomicity  guarantees.
  *
  * <p>Memory consistency effects: As with other concurrent
  * collections, actions in a thread prior to placing an object into a
@@ -134,7 +134,7 @@ public interface ConcurrentMap_<K, V> extends Map<K, V> {
      * @param value value to be associated with the specified key
      * @return the previous value associated with the specified key, or
      *         {@code null} if there was no mapping for the key.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with the key,
      *         if the implementation supports null values.)
      * @throws UnsupportedOperationException if the {@code put} operation
@@ -228,7 +228,7 @@ public interface ConcurrentMap_<K, V> extends Map<K, V> {
      * @param value value to be associated with the specified key
      * @return the previous value associated with the specified key, or
      *         {@code null} if there was no mapping for the key.
-     *         (A {@code null} return can also indicate that the map
+     *         (ATest.A {@code null} return can also indicate that the map
      *         previously associated {@code null} with the key,
      *         if the implementation supports null values.)
      * @throws UnsupportedOperationException if the {@code put} operation

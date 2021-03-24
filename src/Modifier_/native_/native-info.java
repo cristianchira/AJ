@@ -8,7 +8,7 @@ package Modifier_.native_;
 
                                                     native Methods
 
-    A native method is a Java method (either an instance method or a class method) whose implementation is also written
+    ATest.A native method is a Java method (either an instance method or a class method) whose implementation is also written
     in another programming language such as C/C++.
 
     We can use them to:

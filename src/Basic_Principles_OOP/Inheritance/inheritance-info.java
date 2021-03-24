@@ -8,41 +8,41 @@ package Basic_Principles_OOP.Inheritance;
 
      Inheritance represents the:
 
-         • IS-A relationship which is also known as a parent-child relationship
+         ï¿½ IS-ATest.A relationship which is also known as a parent-child relationship
 
      Types of inheritance in java:  -- see inheritance_type.png image
 
-          • single
-          • multilevel
-          • hierarchical.
-          • hybrid                   -- see hybrid_inheritance.png
+          ï¿½ single
+          ï¿½ multilevel
+          ï¿½ hierarchical.
+          ï¿½ hybrid                   -- see hybrid_inheritance.png
 
     Why multiple inheritance is not supported in java?
 
-        • To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
+        ï¿½ To reduce the complexity and simplify the language, multiple inheritance is not supported in java.
 
     Terms used in Inheritance:
 
-        • Class:
-            A class is a group of objects which have common properties. It is a template or blueprint from which
+        ï¿½ Class:
+            ATest.A class is a group of objects which have common properties. It is a template or blueprint from which
             objects are created.
-        • Sub Class/Child Class:
+        ï¿½ Sub Class/Child Class:
             Subclass is a class which inherits the other class. It is also called a derived class, extended class,or child class.
-        • Super Class/Parent Class:
+        ï¿½ Super Class/Parent Class:
             Superclass is the class from where a subclass inherits the features. It is also called a base class or a parent class.
-        • Reusability:
+        ï¿½ Reusability:
             As the name specifies, reusability is a mechanism which facilitates you to reuse the fields and methods of
             the existing class when you create a new class. You can use the same fields and methods already defined in
             the previous class.
 
     Why use inheritance in java :
 
-        • For Method Overriding (so runtime polymorphism can be achieved).
-        • For Code Reusability.
+        ï¿½ For Method Overriding (so runtime polymorphism can be achieved).
+        ï¿½ For Code Reusability.
 
     Inheriting Constructors:
 
-         A subclass inherits all the members (fields, methods, and nested classes) from its superclass.
+         ATest.A subclass inherits all the members (fields, methods, and nested classes) from its superclass.
          Constructors are not members, so they
              are not inherited by subclasses, --------------------------------------------------------------------------
              but the constructor of the superclass can be invoked from the subclass.
@@ -52,13 +52,13 @@ package Basic_Principles_OOP.Inheritance;
         If a class is inheriting the properties of another class. And if the members of the superclass have the names
         same as the sub class, to differentiate these variables we use super keyword as shown below.
 
-            • super.variable
-            • super.method();
+            ï¿½ super.variable
+            ï¿½ super.method();
 
      Subclass Constructors:
 
-        • Invocation of a superclass constructor must be the first line in the subclass constructor.
-        • The syntax for calling a superclass constructor is
+        ï¿½ Invocation of a superclass constructor must be the first line in the subclass constructor.
+        ï¿½ The syntax for calling a superclass constructor is
 
             super();
                 or:
@@ -84,13 +84,13 @@ package Basic_Principles_OOP.Inheritance;
          Calling a constructor from the another constructor of same class is known as Constructor chaining.
          The real purpose of Constructor Chaining is that you can pass parameters through a bunch of different constructors,
          but only have the initialization done in a single place. This allows you to maintain your initializations from
-         a single location, while providing multiple constructors to the user. If we don’t chain, and two different
+         a single location, while providing multiple constructors to the user. If we donï¿½t chain, and two different
          constructors require a specific parameter, you will have to initialize that parameter twice, and when the
-         initialization changes, you’ll have to change it in every constructor, instead of just the one.
+         initialization changes, youï¿½ll have to change it in every constructor, instead of just the one.
 
     IMPORTANT:
 
-        • As a rule, constructors with fewer arguments should call those with more
-        • this() should always be the first statement in constructor otherwise you will get this error message
+        ï¿½ As a rule, constructors with fewer arguments should call those with more
+        ï¿½ this() should always be the first statement in constructor otherwise you will get this error message
 
 */

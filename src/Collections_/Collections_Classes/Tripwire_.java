@@ -36,7 +36,7 @@ final class Tripwire_ {
      * be used as the first parameter to the message.
      *
      * @param trippingClass Name of the class generating the message
-     * @param msg A message format string of the type expected by
+     * @param msg ATest.A message format string of the type expected by
      * {@link PlatformLogger}
      */
     static void trip(Class<?> trippingClass, String msg) {

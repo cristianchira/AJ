@@ -1,7 +1,7 @@
 package Classes.NestedClass;
 
 /*
-A class that is defined within another class is called a nested class
+ATest.A class that is defined within another class is called a nested class
  */
 
 public class NestedClass {

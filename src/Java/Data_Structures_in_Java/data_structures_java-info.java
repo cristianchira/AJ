@@ -3,7 +3,7 @@ package Java.Data_Structures_in_Java;
 /*
                                          Data Structures in Java
 
-     A data structure is a way of storing and organizing data in a computer so that it can be used efficiently.
+     ATest.A data structure is a way of storing and organizing data in a computer so that it can be used efficiently.
      It provides a means to manage large amounts of data efficiently. And efficient data structures are key to
      designing efficient algorithms.
 
@@ -33,7 +33,7 @@ package Java.Data_Structures_in_Java;
              Red-Black Tree
              Splay tree
              Treap
-             B-tree
+             ATest.B-tree
              Heap
          Graph
 

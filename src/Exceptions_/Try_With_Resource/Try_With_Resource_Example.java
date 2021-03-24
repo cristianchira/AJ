@@ -18,7 +18,7 @@ public class Try_With_Resource_Example {
 //            fileNotFoundException.printStackTrace ();
 //        }
 
-        // A typical try-catch-finally block
+        // ATest.A typical try-catch-finally block
 
         Scanner scanner = null;
         try {

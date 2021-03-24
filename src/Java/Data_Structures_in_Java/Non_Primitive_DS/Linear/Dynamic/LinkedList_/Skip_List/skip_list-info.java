@@ -1,6 +1,6 @@
 package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.LinkedList_.Skip_List;
  /*
-                                                          A skip list
+                                                          ATest.A skip list
 
 
           is a probabilistic data structure. The skip list is used to store a sorted list of elements or data with a linked list.

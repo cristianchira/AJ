@@ -16,12 +16,12 @@ package Basic_Principles_OOP.Composition;
 
     Key Points
 
-        • The Composition represents a part-of relationship.
-        • Both entities are related to each other in the Composition.
-        • The Composition between two entities is done when an object contains a composed object, and the composed object
-              cannot exist without another entity. For example, if a university HAS-A college-lists, then a college is
+        ï¿½ The Composition represents a part-of relationship.
+        ï¿½ Both entities are related to each other in the Composition.
+        ï¿½ The Composition between two entities is done when an object contains a composed object, and the composed object
+              cannot exist without another entity. For example, if a university HAS-ATest.A college-lists, then a college is
               a whole, and college-lists are parts of that university.
-        • Favor Composition over Inheritance.
-        • If a university is deleted, then all corresponding colleges for that university should be deleted.
+        ï¿½ Favor Composition over Inheritance.
+        ï¿½ If a university is deleted, then all corresponding colleges for that university should be deleted.
 
  */

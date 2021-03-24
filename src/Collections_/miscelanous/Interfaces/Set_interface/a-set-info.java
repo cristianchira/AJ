@@ -1,7 +1,7 @@
 package Collections_.miscelanous.Interfaces.Set_interface;
 
                                               //Set
-/* A Set is a Collection that cannot contain duplicate elements. It models the mathematical set abstraction.
+/* ATest.A Set is a Collection that cannot contain duplicate elements. It models the mathematical set abstraction.
        The Set interface contains only methods INHERITED FROM Collection and adds the restriction that duplicate
        elements are prohibited. Set also adds a stronger contract on the behavior of the equals and hashCode operations,
        allowing Set instances to be compared meaningfully even if their implementation types differ. Two Set instances are

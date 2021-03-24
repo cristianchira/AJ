@@ -38,7 +38,7 @@ import java.util.*;
  * or loaded from a stream. Each key and its corresponding value in
  * the property list is a string.
  * <p>
- * A property list can contain another property list as its
+ * ATest.A property list can contain another property list as its
  * "defaults"; this second property list is searched if
  * the property key is not found in the original property list.
  * <p>
@@ -119,7 +119,7 @@ class Properties_ extends Hashtable<Object,Object> {
      private static final long serialVersionUID = 4112578634029874840L;
 
     /**
-     * A property list that contains default values for any keys not
+     * ATest.A property list that contains default values for any keys not
      * found in this property list.
      *
      * @serial
@@ -166,11 +166,11 @@ class Properties_ extends Hashtable<Object,Object> {
      * <p>
      * Properties are processed in terms of lines. There are two
      * kinds of line, <i>natural lines</i> and <i>logical lines</i>.
-     * A natural line is defined as a line of
+     * ATest.A natural line is defined as a line of
      * characters that is terminated either by a set of line terminator
      * characters ({@code \n} or {@code \r} or {@code \r\n})
-     * or by the end of the stream. A natural line may be either a blank line,
-     * a comment line, or hold all or some of a key-element pair. A logical
+     * or by the end of the stream. ATest.A natural line may be either a blank line,
+     * a comment line, or hold all or some of a key-element pair. ATest.A logical
      * line holds all the data of a key-element pair, which may be spread
      * out across several adjacent natural lines by escaping
      * the line terminator sequence with a backslash character
@@ -180,8 +180,8 @@ class Properties_ extends Hashtable<Object,Object> {
      * input until the end of the stream is reached.
      *
      * <p>
-     * A natural line that contains only white space characters is
-     * considered blank and is ignored.  A comment line has an ASCII
+     * ATest.A natural line that contains only white space characters is
+     * considered blank and is ignored.  ATest.A comment line has an ASCII
      * {@code '#'} or {@code '!'} as its first non-white
      * space character; comment lines are also ignored and do not
      * encode key-element information.  In addition to line
@@ -1118,7 +1118,7 @@ class Properties_ extends Hashtable<Object,Object> {
         return hexDigit[(nibble & 0xF)];
     }
 
-    /** A table of hex digits */
+    /** ATest.A table of hex digits */
     private static final char[] hexDigit = {
         '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'
     };

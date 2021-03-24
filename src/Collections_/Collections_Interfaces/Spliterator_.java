@@ -39,11 +39,11 @@ import java.util.function.LongConsumer;
  * of elements covered by a Spliterator could be, for example, an array, a
  * {@link Collection_}, an IO channel, or a generator function.
  *
- * <p>A Spliterator may traverse elements individually ({@link
+ * <p>ATest.A Spliterator may traverse elements individually ({@link
  * #tryAdvance tryAdvance()}) or sequentially in bulk
  * ({@link #forEachRemaining forEachRemaining()}).
  *
- * <p>A Spliterator may also partition off some of its elements (using
+ * <p>ATest.A Spliterator may also partition off some of its elements (using
  * {@link #trySplit}) as another Spliterator, to be used in
  * possibly-parallel operations.  Operations using a Spliterator that
  * cannot split, or does so in a highly imbalanced or inefficient
@@ -51,7 +51,7 @@ import java.util.function.LongConsumer;
  * and splitting exhaust elements; each Spliterator is useful for only a single
  * bulk computation.
  *
- * <p>A Spliterator also reports a set of {@link #characteristics()} of its
+ * <p>ATest.A Spliterator also reports a set of {@link #characteristics()} of its
  * structure, source, and elements from among {@link #ORDERED},
  * {@link #DISTINCT}, {@link #SORTED}, {@link #SIZED}, {@link #NONNULL},
  * {@link #IMMUTABLE}, {@link #CONCURRENT}, and {@link #SUBSIZED}. These may
@@ -67,13 +67,13 @@ import java.util.function.LongConsumer;
  * New characteristics may be defined in the future, so implementors should not
  * assign meanings to unlisted values.
  *
- * <p><a name="binding">A Spliterator that does not report {@code IMMUTABLE} or
+ * <p><a name="binding">ATest.A Spliterator that does not report {@code IMMUTABLE} or
  * {@code CONCURRENT} is expected to have a documented policy concerning:
  * when the spliterator <em>binds</em> to the element source; and detection of
- * structural interference of the element source detected after binding.</a>  A
+ * structural interference of the element source detected after binding.</a>  ATest.A
  * <em>late-binding</em> Spliterator binds to the source of elements at the
  * point of first traversal, first split, or first query for estimated size,
- * rather than at the time the Spliterator is created.  A Spliterator that is
+ * rather than at the time the Spliterator is created.  ATest.A Spliterator that is
  * not <em>late-binding</em> binds to the source of elements at the point of
  * construction or first invocation of any method.  Modifications made to the
  * source prior to binding are reflected when the Spliterator is traversed.
@@ -98,7 +98,7 @@ import java.util.function.LongConsumer;
  * using spliterators should ensure that the spliterator is only used by one
  * thread at a time.  This is generally easy to attain via <em>serial
  * thread-confinement</em>, which often is a natural consequence of typical
- * parallel algorithms that work by recursive decomposition.  A thread calling
+ * parallel algorithms that work by recursive decomposition.  ATest.A thread calling
  * {@link #trySplit()} may hand over the returned Spliterator to another thread,
  * which in turn may traverse or further split that Spliterator.  The behaviour
  * of splitting and traversal is undefined if two or more threads operate
@@ -151,11 +151,11 @@ import java.util.function.LongConsumer;
  * <li>The source cannot be structurally interfered with.
  * <br>For example, an instance of
  * {@link java.util.concurrent.CopyOnWriteArrayList} is an immutable source.
- * A Spliterator created from the source reports a characteristic of
+ * ATest.A Spliterator created from the source reports a characteristic of
  * {@code IMMUTABLE}.</li>
  * <li>The source manages concurrent modifications.
  * <br>For example, a key set of a {@link java.util.concurrent.ConcurrentHashMap}
- * is a concurrent source.  A Spliterator created from the source reports a
+ * is a concurrent source.  ATest.A Spliterator created from the source reports a
  * characteristic of {@code CONCURRENT}.</li>
  * <li>The mutable source provides a late-binding and fail-fast Spliterator.
  * <br>Late binding narrows the window during which interference can affect
@@ -477,7 +477,7 @@ public interface Spliterator_<T> {
      * {@link #tryAdvance} steps by one element in prefix order, and that
      * {@link #forEachRemaining} performs actions in encounter order.
      *
-     * <p>A {@link Collection_} has an encounter order if the corresponding
+     * <p>ATest.A {@link Collection_} has an encounter order if the corresponding
      * {@link Collection_#iterator} documents an order. If so, the encounter
      * order is the same as the documented order. Otherwise, a collection does
      * not have an encounter order.
@@ -503,7 +503,7 @@ public interface Spliterator_<T> {
      * Comparator, or {@code null} if all elements are {@link Comparable} and
      * are sorted by their natural ordering.
      *
-     * <p>A Spliterator that reports {@code SORTED} must also report
+     * <p>ATest.A Spliterator that reports {@code SORTED} must also report
      * {@code ORDERED}.
      *
      * @apiNote The spliterators for {@code Collection} classes in the JDK that
@@ -535,7 +535,7 @@ public interface Spliterator_<T> {
     /**
      * Characteristic value signifying that the element source cannot be
      * structurally modified; that is, elements cannot be added, replaced, or
-     * removed, so such changes cannot occur during traversal. A Spliterator
+     * removed, so such changes cannot occur during traversal. ATest.A Spliterator
      * that does not report {@code IMMUTABLE} or {@code CONCURRENT} is expected
      * to have a documented policy (for example throwing
      * {@link ConcurrentModificationException}) concerning structural
@@ -550,7 +550,7 @@ public interface Spliterator_<T> {
      * Spliterator is expected to have a documented policy concerning the impact
      * of modifications during traversal.
      *
-     * <p>A top-level Spliterator should not report both {@code CONCURRENT} and
+     * <p>ATest.A top-level Spliterator should not report both {@code CONCURRENT} and
      * {@code SIZED}, since the finite size, if known, may change if the source
      * is concurrently modified during traversal. Such a Spliterator is
      * inconsistent and no guarantees can be made about any computation using
@@ -571,7 +571,7 @@ public interface Spliterator_<T> {
      * (This means that all child Spliterators, whether direct or indirect, will
      * be {@code SIZED}.)
      *
-     * <p>A Spliterator that does not report {@code SIZED} as required by
+     * <p>ATest.A Spliterator that does not report {@code SIZED} as required by
      * {@code SUBSIZED} is inconsistent and no guarantees can be made about any
      * computation using that Spliterator.
      *
@@ -583,7 +583,7 @@ public interface Spliterator_<T> {
     public static final int SUBSIZED = 0x00004000;
 
     /**
-     * A Spliterator specialized for primitive values.
+     * ATest.A Spliterator specialized for primitive values.
      *
      * @param <T> the type of elements returned by this Spliterator.  The
      * type must be a wrapper type for a primitive type, such as {@code Integer}
@@ -643,7 +643,7 @@ public interface Spliterator_<T> {
     }
 
     /**
-     * A Spliterator specialized for {@code int} values.
+     * ATest.A Spliterator specialized for {@code int} values.
      * @since 1.8
      */
     public interface OfInt extends OfPrimitive<Integer, IntConsumer, OfInt> {
@@ -707,7 +707,7 @@ public interface Spliterator_<T> {
 //    }
 
     /**
-     * A Spliterator specialized for {@code long} values.
+     * ATest.A Spliterator specialized for {@code long} values.
      * @since 1.8
      */
     public interface OfLong extends OfPrimitive<Long, LongConsumer, OfLong> {
@@ -771,7 +771,7 @@ public interface Spliterator_<T> {
 //    }
 
     /**
-     * A Spliterator specialized for {@code double} values.
+     * ATest.A Spliterator specialized for {@code double} values.
      * @since 1.8
      */
 //    public interface OfDouble extends OfPrimitive<Double, DoubleConsumer, OfDouble> {

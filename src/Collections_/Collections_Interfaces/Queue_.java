@@ -40,7 +40,7 @@ import java.util.NoSuchElementException;
 import java.util.PriorityQueue;
 
 /**
- * A collection designed for holding elements prior to processing.Besides basic {@link Collection_ Collection} operations,
+ * ATest.A collection designed for holding elements prior to processing.Besides basic {@link Collection_ Collection} operations,
  * queues provide additional insertion, extraction, and inspection operations.Each of these methods exists in two forms:
  * one throws an exception if the operation fails,
  * the other returns a specialvalue (either {@code null} or {@code false}, depending on theoperation).The latter form of

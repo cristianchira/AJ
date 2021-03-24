@@ -3,7 +3,7 @@ package Java8.Streams_;
 
 /*                                            Stream
 
-    A sequence of elements supporting sequential and parallel aggregate operations
+    ATest.A sequence of elements supporting sequential and parallel aggregate operations
 
     To perform a computation, stream operations are composed into a stream pipeline
     Stream pipeline consists of a:

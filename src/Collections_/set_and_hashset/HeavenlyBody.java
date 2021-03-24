@@ -2,7 +2,7 @@ package Collections_.set_and_hashset;
 
 
 /*
-* A Set is a Collection that === cannot contain duplicate elements ===
+* ATest.A Set is a Collection that === cannot contain duplicate elements ===
 * The Java platform contains three general-purpose Set implementations: === HashSet, TreeSet, and LinkedHashSet ===
 *  HashSet, which stores its elements in a === hash table, is the best-performing implementation ====;
 *  however it makes ==no guarantees concerning the order of iteration==
