@@ -1,4 +1,4 @@
-package Annotation.Annotation_Doc;
+package Annotation;
 
 //https://docs.oracle.com/javase/tutorial/java/annotations/index.html
 
