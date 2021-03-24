@@ -1,4 +1,4 @@
-package Annotation.Annotation_Type;
+package Annotation.Annotation_Doc;
 
 // https://docs.oracle.com/javase/tutorial/java/annotations/declaring.html
 
