@@ -1,4 +1,4 @@
-package Object.Equals_and_HashCode_Contract;
+package Object.HashCode;
 
 /*                                General contract for the hashCode() method
 
@@ -18,7 +18,7 @@ package Object.Equals_and_HashCode_Contract;
 
                                     equals() method
 
-    is used to simply verify the equality of two objects. It’s default implementation simply check the object references
+    is used to simply verify the equality of two objects. Itï¿½s default implementation simply check the object references
     of two objects to verify their equality.
     By default, two objects are equal if and only if they are stored in the same memory address.
 
@@ -38,8 +38,8 @@ package Object.Equals_and_HashCode_Contract;
 
                                                  hashcode()
 
-    Returns a unique integer value for the object in runtime.
-        By default, integer value is mostly derived from memory address of the object in heap (but it’s not mandatory always).
+        Returns a unique integer value for the object in runtime.
+        By default, integer value is mostly derived from memory address of the object in heap (but itï¿½s not mandatory always).
         This hash code is used for determining the bucket location, when this object needs to be stored in some
         HashTable like data structure.
 

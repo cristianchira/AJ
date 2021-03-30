@@ -1,4 +1,4 @@
-package Object.Clone_Object;
+package Object.Clone.Clone_Example;
 
 public class Student implements Cloneable {
 

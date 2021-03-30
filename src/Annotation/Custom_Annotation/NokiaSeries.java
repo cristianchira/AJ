@@ -1,4 +1,4 @@
-package Annotation.Annotation_Gen.Gen_Example;
+package Annotation.Custom_Annotation;
 
 
 @Smartphone(os ="Android", version=6)

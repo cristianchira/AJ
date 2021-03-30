@@ -1,4 +1,4 @@
-package Annotation.Declaring_an_Annotation_Type.DAT_EXAMPLE;
+package Annotation.Annotation_Type.Predefined_Annotation_Types.Documented.DAT_EXAMPLE;
 
 import java.lang.annotation.Documented;
 

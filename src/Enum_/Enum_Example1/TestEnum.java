@@ -1,4 +1,4 @@
-package Enum_;
+package Enum_.Enum_Example1;
 
 public class TestEnum {
 
@@ -15,7 +15,7 @@ public class TestEnum {
         for (EnumExample e : el) {
 
 
-            //System.out.println(e.name() + " " + e.i + " " + e.type);
+           System.out.println(e.name() + " " + e.i + " " + e.type);
         }
 
         // using forEach method ----------------------------------------------------------------------------------------

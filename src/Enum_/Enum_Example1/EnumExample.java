@@ -1,4 +1,4 @@
-package Enum_;
+package Enum_.Enum_Example1;
 
 public enum EnumExample  {
 
@@ -28,10 +28,10 @@ public enum EnumExample  {
 		this.i = i;
 	}
 	
-//	@Override
-//	public void print() {
-//		System.out.println("this is interface method" + this.values());
-//
-//	}
+
+	public void print() {
+		System.out.println("this is interface method" + this.values());
+
+	}
 
 }

@@ -1,4 +1,4 @@
-package Annotation.Annotation_Gen.Gen_Example;
+package Annotation.Custom_Annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

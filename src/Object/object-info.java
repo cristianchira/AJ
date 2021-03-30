@@ -1,6 +1,12 @@
 package Object;
 
+//  https://docs.oracle.com/javase/8/docs/api/index.html
+
+
 /*                                             An object
+
+    Class Object is the root of the class hierarchy. Every class has Object as a superclass. All objects,
+    including arrays, implement the methods of this class.
 
     is a class instance or an array.
     The reference values (often just references) are pointers to these objects, and a special null reference, which refers

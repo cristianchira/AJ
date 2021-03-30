@@ -1,13 +1,20 @@
 package Enum_.Enum_Example;
 
+import lombok.Getter;
+import lombok.Setter;
+
+//@Getter
+//@Setter
 public class EnumAdvanced {
 
 	// Enum with a variable,method and constructor
 	enum SeasonCustomized {
-		WINTER(1), SPRING(2), SUMMER(3), FALL(4);
+		WINTER(1, "cold"), SPRING(2, "nice"), SUMMER(3, "hot"), FALL(4, "medium");
 
 		// variable
 		private int code;
+		private String weather;
+
 
 		// method
 		public int getCode() {
@@ -16,8 +23,9 @@ public class EnumAdvanced {
 
 		// Constructor-only private or (default)
 		// modifiers are allowed
-		SeasonCustomized(int code) {
+		SeasonCustomized(int code, String weather) {
 			this.code = code;
+			this.weather = weather;
 		}
 
 		// Getting value of enum from code
@@ -43,6 +51,13 @@ public class EnumAdvanced {
 			return -1;// Dummy since Java does not recognize this is possible :)
 		}
 
+		public String getWeather() {
+			return weather;
+		}
+
+		public void setWeather(String weather) {
+			this.weather = weather;
+		}
 	};
 
 	public static void main(String[] args) {
@@ -54,11 +69,17 @@ public class EnumAdvanced {
 		 * SeasonCustomized(1);
 		 */
 
-		System.out.println(season.getCode());// 1
+		for(SeasonCustomized customized: SeasonCustomized.values()) {
 
-		System.out.println(season.getExpectedMaxTemperature());// 5
+			System.out.println(customized.getWeather());
+		}
 
-		System.out.println(SeasonCustomized.valueOf(4));// FALL
+
+//		System.out.println(season.getCode());// 1
+//
+//		System.out.println(season.getExpectedMaxTemperature());// 5
+//
+//		System.out.println(SeasonCustomized.valueOf(4));// FALL
 
 	}
 

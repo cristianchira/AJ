@@ -1,29 +1,37 @@
 package AATest;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Method;
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.Set;
-import java.util.TreeSet;
+import org.junit.Test;
+
+import static org.junit.Assert.*;
 
 public class A_Test {
 
-    @ClassPreamble(
-            author = "John Doe",
-            date = "3/17/2002",
-            currentRevision = 6,
-            lastModified = "4/12/2004",
-            lastModifiedBy = "Jane Doe",
-            // Note array notation
-            reviewers = {"Alice", "Bob", "Cindy"}
-    )
-
+    org.junit.Assert assertEqual;
 
     public static void main(String[] args) {
 
 
+
+
+
+
+
+
     }
+
+//    @Test
+//    public void testStr() {
+//
+//        String s1 = "tutorialspoint";
+//        String s2 = "tutorialspoint";
+//
+//        String s3 =  new String ("tutorialspoint");
+//        String s4 =  new String ("tutorialspoint");
+//
+//
+//        assertEquals(s1,s4) ;
+//   }
+
 
 }
 

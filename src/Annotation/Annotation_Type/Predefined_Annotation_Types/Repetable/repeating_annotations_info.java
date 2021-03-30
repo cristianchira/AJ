@@ -1,4 +1,4 @@
-package Annotation.Repeating_Annotation;
+package Annotation.Annotation_Type.Predefined_Annotation_Types.Repetable;
 
 
 /*

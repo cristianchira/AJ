@@ -5,7 +5,7 @@ enum SeasonOutsideClass {
 	WINTER, SPRING, SUMMER, FALL
 };
 
-public class Enum {
+public class Enums {
 	// Enum can be declared inside a class
 	enum Season {
 		WINTER, SPRING, SUMMER, FALL

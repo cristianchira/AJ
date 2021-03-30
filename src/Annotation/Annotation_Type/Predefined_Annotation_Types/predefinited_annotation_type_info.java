@@ -1,13 +1,31 @@
-package Annotation.Predefined_Annotation_Types;
+package Annotation.Annotation_Type.Predefined_Annotation_Types;
 
 /*
+
+         @Target
+         @Retention
+         @Inherited
+         @Override
+         @SuppressWarnings
+         @Deprecated
+         @SafeVarargs
+         @Repeatable
+         @FunctionalInterface
+
+
+
 Predefined Annotation Types
-        A set of annotation types are predefined in the Java SE API.Some annotation types are used by the Java compiler,and some apply to other annotations.
+        A set of annotation types are predefined in the Java SE API.Some annotation types are used by the Java compiler,
+        and some apply to other annotations.
 
         Annotation Types Used by the Java Language
         The predefined annotation types defined in java.lang are@Deprecated,@Override,and@SuppressWarnings.
 
-@Deprecated @Deprecated annotation indicates that the marked element is deprecated and should no longer be used.The compiler generates a warning whenever a program uses a method,class,or field with the@Deprecated annotation.When an element is deprecated,it should also be documented using the Javadoc@deprecated tag,as shown in the following example.The use of the at sign(@)in both Javadoc comments and in annotations is not coincidental:they are related conceptually.Also,note that the Javadoc tag starts with a lowercase d and the annotation starts with an uppercase D.
+@Deprecated @Deprecated annotation indicates that the marked element is deprecated and should no longer be used.The compiler
+ generates a warning whenever a program uses a method,class,or field with the@Deprecated annotation.When an element is
+ deprecated,it should also be documented using the Javadoc@deprecated tag,as shown in the following example.The use of
+ the at sign(@)in both Javadoc comments and in annotations is not coincidental:they are related conceptually.Also,note
+ that the Javadoc tag starts with a lowercase d and the annotation starts with an uppercase D.
 
 // Javadoc comment follows
 
