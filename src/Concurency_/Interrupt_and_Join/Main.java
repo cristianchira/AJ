@@ -1,8 +1,6 @@
 package Concurency_.Interrupt_and_Join;
 
-import static Concurency_.Interrupt_and_Join.ThreadColor.ANSI_GREEN;
-import static Concurency_.Interrupt_and_Join.ThreadColor.ANSI_PURPLE;
-import static Concurency_.Interrupt_and_Join.ThreadColor.ANSI_RED;
+import static Concurency_.Interrupt_and_Join.ThreadColor.*;
 
 public class Main {
 

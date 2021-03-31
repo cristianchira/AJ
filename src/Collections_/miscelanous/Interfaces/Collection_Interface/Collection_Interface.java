@@ -1,7 +1,8 @@
 package Collections_.miscelanous.Interfaces.Collection_Interface;
 
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
 public class Collection_Interface {
 
     public static void main(String[] args) throws InterruptedException {

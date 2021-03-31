@@ -1,8 +1,5 @@
 package Enum_.Enum_Example;
 
-import lombok.Getter;
-import lombok.Setter;
-
 //@Getter
 //@Setter
 public class EnumAdvanced {

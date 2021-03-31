@@ -7,7 +7,6 @@ import Collections_.Collections_Interfaces.SortedSet_;
 import Collections_.Collections_Interfaces.Spliterator_;
 
 import java.util.*;
-import java.util.Iterator;
 
 /**
  * ATest.A collection that contains no duplicate elements.  More formally, sets

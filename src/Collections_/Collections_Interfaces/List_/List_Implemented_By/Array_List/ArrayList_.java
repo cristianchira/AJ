@@ -29,7 +29,6 @@ import Collections_.Collections_Classes.Collections_;
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.LinkedList_;
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Vector_.Vector_;
 
-
 import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Predicate;

@@ -1,9 +1,5 @@
 package AATest;
 
-import org.junit.Test;
-
-import static org.junit.Assert.*;
-
 public class A_Test {
 
     org.junit.Assert assertEqual;
@@ -11,7 +7,7 @@ public class A_Test {
     public static void main(String[] args) {
 
 
-
+        System.out.println("hdjhsg");
 
 
 

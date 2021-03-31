@@ -3,7 +3,8 @@ package Map_.Util_Map_Classes.WeakHashMap_Example;
 
 import Map_.miscelanous.Order;
 
-import java.util.*;
+import java.util.Map;
+import java.util.WeakHashMap;
 
 public class WeakHashMap_Class {
 

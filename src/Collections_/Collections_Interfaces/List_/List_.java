@@ -25,11 +25,13 @@
 
 package Collections_.Collections_Interfaces.List_;
 
-import Collections_.Collections_Interfaces.*;
+import Collections_.Collections_Interfaces.Collection_;
+import Collections_.Collections_Interfaces.Comparator_;
+import Collections_.Collections_Interfaces.ListIterator_;
 import Collections_.Collections_Interfaces.Set_.Set_;
+import Collections_.Collections_Interfaces.Spliterator_;
 
 import java.util.*;
-import java.util.Iterator;
 import java.util.function.UnaryOperator;
 
 /**                                       List interface

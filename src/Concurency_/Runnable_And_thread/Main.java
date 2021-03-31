@@ -1,9 +1,7 @@
 package Concurency_.Runnable_And_thread;
 
 
-import static Concurency_.Runnable_And_thread.ThreadColor.ANSI_PURPLE;
-import static Concurency_.Runnable_And_thread.ThreadColor.ANSI_GREEN;
-import static Concurency_.Runnable_And_thread.ThreadColor.ANSI_RED;
+import static Concurency_.Runnable_And_thread.ThreadColor.*;
 
 public class Main {
 

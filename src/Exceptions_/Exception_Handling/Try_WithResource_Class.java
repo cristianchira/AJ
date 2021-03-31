@@ -1,13 +1,9 @@
 package Exceptions_.Exception_Handling;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import java.io.*;
 
 public class Try_WithResource_Class {
 	private static Logger logg = LoggerFactory.getLogger(Try_WithResource_Class.class);
