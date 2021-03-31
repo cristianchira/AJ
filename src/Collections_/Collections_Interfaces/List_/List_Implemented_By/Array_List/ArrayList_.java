@@ -28,7 +28,7 @@ package Collections_.Collections_Interfaces.List_.List_Implemented_By.Array_List
 import Collections_.Collections_Classes.Collections_;
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.LinkedList_;
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Vector_.Vector_;
-import sun.misc.SharedSecrets;
+
 
 import java.util.*;
 import java.util.function.Consumer;
@@ -774,29 +774,29 @@ public class ArrayList_<E> extends AbstractList<E>
      * Reconstitute the <tt>ArrayList</tt> instance from a stream (that is,
      * deserialize it).
      */
-    private void readObject(java.io.ObjectInputStream s)
-        throws java.io.IOException, ClassNotFoundException {
-        elementData = EMPTY_ELEMENTDATA;
-
-        // Read in size, and any hidden stuff
-        s.defaultReadObject();
-
-        // Read in capacity
-        s.readInt(); // ignored
-
-        if (size > 0) {
-            // be like clone(), allocate array based upon size not capacity
-            int capacity = calculateCapacity(elementData, size);
-            SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
-            ensureCapacityInternal(size);
-
-            Object[] a = elementData;
-            // Read in all elements in the proper order.
-            for (int i=0; i<size; i++) {
-                a[i] = s.readObject();
-            }
-        }
-    }
+//    private void readObject(java.io.ObjectInputStream s)
+//        throws java.io.IOException, ClassNotFoundException {
+//        elementData = EMPTY_ELEMENTDATA;
+//
+//        // Read in size, and any hidden stuff
+//        s.defaultReadObject();
+//
+//        // Read in capacity
+//        s.readInt(); // ignored
+//
+//        if (size > 0) {
+//            // be like clone(), allocate array based upon size not capacity
+//            int capacity = calculateCapacity(elementData, size);
+//            SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
+//            ensureCapacityInternal(size);
+//
+//            Object[] a = elementData;
+//            // Read in all elements in the proper order.
+//            for (int i=0; i<size; i++) {
+//                a[i] = s.readObject();
+//            }
+//        }
+//    }
 
     /**
      * Returns a list iterator over the elements in this list (in proper

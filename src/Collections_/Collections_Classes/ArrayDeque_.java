@@ -36,7 +36,7 @@ package Collections_.Collections_Classes;
 
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.LinkedList_;
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Stack_.Stack_;
-import sun.misc.SharedSecrets;
+
 
 import java.io.Serializable;
 import java.util.*;
@@ -879,22 +879,22 @@ public class ArrayDeque_<E> extends AbstractCollection<E>
     /**
      * Reconstitutes this deque from a stream (that is, deserializes it).
      */
-    private void readObject(java.io.ObjectInputStream s)
-            throws java.io.IOException, ClassNotFoundException {
-        s.defaultReadObject();
-
-        // Read in size and allocate array
-        int size = s.readInt();
-        int capacity = calculateSize(size);
-        SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
-        allocateElements(size);
-        head = 0;
-        tail = size;
-
-        // Read in all elements in the proper order.
-        for (int i = 0; i < size; i++)
-            elements[i] = s.readObject();
-    }
+//    private void readObject(java.io.ObjectInputStream s)
+//            throws java.io.IOException, ClassNotFoundException {
+//        s.defaultReadObject();
+//
+//        // Read in size and allocate array
+//        int size = s.readInt();
+//        int capacity = calculateSize(size);
+//        SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
+//        allocateElements(size);
+//        head = 0;
+//        tail = size;
+//
+//        // Read in all elements in the proper order.
+//        for (int i = 0; i < size; i++)
+//            elements[i] = s.readObject();
+//    }
 
     /**
      * Creates a <em><a href="Spliterator.html#binding">late-binding</a></em>

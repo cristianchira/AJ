@@ -27,7 +27,8 @@ package Collections_.Collections_Classes;
 
 import Collections_.Collections_Interfaces.List_.List_Implemented_By.Array_List.ArrayList_;
 import Collections_.Collections_Interfaces.Set_.Set_Implemented_By.TreeSet_;
-import sun.misc.SharedSecrets;
+import sun.corba.SharedSecrets;
+
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
@@ -1835,7 +1836,7 @@ public class Collections_ {
         private static final long serialVersionUID = -4858195264774772197L;
 
         /**
-         * ATest.A class for the {@link EMPTY_NAVIGABLE_MAP} which needs readResolve
+         * ATest.A class for the EMPTY_NAVIGABLE_MAP which needs readResolve
          * to preserve singleton property.
          *
          * @param <K> type of keys, if there were any, and of bounds
@@ -1856,7 +1857,7 @@ public class Collections_ {
         }
 
         /**
-         * Singleton for {@link emptyNavigableMap()} which is also immutable.
+         * Singleton for emptyNavigableMap which is also immutable.
          */
         private static final EmptyNavigableMap<?,?> EMPTY_NAVIGABLE_MAP =
             new EmptyNavigableMap<>();
