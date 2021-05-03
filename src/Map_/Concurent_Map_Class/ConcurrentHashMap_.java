@@ -50,7 +50,7 @@ import java.util.function.*;
 import java.util.stream.Stream;
 
 /**
- * ATest.A hash table supporting full concurrency of retrievals and
+ * A hash table supporting full concurrency of retrievals and
  * high expected concurrency for updates. This class obeys the
  * same functional specification as {@link Hashtable}, and
  * includes versions of methods corresponding to each method of

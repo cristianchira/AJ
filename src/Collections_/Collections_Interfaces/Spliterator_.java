@@ -24,8 +24,11 @@
  */
 package Collections_.Collections_Interfaces;
 
-import Collections_.Collections_Interfaces.List_.List_;
-import Collections_.Collections_Interfaces.Set_.Set_;
+import Collections_.Collections_Interfaces.Collection.Collection_;
+import Collections_.Collections_Interfaces.List_.WW_Doc.List_;
+import Collections_.Collections_Interfaces.NavigableSet.WW_Doc.NavigableSet_;
+import Collections_.Collections_Interfaces.Set_.WW_Doc.Set_;
+import Collections_.Collections_Interfaces.SortedSet.WW_Doc.SortedSet_;
 
 import java.util.ArrayList;
 import java.util.ConcurrentModificationException;

@@ -11,17 +11,16 @@ package Annotation.WW_Doc;
     An annotation denotes a specific invocation of an annotation type(�9.6)and usually provides values for the elements
         of that type.
 
-
  Annotations have a number of uses, among them:
 
-     � Information for the compiler � Annotations can be used by the compiler to detect errors or suppress warnings.
-     � Compile-time and deployment-time processing � Software tools can process annotation information to generate code,
+     •Information for the compiler •Annotations can be used by the compiler to detect errors or suppress warnings.
+     •Compile-time and deployment-time processing •Software tools can process annotation information to generate code,
          XML files, and so forth.
-     � Runtime processing � Some annotations are available to be examined at runtime.
+     •Runtime processing •Some annotations are available to be examined at runtime.
 
- The Format of an Annotation:------------------------------------------------------------------------------------------------------------------
+ The Format of an Annotation:-------------------------------------------------------------------------------------------
 
-      � Simplest form:
+      •Simplest form:
 
          @Entity
 
@@ -42,7 +41,7 @@ package Annotation.WW_Doc;
          @SuppressWarnings(value = "unchecked")
          void myMethod() { ... }
 
-     � If there is just one element named value, then the name can be omitted, as in:
+     •If there is just one element named value, then the name can be omitted, as in:
 
           @SuppressWarnings("unchecked")
           void myMethod() { ... }
@@ -50,13 +49,13 @@ package Annotation.WW_Doc;
           If the annotation has no elements, then the parentheses can be omitted, as shown in the previous
               @Override example.
 
-      � Multiple annotations on the same declaration:
+      •Multiple annotations on the same declaration:
 
            @Author(name = "Jane Doe")
            @EBook
            class MyClass { ... }
 
-      � If the annotations have the same type, then this is called a repeating annotation:
+      •If the annotations have the same type, then this is called a repeating annotation:
 
            @Author(name = "Jane Doe")
            @Author(name = "John Smith")
@@ -68,32 +67,32 @@ package Annotation.WW_Doc;
      It is also possible to define your own annotation type. The Author and Ebook annotations in the previous example
      are custom annotation types.
 
- Where Annotations Can Be Used -----------------------------------------------------------------------------------------------------------------------------------------------
+ Where Annotations Can Be Used -----------------------------------------------------------------------------------------
 
-     � declarations of classes
-     � fields
-     � methods
-     � other program elements
+     •declarations of classes
+     •fields
+     •methods
+     •other program elements
 
    When used on a declaration, each annotation often appears, by convention, on its own line.
 
  As of the Java SE 8 release, annotations can also be applied to the use of types.
  Here are some examples:
 
-     � Class instance creation expression:
+     •Class instance creation expression:
 
           new @Interned MyObject();
 
-     � Type cast:
+     •Type cast:
 
           myString = (@NonNull String) str;
 
-      � implements clause:
+      •implements clause:
 
           class UnmodifiableList<T> implements
               @Readonly List<@Readonly T> { ... }
 
-       � Thrown exception declaration:
+       •Thrown exception declaration:
 
            void monitorTemperature() throws
                 @Critical TemperatureException { ... }
@@ -106,7 +105,7 @@ package Annotation.WW_Doc;
 
  Predefined Annotation Types ---------------------------------------------------------------------------------------
 
-     � Annotation Types Used by the Java Language
+     •Annotation Types Used by the Java Language
 
               @Deprecated
               @Override
@@ -114,16 +113,16 @@ package Annotation.WW_Doc;
               @SafeVarargs
               @FunctionalInterface
 
-     � Annotations That Apply to Other Annotations (meta-annotation)
+     •Annotations That Apply to Other Annotations (meta-annotation)
 
           1. @Retention annotation specifies how the marked annotation is stored:
 
-                 � RetentionPolicy.SOURCE
-                       � The marked annotation is retained only in the source level and is ignored  by the compiler.
-                 � RetentionPolicy.CLASS
-                        � The marked annotation is retained by the compiler at compile time, but is ignored by the
+                 •RetentionPolicy.SOURCE
+                       •The marked annotation is retained only in the source level and is ignored  by the compiler.
+                 •RetentionPolicy.CLASS
+                        •The marked annotation is retained by the compiler at compile time, but is ignored by the
                           java Virtual Machine (JVM).
-                  � RetentionPolicy.RUNTIME � The marked annotation is retained by the JVM so it can be used by the
+                  •RetentionPolicy.RUNTIME •The marked annotation is retained by the JVM so it can be used by the
                           runtime environment.
 
           2. @Documented annotation
@@ -135,14 +134,14 @@ package Annotation.WW_Doc;
                  marks another annotation to restrict what kind of Java elements the annotation can be applied to.
                  ATest.A target annotation specifies one of the following element types as its value:
 
-                    � ElementType.ANNOTATION_TYPE can be applied to an annotation type.
-                    � ElementType.CONSTRUCTOR can be applied to a constructor.
-                    � ElementType.FIELD can be applied to a field or property.
-                    � ElementType.LOCAL_VARIABLE can be applied to a local variable.
-                    � ElementType.METHOD can be applied to a method-level annotation.
-                    � ElementType.PACKAGE can be applied to a package declaration.
-                    � ElementType.PARAMETER can be applied to the parameters of a method.
-                    � ElementType.TYPE can be applied to any element of a class.
+                    •ElementType.ANNOTATION_TYPE can be applied to an annotation type.
+                    •ElementType.CONSTRUCTOR can be applied to a constructor.
+                    •ElementType.FIELD can be applied to a field or property.
+                    •ElementType.LOCAL_VARIABLE can be applied to a local variable.
+                    •ElementType.METHOD can be applied to a method-level annotation.
+                    •ElementType.PACKAGE can be applied to a package declaration.
+                    •ElementType.PARAMETER can be applied to the parameters of a method.
+                    •ElementType.TYPE can be applied to any element of a class.
 
             4. @Inherited annotation
                    indicates that the annotation type can be inherited from the super class. (This is not true by

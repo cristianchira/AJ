@@ -25,9 +25,9 @@
 
 package Map_.Util_Map_Interfaces;
 
-import Collections_.Collections_Interfaces.Collection_;
+import Collections_.Collections_Interfaces.Collection.Collection_;
 import Collections_.Collections_Interfaces.Comparator_;
-import Collections_.Collections_Interfaces.Set_.Set_;
+import Collections_.Collections_Interfaces.Set_.WW_Doc.Set_;
 
 import java.io.Serializable;
 import java.util.*;

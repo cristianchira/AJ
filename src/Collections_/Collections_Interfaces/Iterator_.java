@@ -25,6 +25,8 @@
 
 package Collections_.Collections_Interfaces;
 
+import Collections_.Collections_Interfaces.Collection.Collection_;
+
 import java.util.Enumeration;
 import java.util.NoSuchElementException;
 import java.util.Objects;

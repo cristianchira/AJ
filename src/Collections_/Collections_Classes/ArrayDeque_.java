@@ -34,8 +34,8 @@
 
 package Collections_.Collections_Classes;
 
-import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.LinkedList_;
-import Collections_.Collections_Interfaces.List_.List_Implemented_By.Stack_.Stack_;
+import Collections_.Collections_Interfaces.List_.List_Implemented_By.Linked_List.WW_Doc.LinkedList_;
+import Collections_.Collections_Interfaces.List_.List_Implemented_By.Stack_.WW_Doc.Stack_;
 
 import java.io.Serializable;
 import java.util.*;

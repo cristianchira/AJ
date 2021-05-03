@@ -25,7 +25,8 @@
 
 package Collections_.Collections_Interfaces;
 
-import Collections_.Collections_Interfaces.Set_.Set_;
+import Collections_.Collections_Interfaces.Set_.WW_Doc.Set_;
+import Collections_.Collections_Interfaces.SortedSet.WW_Doc.SortedSet_;
 import Map_.Util_Map_Interfaces.SortedMap_;
 
 import java.io.Serializable;

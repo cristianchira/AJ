@@ -25,7 +25,7 @@
 
 package Java.Data_Structures_in_Java.Non_Primitive_DS.Linear.Dynamic.LinkedList_;
 
-import Collections_.Collections_Interfaces.List_.List_Implemented_By.Array_List.ArrayList_;
+import Collections_.Collections_Interfaces.List_.List_Implemented_By.Array_List.WW_Doc.ArrayList_;
 
 import java.util.*;
 import java.util.function.Consumer;
