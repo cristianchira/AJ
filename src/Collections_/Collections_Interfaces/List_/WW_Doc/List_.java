@@ -186,7 +186,7 @@ public interface List_<E> extends Collection_<E> {
      *     String[] y = x.toArray(new String[0]);
      * }</pre>
      *
-     * Note that <tt>toArray(new Object[0])</tt> is identical in function to
+     * Note that <tt>toArray(new lang.classes.Object[0])</tt> is identical in function to
      * <tt>toArray()</tt>.
      *
      * @param a the array into which the elements of this list are to
@@ -463,10 +463,10 @@ public interface List_<E> extends Collection_<E> {
      */
     @SuppressWarnings({"unchecked", "rawtypes"})
 //    default void sort(Comparator<? super E> c) {
-//        Object[] a = this.toArray();
+//        lang.classes.Object[] a = this.toArray();
 //        Arrays.sort(a, (Comparator) c);
 //        ListIterator<E> i = this.listIterator();
-//        for (Object e : a) {
+//        for (lang.classes.Object e : a) {
 //            i.next();
 //            i.set((E) e);
 //        }

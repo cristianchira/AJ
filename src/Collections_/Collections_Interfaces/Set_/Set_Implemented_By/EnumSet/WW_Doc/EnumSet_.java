@@ -443,7 +443,7 @@ public abstract class EnumSet_<E extends Enum<E>> extends AbstractSet<E>
         // instead of cast to E, we should perhaps use elementType.cast()
         // to avoid injection of forged stream, but it will slow the implementation
         @SuppressWarnings("unchecked")
-//        private Object readResolve() {
+//        private lang.classes.Object readResolve() {
 //            EnumSet_<E> result = EnumSet_.noneOf(elementType);
 //            for (Enum<?> e : elements)
 //                result.add((E)e);

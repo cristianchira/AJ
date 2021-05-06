@@ -68,7 +68,7 @@ public static void shuffle(List<?> list, Random rnd) {
         for (int i=size; i>1; i--)
         swap(list, i-1, rnd.nextInt(i));
         } else {
-        Object[] arr = list.toArray();
+        lang.classes.Object[] arr = list.toArray();
 
         // Shuffle array
         for (int i=size; i>1; i--)

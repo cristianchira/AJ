@@ -11,7 +11,7 @@ package Collections_.Algorithms_Polymorphic.Searching.Searching_Example;
  * @throws NullPointerException if the specified element is null and this list does not permit null elements
  *         (<a href="Collection.html#optional-restrictions">optional</a>)
 
-int indexOf(Object o);
+int indexOf(lang.classes.Object o);
  */
 
 import java.util.ArrayList;

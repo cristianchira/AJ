@@ -185,7 +185,7 @@ public class ArrayBlockingQueue_<E> extends AbstractQueue<E>
 
     /**
      * Deletes item at array index removeIndex.
-     * Utility for remove(Object) and iterator.remove.
+     * Utility for remove(lang.classes.Object) and iterator.remove.
      * Call only when holding lock.
      */
     void removeAt(final int removeIndex) {
@@ -598,7 +598,7 @@ public class ArrayBlockingQueue_<E> extends AbstractQueue<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to

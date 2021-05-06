@@ -10,6 +10,6 @@ package Java8.Lambda_Expressions.Functional_Interfaces_and_Predicate.Predicate_I
     @FunctionalInterface
     public interface Predicate<T>
         Represents a predicate (boolean-valued function) of one argument.
-        This is a functional interface whose functional method is test(Object).
+        This is a functional interface whose functional method is test(lang.classes.Object).
 
 */

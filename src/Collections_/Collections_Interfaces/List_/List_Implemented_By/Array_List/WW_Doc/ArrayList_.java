@@ -179,7 +179,7 @@ public class ArrayList_<E> extends AbstractList<E>
     public ArrayList_(Collection<? extends E> c) {
         elementData = c.toArray();
         if ((size = elementData.length) != 0) {
-            // c.toArray might (incorrectly) not return Object[] (see 6260652)
+            // c.toArray might (incorrectly) not return lang.classes.Object[] (see 6260652)
             if (elementData.getClass() != Object[].class)
                 elementData = Arrays.copyOf(elementData, size, Object[].class);
         } else {
@@ -748,7 +748,7 @@ public class ArrayList_<E> extends AbstractList<E>
      *
      * @serialData The length of the array backing the <tt>ArrayList</tt>
      *             instance is emitted (int), followed by all of its elements
-     *             (each an <tt>Object</tt>) in the proper order.
+     *             (each an <tt>lang.classes.Object</tt>) in the proper order.
      */
     private void writeObject(java.io.ObjectOutputStream s)
         throws java.io.IOException{
@@ -786,10 +786,10 @@ public class ArrayList_<E> extends AbstractList<E>
 //        if (size > 0) {
 //            // be like clone(), allocate array based upon size not capacity
 //            int capacity = calculateCapacity(elementData, size);
-//            SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
+//            SharedSecrets.getJavaOISAccess().checkArray(s, lang.classes.Object[].class, capacity);
 //            ensureCapacityInternal(size);
 //
-//            Object[] a = elementData;
+//            lang.classes.Object[] a = elementData;
 //            // Read in all elements in the proper order.
 //            for (int i=0; i<size; i++) {
 //                a[i] = s.readObject();

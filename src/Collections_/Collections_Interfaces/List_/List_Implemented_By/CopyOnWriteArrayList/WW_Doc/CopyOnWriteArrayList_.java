@@ -125,7 +125,7 @@ public class CopyOnWriteArrayList_<E>
             elements = ((CopyOnWriteArrayList_<?>)c).getArray();
         else {
             elements = c.toArray();
-            // c.toArray might (incorrectly) not return Object[] (see 6260652)
+            // c.toArray might (incorrectly) not return lang.classes.Object[] (see 6260652)
             if (elements.getClass() != Object[].class)
                 elements = Arrays.copyOf(elements, elements.length, Object[].class);
         }
@@ -345,7 +345,7 @@ public class CopyOnWriteArrayList_<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the list are to
@@ -519,7 +519,7 @@ public class CopyOnWriteArrayList_<E>
     }
 
     /**
-     * ATest.A version of remove(Object) using the strong hint that given
+     * ATest.A version of remove(lang.classes.Object) using the strong hint that given
      * recent snapshot contains o at the given index.
      */
     private boolean remove(Object o, Object[] snapshot, int index) {
@@ -946,7 +946,7 @@ public class CopyOnWriteArrayList_<E>
      * @param s the stream
      * @throws java.io.IOException if an I/O error occurs
      * @serialData The length of the array backing the list is emitted
-     *               (int), followed by all of its elements (each an Object)
+     *               (int), followed by all of its elements (each an lang.classes.Object)
      *               in the proper order.
      */
     private void writeObject(java.io.ObjectOutputStream s)

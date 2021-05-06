@@ -101,7 +101,7 @@ import java.util.function.Predicate;
  *
  * <p>Many methods in Collections Framework interfaces are defined in
  * terms of the {@link Object#equals(Object) equals} method.  For example,
- * the specification for the {@link #contains(Object) contains(Object o)}
+ * the specification for the {@link #contains(Object) contains(lang.classes.Object o)}
  * method says: "returns <tt>true</tt> if and only if this collection
  * contains at least one element <tt>e</tt> such that
  * <tt>(o==null ? e==null : o.equals(e))</tt>."  This specification should
@@ -235,7 +235,7 @@ public interface Collection_<E> extends Iterable<E> {
      * <pre>
      *     String[] y = x.toArray(new String[0]);</pre>
      *
-     * Note that <tt>toArray(new Object[0])</tt> is identical in function to
+     * Note that <tt>toArray(new lang.classes.Object[0])</tt> is identical in function to
      * <tt>toArray()</tt>.
      *
      * @param <T> the runtime type of the array to contain the collection
@@ -454,17 +454,17 @@ public interface Collection_<E> extends Iterable<E> {
      * Compares the specified object with this collection for equality. <p>
      *
      * While the <tt>Collection</tt> interface adds no stipulations to the
-     * general contract for the <tt>Object.equals</tt>, programmers who
+     * general contract for the <tt>lang.classes.Object.equals</tt>, programmers who
      * implement the <tt>Collection</tt> interface "directly" (in other words,
      * create a class that is a <tt>Collection</tt> but is not a <tt>Set</tt>
      * or a <tt>List</tt>) must exercise care if they choose to override the
-     * <tt>Object.equals</tt>.  It is not necessary to do so, and the simplest
-     * course of action is to rely on <tt>Object</tt>'s implementation, but
+     * <tt>lang.classes.Object.equals</tt>.  It is not necessary to do so, and the simplest
+     * course of action is to rely on <tt>lang.classes.Object</tt>'s implementation, but
      * the implementor may wish to implement a "value comparison" in place of
      * the default "reference comparison."  (The <tt>List</tt> and
      * <tt>Set</tt> interfaces mandate such value comparisons.)<p>
      *
-     * The general contract for the <tt>Object.equals</tt> method states that
+     * The general contract for the <tt>lang.classes.Object.equals</tt> method states that
      * equals must be symmetric (in other words, <tt>a.equals(b)</tt> if and
      * only if <tt>b.equals(a)</tt>).  The contracts for <tt>List.equals</tt>
      * and <tt>Set.equals</tt> state that lists are only equal to other lists,
@@ -488,10 +488,10 @@ public interface Collection_<E> extends Iterable<E> {
     /**
      * Returns the hash code value for this collection.  While the
      * <tt>Collection</tt> interface adds no stipulations to the general
-     * contract for the <tt>Object.hashCode</tt> method, programmers should
-     * take note that any class that overrides the <tt>Object.equals</tt>
-     * method must also override the <tt>Object.hashCode</tt> method in order
-     * to satisfy the general contract for the <tt>Object.hashCode</tt> method.
+     * contract for the <tt>lang.classes.Object.hashCode</tt> method, programmers should
+     * take note that any class that overrides the <tt>lang.classes.Object.equals</tt>
+     * method must also override the <tt>lang.classes.Object.hashCode</tt> method in order
+     * to satisfy the general contract for the <tt>lang.classes.Object.hashCode</tt> method.
      * In particular, <tt>c1.equals(c2)</tt> implies that
      * <tt>c1.hashCode()==c2.hashCode()</tt>.
      *

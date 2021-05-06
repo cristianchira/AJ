@@ -14,7 +14,7 @@ package Collections_.Algorithms_Polymorphic.Searching.Searching_Example;
  *         collection does not permit null elements
  *         (<a href="#optional-restrictions">optional</a>)
 
-boolean contains(Object o);
+boolean contains(lang.classes.Object o);
 */
 
 import java.util.ArrayDeque;

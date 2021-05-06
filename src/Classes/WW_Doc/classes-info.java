@@ -28,7 +28,7 @@ package Classes.WW_Doc;
 
                                    Class Members
 
-            Members inherited from its direct superclass , except in class Object, which has no direct superclass
+            Members inherited from its direct superclass , except in class lang.classes.Object, which has no direct superclass
             Members inherited from any direct superinterfaces
             Members declared in the body of the class
 

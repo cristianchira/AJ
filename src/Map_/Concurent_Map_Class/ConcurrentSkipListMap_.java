@@ -396,7 +396,7 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
      * Nodes hold keys and values, and are singly linked in sorted
      * order, possibly with some intervening marker nodes. The list is
      * headed by a dummy node accessible as head.node. The value field
-     * is declared only as Object because it takes special non-V
+     * is declared only as lang.classes.Object because it takes special non-V
      * values for marker and header nodes.
      */
     static final class Node<K,V> {
@@ -1403,7 +1403,7 @@ public class ConcurrentSkipListMap_<K,V> extends AbstractMap<K,V>
      *
      * @param s the stream
      * @throws java.io.IOException if an I/O error occurs
-     * @serialData The key (Object) and value (Object) for each
+     * @serialData The key (lang.classes.Object) and value (lang.classes.Object) for each
      * key-value mapping represented by the map, followed by
      * {@code null}. The key-value mappings are emitted in key-order
      * (as determined by the Comparator, or by the keys' natural

@@ -440,7 +440,7 @@ public class LinkedTransferQueue_<E> extends AbstractQueue<E>
     static final int SWEEP_THRESHOLD = 32;
 
     /**
-     * Queue nodes. Uses Object, not E, for items to allow forgetting
+     * Queue nodes. Uses lang.classes.Object, not E, for items to allow forgetting
      * them after use.  Relies heavily on Unsafe mechanics to minimize
      * unnecessary ordering constraints: Writes that are intrinsically
      * ordered wrt other accesses or CASes use simple relaxed forms.
@@ -1112,7 +1112,7 @@ public class LinkedTransferQueue_<E> extends AbstractQueue<E>
     }
 
     /**
-     * Main implementation of remove(Object)
+     * Main implementation of remove(lang.classes.Object)
      */
     private boolean findAndRemove(Object e) {
         if (e != null) {

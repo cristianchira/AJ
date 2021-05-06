@@ -291,7 +291,7 @@ public class IdentityHashMap_<K,V>
     }
 
     /**
-     * Returns index for Object x.
+     * Returns index for lang.classes.Object x.
      */
     private static int hash(Object x, int length) {
         int h = System.identityHashCode(x);
@@ -631,8 +631,8 @@ public class IdentityHashMap_<K,V>
      *
      * <p><b>Owing to the reference-equality-based semantics of this map it is
      * possible that the symmetry and transitivity requirements of the
-     * <tt>Object.equals</tt> contract may be violated if this map is compared
-     * to a normal map.  However, the <tt>Object.equals</tt> contract is
+     * <tt>lang.classes.Object.equals</tt> contract may be violated if this map is compared
+     * to a normal map.  However, the <tt>lang.classes.Object.equals</tt> contract is
      * guaranteed to hold among <tt>IdentityHashMap</tt> instances.</b>
      *
      * @param  o object to be compared for equality with this map
@@ -673,7 +673,7 @@ public class IdentityHashMap_<K,V>
      * <p><b>Owing to the reference-equality-based semantics of the
      * <tt>Map.Entry</tt> instances in the set returned by this map's
      * <tt>entrySet</tt> method, it is possible that the contractual
-     * requirement of <tt>Object.hashCode</tt> mentioned in the previous
+     * requirement of <tt>lang.classes.Object.hashCode</tt> mentioned in the previous
      * paragraph will be violated if one of the two objects being compared is
      * an <tt>IdentityHashMap</tt> instance and the other is a normal map.</b>
      *
@@ -949,16 +949,16 @@ public class IdentityHashMap_<K,V>
      * <p><b>The <tt>equals</tt> method of the returned set returns <tt>true</tt>
      * only if the specified object is a set containing exactly the same
      * object references as the returned set.  The symmetry and transitivity
-     * requirements of the <tt>Object.equals</tt> contract may be violated if
+     * requirements of the <tt>lang.classes.Object.equals</tt> contract may be violated if
      * the set returned by this method is compared to a normal set.  However,
-     * the <tt>Object.equals</tt> contract is guaranteed to hold among sets
+     * the <tt>lang.classes.Object.equals</tt> contract is guaranteed to hold among sets
      * returned by this method.</b>
      *
      * <p>The <tt>hashCode</tt> method of the returned set returns the sum of
      * the <i>identity hashcodes</i> of the elements in the set, rather than
      * the sum of their hashcodes.  This is mandated by the change in the
      * semantics of the <tt>equals</tt> method, in order to enforce the
-     * general contract of the <tt>Object.hashCode</tt> method among sets
+     * general contract of the <tt>lang.classes.Object.hashCode</tt> method among sets
      * returned by this method.
      *
      * @return an identity-based set view of the keys contained in this map
@@ -1170,7 +1170,7 @@ public class IdentityHashMap_<K,V>
      * the entries in the set is compared to a normal map entry, or if
      * the set returned by this method is compared to a set of normal map
      * entries (such as would be returned by a call to this method on a normal
-     * map).  However, the <tt>Object.equals</tt> contract is guaranteed to
+     * map).  However, the <tt>lang.classes.Object.equals</tt> contract is guaranteed to
      * hold among identity-based map entries, and among sets of such entries.
      * </b>
      *
@@ -1269,8 +1269,8 @@ public class IdentityHashMap_<K,V>
      * (i.e., serializes it).
      *
      * @serialData The <i>size</i> of the HashMap (the number of key-value
-     *          mappings) (<tt>int</tt>), followed by the key (Object) and
-     *          value (Object) for each key-value mapping represented by the
+     *          mappings) (<tt>int</tt>), followed by the key (lang.classes.Object) and
+     *          value (lang.classes.Object) for each key-value mapping represented by the
      *          IdentityHashMap.  The key-value mappings are emitted in no
      *          particular order.
      */

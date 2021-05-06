@@ -189,11 +189,11 @@ import java.util.function.LongConsumer;
  *
  * <pre> {@code
  * class TaggedArray<T> {
- *   private final Object[] elements; // immutable after construction
- *   TaggedArray(T[] data, Object[] tags) {
+ *   private final lang.classes.Object[] elements; // immutable after construction
+ *   TaggedArray(T[] data, lang.classes.Object[] tags) {
  *     int size = data.length;
  *     if (tags.length != size) throw new IllegalArgumentException();
- *     this.elements = new Object[2 * size];
+ *     this.elements = new lang.classes.Object[2 * size];
  *     for (int i = 0, j = 0; i < size; ++i) {
  *       elements[j++] = data[i];
  *       elements[j++] = tags[i];
@@ -205,11 +205,11 @@ import java.util.function.LongConsumer;
  *   }
  *
  *   static class TaggedArraySpliterator<T> implements Spliterator<T> {
- *     private final Object[] array;
+ *     private final lang.classes.Object[] array;
  *     private int origin; // current index, advanced on split or traversal
  *     private final int fence; // one past the greatest index
  *
- *     TaggedArraySpliterator(Object[] array, int origin, int fence) {
+ *     TaggedArraySpliterator(lang.classes.Object[] array, int origin, int fence) {
  *       this.array = array; this.origin = origin; this.fence = fence;
  *     }
  *

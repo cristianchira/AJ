@@ -94,7 +94,7 @@ import java.util.function.Function;
  * <p>Many methods in Collections Framework interfaces are defined
  * in terms of the {@link Object#equals(Object) equals} method.  For
  * example, the specification for the {@link #containsKey(Object)
- * containsKey(Object key)} method says: "returns <tt>true</tt> if and
+ * containsKey(lang.classes.Object key)} method says: "returns <tt>true</tt> if and
  * only if this map contains a mapping for a key <tt>k</tt> such that
  * <tt>(key==null ? k==null : key.equals(k))</tt>." This specification should
  * <i>not</i> be construed to imply that invoking <tt>Map.containsKey</tt>
@@ -426,7 +426,7 @@ public interface Map_<K,V> {
          * This ensures that <tt>e1.equals(e2)</tt> implies that
          * <tt>e1.hashCode()==e2.hashCode()</tt> for any two Entries
          * <tt>e1</tt> and <tt>e2</tt>, as required by the general
-         * contract of <tt>Object.hashCode</tt>.
+         * contract of <tt>lang.classes.Object.hashCode</tt>.
          *
          * @return the hash code value for this map entry
          * @see Object#hashCode()

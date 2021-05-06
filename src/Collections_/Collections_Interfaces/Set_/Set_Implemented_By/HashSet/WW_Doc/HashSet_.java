@@ -98,7 +98,7 @@ public class HashSet_<E>
 
     private transient HashMap<E,Object> map;
 
-    // Dummy value to associate with an Object in the backing Map
+    // Dummy value to associate with an lang.classes.Object in the backing Map
     private static final Object PRESENT = new Object();
 
     /**
@@ -271,7 +271,7 @@ public class HashSet_<E>
      * @serialData The capacity of the backing <tt>HashMap</tt> instance
      *             (int), and its load factor (float) are emitted, followed by
      *             the size of the set (the number of elements it contains)
-     *             (int), followed by all of its elements (each an Object) in
+     *             (int), followed by all of its elements (each an lang.classes.Object) in
      *             no particular order.
      */
     private void writeObject(java.io.ObjectOutputStream s)
@@ -359,6 +359,6 @@ public class HashSet_<E>
      * @since 1.8
      */
 //    public Spliterator<E> spliterator() {
-//        return new HashMap.KeySpliterator<E,Object>(map, 0, -1, 0, 0);
+//        return new HashMap.KeySpliterator<E,lang.classes.Object>(map, 0, -1, 0, 0);
 //    }
 }

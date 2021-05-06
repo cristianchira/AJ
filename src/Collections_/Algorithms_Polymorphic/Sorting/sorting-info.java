@@ -5,7 +5,7 @@ package Collections_.Algorithms_Polymorphic.Sorting;
 
           reorders a List so that its elements are in ascending order according to an ordering relationship.
           Two forms of the operation are provided. The simple form takes a List and sorts it according to its elements'
-          natural ordering. If you're unfamiliar with the concept of natural ordering, read the Object Ordering section.
+          natural ordering. If you're unfamiliar with the concept of natural ordering, read the lang.classes.Object Ordering section.
           The sort operation uses a slightly optimized merge sort algorithm that is fast and stable:
 
     Fast:

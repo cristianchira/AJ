@@ -201,7 +201,7 @@ public class CopyOnWriteArraySet_<E> extends AbstractSet<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of this set are to be
@@ -360,7 +360,7 @@ public class CopyOnWriteArraySet_<E> extends AbstractSet<E>
      * @para o object to be compared for equality with this set
      * @return {@code true} if the specified object is equal to this set
      */
-//    public boolean equals(Object o) {
+//    public boolean equals(lang.classes.Object o) {
 //        if (o == this)
 //            return true;
 //        if (!(o instanceof Set))
@@ -372,7 +372,7 @@ public class CopyOnWriteArraySet_<E> extends AbstractSet<E>
 //        // for small sets, which CopyOnWriteArraySets should be.
 //
 //        //  Use a single snapshot of underlying array
-//        Object[] elements = al.getArray();
+//        lang.classes.Object[] elements = al.getArray();
 //        int len = elements.length;
 //        // Mark matched elements to avoid re-checking
 //        boolean[] matched = new boolean[len];
@@ -380,7 +380,7 @@ public class CopyOnWriteArraySet_<E> extends AbstractSet<E>
 //        outer: while (it.hasNext()) {
 //            if (++k > len)
 //                return false;
-//            Object x = it.next();
+//            lang.classes.Object x = it.next();
 //            for (int i = 0; i < len; ++i) {
 //                if (!matched[i] && eq(x, elements[i])) {
 //                    matched[i] = true;

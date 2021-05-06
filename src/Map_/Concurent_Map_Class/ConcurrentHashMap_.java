@@ -1356,7 +1356,7 @@ public class ConcurrentHashMap_<K,V> extends AbstractMap<K,V>
      * @param s the stream
      * @throws java.io.IOException if an I/O error occurs
      * @serialData
-     * the key (Object) and value (Object)
+     * the key (lang.classes.Object) and value (lang.classes.Object)
      * for each key-value mapping, followed by a null pair.
      * The key-value mappings are emitted in no particular order.
      */

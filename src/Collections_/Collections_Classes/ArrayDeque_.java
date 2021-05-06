@@ -811,7 +811,7 @@ public class ArrayDeque_<E> extends AbstractCollection<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the deque are to
@@ -835,7 +835,7 @@ public class ArrayDeque_<E> extends AbstractCollection<E>
         return a;
     }
 
-    // *** Object methods ***
+    // *** lang.classes.Object methods ***
 
     /**
      * Returns a copy of this deque.
@@ -885,7 +885,7 @@ public class ArrayDeque_<E> extends AbstractCollection<E>
 //        // Read in size and allocate array
 //        int size = s.readInt();
 //        int capacity = calculateSize(size);
-//        SharedSecrets.getJavaOISAccess().checkArray(s, Object[].class, capacity);
+//        SharedSecrets.getJavaOISAccess().checkArray(s, lang.classes.Object[].class, capacity);
 //        allocateElements(size);
 //        head = 0;
 //        tail = size;

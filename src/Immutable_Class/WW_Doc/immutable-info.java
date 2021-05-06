@@ -3,7 +3,7 @@ package Immutable_Class.WW_Doc;
 /*
                                      Immutability:
 
-        Should not change Object values once created
+        Should not change lang.classes.Object values once created
 
             1.Make the class as final so it can't be extended.
             2.Make variables as private so that direct access is not allowed.
@@ -11,7 +11,7 @@ package Immutable_Class.WW_Doc;
             4.No setter method for variables.
             5.Initialize all the fields via a constructor performing a deep copy.
             6.Perform cloning of objects in the getter methods to return a copy rather the returning the actual
-             object reference (make Deep copy for Object)
+             object reference (make Deep copy for lang.classes.Object)
 
           Benefits we get due to immutability:
 

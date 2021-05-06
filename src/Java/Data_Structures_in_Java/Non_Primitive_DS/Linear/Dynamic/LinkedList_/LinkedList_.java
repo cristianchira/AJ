@@ -1081,7 +1081,7 @@ public class LinkedList_<E>
      * <pre>
      *     String[] y = x.toArray(new String[0]);</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the list are to
@@ -1117,7 +1117,7 @@ public class LinkedList_<E>
      *
      * @serialData The size of the list (the number of elements it
      *             contains) is emitted (int), followed by all of its
-     *             elements (each an Object) in the proper order.
+     *             elements (each an lang.classes.Object) in the proper order.
      */
     private void writeObject(java.io.ObjectOutputStream s)
         throws java.io.IOException {

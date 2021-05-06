@@ -113,7 +113,7 @@ import java.util.PriorityQueue;
  * <p>{@code Queue} implementations generally do not define
  * element-based versions of methods {@code equals} and
  * {@code hashCode} but instead inherit the identity based versions
- * from class {@code Object}, because element-based equality is not
+ * from class {@code lang.classes.Object}, because element-based equality is not
  * always well-defined for queues with the same elements but different
  * ordering properties.
  *

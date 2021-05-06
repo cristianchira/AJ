@@ -70,7 +70,7 @@ import java.util.function.Consumer;
  * <p>Implementation note: this implementation provides
  * O(log(n)) time for the enqueuing and dequeuing methods
  * ({@code offer}, {@code poll}, {@code remove()} and {@code add});
- * linear time for the {@code remove(Object)} and {@code contains(Object)}
+ * linear time for the {@code remove(lang.classes.Object)} and {@code contains(lang.classes.Object)}
  * methods; and constant time for the retrieval methods
  * ({@code peek}, {@code element}, and {@code size}).
  *
@@ -256,7 +256,7 @@ public class PriorityQueue_<E> extends AbstractQueue<E>
 
     private void initElementsFromCollection(Collection<? extends E> c) {
         Object[] a = c.toArray();
-        // If c.toArray incorrectly doesn't return Object[], copy it.
+        // If c.toArray incorrectly doesn't return lang.classes.Object[], copy it.
         if (a.getClass() != Object[].class)
             a = Arrays.copyOf(a, a.length, Object[].class);
         int len = a.length;
@@ -453,7 +453,7 @@ public class PriorityQueue_<E> extends AbstractQueue<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to
@@ -757,7 +757,7 @@ public class PriorityQueue_<E> extends AbstractQueue<E>
      *
      * @serialData The length of the array backing the instance is
      *             emitted (int), followed by all of its elements
-     *             (each an {@code Object}) in the proper order.
+     *             (each an {@code lang.classes.Object}) in the proper order.
      * @param s the stream
      */
     private void writeObject(java.io.ObjectOutputStream s)

@@ -20,7 +20,7 @@ Reference to a constructor	ClassName::new
 
         The method reference Person::compareByAge is a reference to a static method.
 
-    Reference to an Instance Method of a Particular Object -------------------------------------------------------------
+    Reference to an Instance Method of a Particular lang.classes.Object -------------------------------------------------------------
         The following is an example of a reference to an instance method of a particular object:
 
             class ComparisonProvider {
@@ -38,7 +38,7 @@ Reference to a constructor	ClassName::new
         The method reference myComparisonProvider::compareByName invokes the method compareByName that is part of the
         object myComparisonProvider. The JRE infers the method type arguments, which in this case are (Person, Person).
 
-    Reference to an Instance Method of an Arbitrary Object of a Particular Type ----------------------------------------
+    Reference to an Instance Method of an Arbitrary lang.classes.Object of a Particular Type ----------------------------------------
 
         The following is an example of a reference to an instance method of an arbitrary object of a particular type:
 

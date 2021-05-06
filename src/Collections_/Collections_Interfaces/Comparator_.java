@@ -40,7 +40,7 @@ import java.util.function.ToLongFunction;
  * ATest.A comparison function, which imposes a <i>total ordering</i> on some
  * collection of objects.  Comparators can be passed to a sort method (such
  * as {@link Collections sort(List,Comparator) Collections.sort} or {@link
- * Arrays sort(Object[],Comparator) Arrays.sort}) to allow precise control
+ * Arrays sort(lang.classes.Object[],Comparator) Arrays.sort}) to allow precise control
  * over the sort order.  Comparators can also be used to control the order of
  * certain data structures (such as {@link SortedSet_ sorted sets} or {@link
  * SortedMap_ sorted maps}), or to provide an ordering for collections of
@@ -90,7 +90,7 @@ import java.util.function.ToLongFunction;
  * the ordering imposed by <tt>c</tt> on <tt>S</tt> is <i>consistent with
  * equals</i>, we mean that the quotient for the ordering is the equivalence
  * relation defined by the objects' {@link Object#equals(Object)
- * equals(Object)} method(s):<pre>
+ * equals(lang.classes.Object)} method(s):<pre>
  *     {(x, y) such that x.equals(y)}. </pre>
  *
  * <p>Unlike {@code Comparable}, a comparator may optionally permit
@@ -164,7 +164,7 @@ public interface Comparator_<T> {
      * <tt>o1</tt> and <tt>o2</tt>.<p>
      *
      * Note that it is <i>always</i> safe <i>not</i> to override
-     * <tt>Object.equals(Object)</tt>.  However, overriding this method may,
+     * <tt>lang.classes.Object.equals(lang.classes.Object)</tt>.  However, overriding this method may,
      * in some cases, improve performance by allowing programs to determine
      * that two distinct comparators impose the same order.
      *

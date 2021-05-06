@@ -993,7 +993,7 @@ public class Collections_ {
      *
      * The returned collection does <i>not</i> pass the hashCode and equals
      * operations through to the backing collection, but relies on
-     * <tt>Object</tt>'s <tt>equals</tt> and <tt>hashCode</tt> methods.  This
+     * <tt>lang.classes.Object</tt>'s <tt>equals</tt> and <tt>hashCode</tt> methods.  This
      * is necessary to preserve the contracts of these operations in the case
      * that the backing collection is a set or a list.<p>
      *
@@ -1704,7 +1704,7 @@ public class Collections_ {
 
             /**
              * The next two methods are overridden to protect against
-             * an unscrupulous List whose contains(Object o) method senses
+             * an unscrupulous List whose contains(lang.classes.Object o) method senses
              * when o is a Map.Entry, and calls o.setValue.
              */
             public boolean containsAll(Collection<?> coll) {
@@ -1969,7 +1969,7 @@ public class Collections_ {
      *
      * <p>The returned collection does <i>not</i> pass the {@code hashCode}
      * and {@code equals} operations through to the backing collection, but
-     * relies on {@code Object}'s equals and hashCode methods.  This is
+     * relies on {@code lang.classes.Object}'s equals and hashCode methods.  This is
      * necessary to preserve the contracts of these operations in the case
      * that the backing collection is a set or a list.<p>
      *
@@ -1995,7 +1995,7 @@ public class Collections_ {
         private static final long serialVersionUID = 3053995032091335093L;
 
         final Collection<E> c;  // Backing Collection
-        final Object mutex;     // Object on which to synchronize
+        final Object mutex;     // lang.classes.Object on which to synchronize
 
         SynchronizedCollection(Collection<E> c) {
             this.c = Objects.requireNonNull(c);
@@ -2552,7 +2552,7 @@ public class Collections_ {
         private static final long serialVersionUID = 1978198479659022715L;
 
         private final Map<K,V> m;     // Backing Map
-        final Object      mutex;        // Object on which to synchronize
+        final Object      mutex;        // lang.classes.Object on which to synchronize
 
         SynchronizedMap(Map<K,V> m) {
             this.m = Objects.requireNonNull(m);
@@ -2990,7 +2990,7 @@ public class Collections_ {
      *
      * <p>The returned collection does <i>not</i> pass the hashCode and equals
      * operations through to the backing collection, but relies on
-     * {@code Object}'s {@code equals} and {@code hashCode} methods.  This
+     * {@code lang.classes.Object}'s {@code equals} and {@code hashCode} methods.  This
      * is necessary to preserve the contracts of these operations in the case
      * that the backing collection is a set or a list.
      *
@@ -3764,7 +3764,7 @@ public class Collections_ {
 
                 /*
                  * Ensure that we don't get an ArrayStoreException even if
-                 * s.toArray returns an array of something other than Object
+                 * s.toArray returns an array of something other than lang.classes.Object
                  */
                 Object[] dest = (CheckedEntry.class.isInstance(
                     source.getClass().getComponentType()) ? source :
@@ -3811,7 +3811,7 @@ public class Collections_ {
 
             /**
              * The bulk collection methods are overridden to protect
-             * against an unscrupulous collection whose contains(Object o)
+             * against an unscrupulous collection whose contains(lang.classes.Object o)
              * method senses when o is a Map.Entry, and calls o.setValue.
              */
             public boolean containsAll(Collection<?> c) {
@@ -5292,7 +5292,7 @@ public class Collections_ {
     /**
      * Returns true if the specified arguments are equal, or both null.
      *
-     * NB: Do not replace with Object.equals until JDK-8015417 is resolved.
+     * NB: Do not replace with lang.classes.Object.equals until JDK-8015417 is resolved.
      */
     static boolean eq(Object o1, Object o2) {
         return o1==null ? o2==null : o1.equals(o2);
@@ -5470,8 +5470,8 @@ public class Collections_ {
      * to this method, and no reference to the map is retained, as illustrated
      * in the following code fragment:
      * <pre>
-     *    Set&lt;Object&gt; weakHashSet = Collections.newSetFromMap(
-     *        new WeakHashMap&lt;Object, Boolean&gt;());
+     *    Set&lt;lang.classes.Object&gt; weakHashSet = Collections.newSetFromMap(
+     *        new WeakHashMap&lt;lang.classes.Object, Boolean&gt;());
      * </pre>
      *
      * @param <E> the class of the map keys and of the objects in the

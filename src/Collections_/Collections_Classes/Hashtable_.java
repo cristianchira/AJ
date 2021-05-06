@@ -784,11 +784,11 @@ public class Hashtable_<K,V>
     // Comparison and hashing
 
     /**
-     * Compares the specified Object with this Map for equality,
+     * Compares the specified lang.classes.Object with this Map for equality,
      * as per the definition in the Map interface.
      *
      * @param  o object to be compared for equality with this hashtable
-     * @return true if the specified Object is equal to this Map
+     * @return true if the specified lang.classes.Object is equal to this Map
      * @see Map#equals(Object)
      * @since 1.2
      */
@@ -1125,7 +1125,7 @@ public class Hashtable_<K,V>
      * @serialData The <i>capacity</i> of the Hashtable (the length of the
      *             bucket array) is emitted (int), followed by the
      *             <i>size</i> of the Hashtable (the number of key-value
-     *             mappings), followed by the key (Object) and value (Object)
+     *             mappings), followed by the key (lang.classes.Object) and value (lang.classes.Object)
      *             for each key-value mapping represented by the Hashtable
      *             The key-value mappings are emitted in no particular order.
      */

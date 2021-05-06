@@ -8,7 +8,7 @@ package Java8.Lambda_Expressions.Function;
          lambda expression
           method reference.
 
-     This is a functional interface whose functional method is apply(Object).
+     This is a functional interface whose functional method is apply(lang.classes.Object).
 
     Type Parameters:
 
