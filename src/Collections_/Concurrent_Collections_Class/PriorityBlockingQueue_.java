@@ -257,7 +257,7 @@ public class PriorityBlockingQueue_<E> extends AbstractQueue<E>
         }
         Object[] a = c.toArray();
         int n = a.length;
-        // If c.toArray incorrectly doesn't return Object[], copy it.
+        // If c.toArray incorrectly doesn't return lang.classes.Object[], copy it.
         if (a.getClass() != Object[].class)
             a = Arrays.copyOf(a, n, Object[].class);
         if (screen && (n == 1 || this.comparator != null)) {
@@ -826,7 +826,7 @@ public class PriorityBlockingQueue_<E> extends AbstractQueue<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to

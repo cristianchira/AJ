@@ -1,4 +1,4 @@
-package Object.Clone.Clone_Example;
+package lang.classes.Object.Object_Example.Clone.Clone_Example;
 
 public class Test_Clone {
 

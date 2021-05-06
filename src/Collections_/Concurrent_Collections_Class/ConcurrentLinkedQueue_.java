@@ -102,7 +102,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
     /*
      * This is a modification of the Michael & Scott algorithm,
      * adapted for a garbage-collected environment, with support for
-     * interior node deletion (to support remove(Object)).  For
+     * interior node deletion (to support remove(lang.classes.Object)).  For
      * explanation, read the paper.
      *
      * Note that like most non-blocking algorithms in this package,
@@ -152,9 +152,9 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
      * CASing a Node's item reference to null atomically removes the
      * element from the queue.  Iterators skip over Nodes with null
      * items.  Prior implementations of this class had a race between
-     * poll() and remove(Object) where the same element would appear
+     * poll() and remove(lang.classes.Object) where the same element would appear
      * to be successfully removed by two concurrent operations.  The
-     * method remove(Object) also lazily unlinks deleted Nodes, but
+     * method remove(lang.classes.Object) also lazily unlinks deleted Nodes, but
      * this is merely an optimization.
      *
      * When constructing a Node (before enqueuing it) we avoid paying
@@ -611,7 +611,7 @@ public class ConcurrentLinkedQueue_<E> extends AbstractQueue<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to

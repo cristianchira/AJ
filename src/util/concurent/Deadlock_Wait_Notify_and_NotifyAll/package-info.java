@@ -1,10 +1,10 @@
 package util.concurent.Deadlock_Wait_Notify_and_NotifyAll;
 /*
-                                      ==Object==
+                                      ==lang.classes.Object==
 
   Every object, in addition to having an associated MONITOR, has an associated WAIT SET.
   ATest.A wait set is a set of threads.
-  Wait sets are manipulated solely through the methods Object.wait(), Object.notify(), and Object.notifyAll().
+  Wait sets are manipulated solely through the methods lang.classes.Object.wait(), lang.classes.Object.notify(), and lang.classes.Object.notifyAll().
 
                                       ==Deadlock==
 

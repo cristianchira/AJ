@@ -14,7 +14,7 @@ public class System_Class {
 		 */
 
 		/*
-		 * METHOD arraycopy(Object src, int srcPos, Object dest, int destPos, int
+		 * METHOD arraycopy(lang.classes.Object src, int srcPos, lang.classes.Object dest, int destPos, int
 		 * length)-----------------------
 		 * 
 		 * Copies an array from the specified source array, beginning at the specified

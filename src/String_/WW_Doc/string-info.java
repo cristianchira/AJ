@@ -2,7 +2,7 @@ package String_.WW_Doc;
 
 /*                                               Strings(immutable class)
 
-    Value of a String Object once created cannot be	modified.
+    Value of a String lang.classes.Object once created cannot be	modified.
     Any	modification on	a String object	creates	a new String object
 
                                   Where	are	string values stored in	memory?
@@ -26,7 +26,7 @@ package String_.WW_Doc;
 
         However, if	new	operator is	used to	create	string	object,	the	new	object is created on the heap. There
         will not	be	any	reuse	of	values.
-    String Object	- created	on	the	heap
+    String lang.classes.Object	- created	on	the	heap
 
         String val = "value one";
         String val1 = "value one";

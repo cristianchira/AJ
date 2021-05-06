@@ -14,7 +14,7 @@ public class TestPolymorphism {
         Animal animal1 = new Dog();
         System.out.println (animal1.shout ());
         // Reference variable type => Animal
-        // Object referred to => Dog
+        // lang.classes.Object referred to => Dog
         // Dog's bark method is called.
         //System.out.println(animal2.shout()); // BOW BOW
 

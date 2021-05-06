@@ -181,7 +181,7 @@ import java.util.Stack;
  * <p>{@code Deque} implementations generally do not define
  * element-based versions of the {@code equals} and {@code hashCode}
  * methods, but instead inherit the identity-based versions from class
- * {@code Object}.
+ * {@code lang.classes.Object}.
  *
  * <p>This interface is a member of the <a
  * href="{@docRoot}/../technotes/guides/collections/index.html"> Java Collections

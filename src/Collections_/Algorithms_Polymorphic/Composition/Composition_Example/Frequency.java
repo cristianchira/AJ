@@ -11,14 +11,14 @@ package Collections_.Algorithms_Polymorphic.Composition.Composition_Example;
      * @throws NullPointerException if c is null
      * @since 1.5
 
-public static int frequency(Collection<?> c, Object o) {
+public static int frequency(Collection<?> c, lang.classes.Object o) {
         int result = 0;
         if (o == null) {
-        for (Object e : c)
+        for (lang.classes.Object e : c)
         if (e == null)
         result++;
         } else {
-        for (Object e : c)
+        for (lang.classes.Object e : c)
         if (o.equals(e))
         result++;
         }

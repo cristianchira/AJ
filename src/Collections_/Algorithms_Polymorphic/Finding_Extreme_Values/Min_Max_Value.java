@@ -18,7 +18,7 @@ package Collections_.Algorithms_Polymorphic.Finding_Extreme_Values;
  * @throws java.util.NoSuchElementException if the collection is empty.
  * @see Comparable
 
-public static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll) {
+public static <T extends lang.classes.Object & Comparable<? super T>> T min(Collection<? extends T> coll) {
         Iterator<? extends T> i = coll.iterator();
         T candidate = i.next();
 

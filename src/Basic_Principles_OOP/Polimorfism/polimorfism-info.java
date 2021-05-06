@@ -8,6 +8,6 @@ package Basic_Principles_OOP.Polimorfism;
         class reference is used to refer to a child class object.
 
         Any Java object that can pass more than one IS-ATest.A test is considered to be polymorphic. In Java, all Java objects
-        are polymorphic since any object will pass the IS-ATest.A test for their own type and for the class Object.
+        are polymorphic since any object will pass the IS-ATest.A test for their own type and for the class lang.classes.Object.
 
 */

@@ -78,7 +78,7 @@ public static boolean disjoint(Collection<?> c1, Collection<?> c2) {
         }
         }
 
-        for (Object e : iterate) {
+        for (lang.classes.Object e : iterate) {
         if (contains.contains(e)) {
         // Found a common element. Collections are not disjoint.
         return false;

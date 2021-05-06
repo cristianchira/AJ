@@ -30,7 +30,7 @@ An object reference obj can be converted to a boolean value, following the C
 language convention that any reference other than null is true, by the expression
 obj!=null.
 ATest.A boolean value can be converted to a String by string conversion (�5.4).
-ATest.A boolean value may be cast to type boolean, Boolean, or Object (�5.5). No other
+ATest.A boolean value may be cast to type boolean, Boolean, or lang.classes.Object (�5.5). No other
 casts on type boolean are allowed
 */
 

@@ -135,7 +135,7 @@ import java.util.concurrent.TimeUnit;
  *       while (true) { queue.put(produce()); }
  *     } catch (InterruptedException ex) { ... handle ...}
  *   }
- *   Object produce() { ... }
+ *   lang.classes.Object produce() { ... }
  * }
  *
  * class Consumer implements Runnable {
@@ -146,7 +146,7 @@ import java.util.concurrent.TimeUnit;
  *       while (true) { consume(queue.take()); }
  *     } catch (InterruptedException ex) { ... handle ...}
  *   }
- *   void consume(Object x) { ... }
+ *   void consume(lang.classes.Object x) { ... }
  * }
  *
  * class Setup {

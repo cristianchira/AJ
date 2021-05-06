@@ -177,7 +177,7 @@ public class Vector_<E>
     public Vector_(Collection<? extends E> c) {
         elementData = c.toArray();
         elementCount = elementData.length;
-        // c.toArray might (incorrectly) not return Object[] (see 6260652)
+        // c.toArray might (incorrectly) not return lang.classes.Object[] (see 6260652)
         if (elementData.getClass() != Object[].class)
             elementData = Arrays.copyOf(elementData, elementCount, Object[].class);
     }
@@ -977,16 +977,16 @@ public class Vector_<E>
     }
 
     /**
-     * Compares the specified Object with this Vector for equality.  Returns
-     * true if and only if the specified Object is also a List, both Lists
+     * Compares the specified lang.classes.Object with this Vector for equality.  Returns
+     * true if and only if the specified lang.classes.Object is also a List, both Lists
      * have the same size, and all corresponding pairs of elements in the two
      * Lists are <em>equal</em>.  (Two elements {@code e1} and
      * {@code e2} are <em>equal</em> if {@code (e1==null ? e2==null :
      * e1.equals(e2))}.)  In other words, two Lists are defined to be
      * equal if they contain the same elements in the same order.
      *
-     * @param o the Object to be compared for equality with this Vector
-     * @return true if the specified Object is equal to this Vector
+     * @param o the lang.classes.Object to be compared for equality with this Vector
+     * @return true if the specified lang.classes.Object is equal to this Vector
      */
     public synchronized boolean equals(Object o) {
         return super.equals(o);

@@ -23,7 +23,7 @@ public class Main {
 //        theatre.seats.set(0, theatre.new Seat("A99"));
 //        System.out.println(theatre.seats);
 
-        //boolean add(Object obj)------------------------------------------------------------------------
+        //boolean add(lang.classes.Object obj)------------------------------------------------------------------------
 
 //         boolean added = theatre.seats.add(theatre.new Seat("L44"));
 //         System.out.println(added);
@@ -36,7 +36,7 @@ public class Main {
         //boolean addAll(Collection c)----------------------------------------------------------------------------------
 
         //This method appends all of the elements in the specified collection to the end of this list,
-        // in the order that they are returned by the specified collection’s iterator.
+        // in the order that they are returned by the specified collectionï¿½s iterator.
 
         //E remove(int index)-------------------------------------------------------------------------------------------
 
@@ -47,13 +47,13 @@ public class Main {
 
 //--------------------------------------- Search -----------------------------------------------------------------------
 
-        // public int indexOf(Object o)--------------------------------------------------------------------------------
+        // public int indexOf(lang.classes.Object o)--------------------------------------------------------------------------------
 
 //        return -1 if object isn't found
 //        int ind = theatre.seats.indexOf(theatre.seats.get(5));
 //        System.out.println(theatre.seats.get(ind).getSeatNumber());
 
-        //int lastIndexOf(Object o)------------------------------------------------------------------------------------
+        //int lastIndexOf(lang.classes.Object o)------------------------------------------------------------------------------------
 
 //        return -1 if object isn't found
 //        theatre.seats.set(8,theatre.seats.get(5));

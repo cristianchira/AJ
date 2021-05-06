@@ -758,8 +758,8 @@ public class EnumMap_<K extends Enum<K>, V> extends AbstractMap_<K, V>
      * serialize it).
      *
      * @serialData The <i>size</i> of the enum map (the number of key-value
-     *             mappings) is emitted (int), followed by the key (Object)
-     *             and value (Object) for each key-value mapping represented
+     *             mappings) is emitted (int), followed by the key (lang.classes.Object)
+     *             and value (lang.classes.Object) for each key-value mapping represented
      *             by the enum map.
      */
     private void writeObject(java.io.ObjectOutputStream s)

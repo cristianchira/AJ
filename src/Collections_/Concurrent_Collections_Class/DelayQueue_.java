@@ -458,7 +458,7 @@ public class DelayQueue_<E extends Delayed> extends AbstractQueue<E>
      *
      * <pre> {@code Delayed[] a = q.toArray(new Delayed[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to

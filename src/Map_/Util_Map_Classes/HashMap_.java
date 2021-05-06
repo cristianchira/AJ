@@ -1351,7 +1351,7 @@ public class HashMap_<K,V> extends AbstractMap_<K,V>
      * @serialData The <i>capacity</i> of the HashMap (the length of the
      *             bucket array) is emitted (int), followed by the
      *             <i>size</i> (an int, the number of key-value
-     *             mappings), followed by the key (Object) and value (Object)
+     *             mappings), followed by the key (lang.classes.Object) and value (lang.classes.Object)
      *             for each key-value mapping.  The key-value mappings are
      *             emitted in no particular order.
      */

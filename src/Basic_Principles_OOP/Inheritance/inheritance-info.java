@@ -4,7 +4,7 @@ package Basic_Principles_OOP.Inheritance;
 /*                          Inheritance
 
      is a mechanism in which one object acquires all the properties and behaviors of a parent object. It is an important
-     part of OOPs (Object Oriented programming system).
+     part of OOPs (lang.classes.Object Oriented programming system).
 
      Inheritance represents the:
 
@@ -72,10 +72,10 @@ package Basic_Principles_OOP.Inheritance;
         If a constructor does not explicitly invoke a superclass constructor, the Java compiler automatically inserts
         a call to the no-argument constructor of the superclass. If the super class does not have a no-argument constructor
         you will get a compile-time error.
-        Object does have such a constructor, so if Object is the only superclass, there is no problem.
+        lang.classes.Object does have such a constructor, so if lang.classes.Object is the only superclass, there is no problem.
 
     If a subclass constructor invokes a constructor of its superclass, either explicitly or implicitly,
-        you might think that there will be a whole chain of constructors called, all the way back to the constructor of Object.
+        you might think that there will be a whole chain of constructors called, all the way back to the constructor of lang.classes.Object.
         In fact, this is the case. It is called constructor chaining, and you need to be aware of it when there is
         a long line of class descent.
 

@@ -10,7 +10,7 @@ public class Labrador extends Dog {
     }
 
 //    @Override
-//    public boolean equals(Object obj) {
+//    public boolean equals(lang.classes.Object obj) {
 //        if(this == obj) {
 //            return true;
 //        }

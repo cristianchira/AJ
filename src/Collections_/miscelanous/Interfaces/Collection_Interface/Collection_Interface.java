@@ -7,7 +7,7 @@ public class Collection_Interface {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // use boolean add(Object obj) method to add elements in the list-----------------------------------------------------------------
+        // use boolean add(lang.classes.Object obj) method to add elements in the list-----------------------------------------------------------------
 
             //Return Value: This method returns a boolean value depicting the successfulness of the operation.
             // If the element was added, it returns true, else it returns false
@@ -41,7 +41,7 @@ public class Collection_Interface {
 //        System.out.println(collection);
 //        printList(collection);
 
-        // using boolean contains(Object obj) method---------------------------------------------------------------------
+        // using boolean contains(lang.classes.Object obj) method---------------------------------------------------------------------
 
         // Returns true
             // if obj is an element of the invoking collection. Otherwise, returns false.
@@ -64,7 +64,7 @@ public class Collection_Interface {
         // printing the result
         // System.out.println("is collection included: " + resultAll);
 
-        //using boolean equals(Object obj)------------------------------------------------------------------------------
+        //using boolean equals(lang.classes.Object obj)------------------------------------------------------------------------------
 
         Collection<String> partial1 = new ArrayList<>();
         partial1.add("element1");
@@ -92,7 +92,7 @@ public class Collection_Interface {
 //            System.out.print(iterator.next() + " ");
 //        }
 
-        // using boolean remove(Object obj)-----------------------------------------------------------------------------
+        // using boolean remove(lang.classes.Object obj)-----------------------------------------------------------------------------
 
 //        if (collection.remove("element11")) {
 //            System.out.println();
@@ -142,18 +142,18 @@ public class Collection_Interface {
 //        System.out.println();
 //        System.out.println("Collection's size is: " + collection.size());
 
-        // using Object[] toArray()-------------------------------------------------------------------------------------
+        // using lang.classes.Object[] toArray()-------------------------------------------------------------------------------------
 
-//        Object[] arr = collection.toArray();
+//        lang.classes.Object[] arr = collection.toArray();
 //        Iterator iter = Arrays.stream(arr).iterator();
 //        while (iter.hasNext()) {
 //            System.out.println(iter.next());
 //        }
 
-        // Object[] toArray(Object array[])------------------------------------------------------------------------------
+        // lang.classes.Object[] toArray(lang.classes.Object array[])------------------------------------------------------------------------------
 
-//        Object[] arrRetained = collection.toArray(partial.toArray());
-//        for (Object arr : arrRetained) {
+//        lang.classes.Object[] arrRetained = collection.toArray(partial.toArray());
+//        for (lang.classes.Object arr : arrRetained) {
 //            System.out.println(arr);
 //        }
 

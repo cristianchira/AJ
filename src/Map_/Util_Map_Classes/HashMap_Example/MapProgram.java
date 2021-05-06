@@ -9,9 +9,9 @@ public class MapProgram {
     public static void main(String[] args) {
         Map<String, String> languages = new HashMap<>();
 
-        // boolean containsValue(Object value)-------------------------------------------------------------------------
+        // boolean containsValue(lang.classes.Object value)-------------------------------------------------------------------------
 
-        // boolean containsKey(Object key)------------------------------------------------------------------------------
+        // boolean containsKey(lang.classes.Object key)------------------------------------------------------------------------------
 
         if (languages.containsKey("Java")) {
             System.out.println("Java already exists");
@@ -53,13 +53,13 @@ public class MapProgram {
 
         //Returns true if this map contains no key-value mappings.
 
-        // V get(Object key)-------------------------------------------------------------------------------------------
+        // V get(lang.classes.Object key)-------------------------------------------------------------------------------------------
 
         //Returns the value to which the specified key is mapped,or null if this map contains no mapping for the key.
         // return null if key doesn't exist
         System.out.println("Get null=== " + languages.get("Java"));
 
-        // V remove(Object key) removes the mapping for a key from this map if it is presents --------------------------
+        // V remove(lang.classes.Object key) removes the mapping for a key from this map if it is presents --------------------------
 
         // return null if key not exist
         // return removed value of key
@@ -68,7 +68,7 @@ public class MapProgram {
         System.out.println(languages.containsKey("Algol"));
         System.out.println(languages.size());
 
-        // default boolean remove(Object key, Object value)-------------------------------------------------------------
+        // default boolean remove(lang.classes.Object key, lang.classes.Object value)-------------------------------------------------------------
             //true if the value was removed
             //return false if key or value not foud
 
@@ -78,7 +78,7 @@ public class MapProgram {
 //            System.out.println("Algol not removed, key/value pair not found");
 //        }
 
-        // V get(Object key)-------------------------------------------------------------------------------------------
+        // V get(lang.classes.Object key)-------------------------------------------------------------------------------------------
 
             //Returns the value to which the specified key is mapped,or null if this map contains no mapping for the key
             // return null if key doesn't exist

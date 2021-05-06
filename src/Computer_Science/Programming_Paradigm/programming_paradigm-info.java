@@ -39,7 +39,7 @@ package Computer_Science.Programming_Paradigm;
         Generic
         Imperative (contrast: Declarative)
             Procedural
-            Object-oriented
+            lang.classes.Object-oriented
                 Polymorphic
         Intentional
         Language-oriented
@@ -65,7 +65,7 @@ package Computer_Science.Programming_Paradigm;
         Structured (contrast: Non-structured) --------------------------------------------------------------------------
             Block-structured
                 Structured concurrency
-            Object-oriented
+            lang.classes.Object-oriented
                 Actor-based
                 Class-based
                 Concurrent

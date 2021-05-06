@@ -275,7 +275,7 @@ public class WeakHashMap_<K,V> extends AbstractMap_<K,V> implements Map<K,V> {
 
     /**
      * Checks for equality of non-null reference x and possibly-null y.  By
-     * default uses Object.equals.
+     * default uses lang.classes.Object.equals.
      */
     private static boolean eq(Object x, Object y) {
         return x == y || x.equals(y);

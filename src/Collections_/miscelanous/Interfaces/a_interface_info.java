@@ -48,5 +48,5 @@ package Collections_.miscelanous.Interfaces;
               � a Map that maintains its mappings in ascending key order. This is the Map analog of SortedSet. Sorted maps
                are used for naturally ordered collections of key/value pairs, such as dictionaries and telephone directories.
                Also see The SortedMap Interface section.
-        To understand how the sorted interfaces maintain the order of their elements, see the Object Ordering section.
+        To understand how the sorted interfaces maintain the order of their elements, see the lang.classes.Object Ordering section.
   */

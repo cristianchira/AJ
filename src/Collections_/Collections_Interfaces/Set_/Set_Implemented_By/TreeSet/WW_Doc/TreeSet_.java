@@ -77,7 +77,7 @@ public class TreeSet_<E> extends AbstractSet<E>
      */
     private transient NavigableMap<E,Object> m;
 
-    // Dummy value to associate with an Object in the backing Map
+    // Dummy value to associate with an lang.classes.Object in the backing Map
     private static final Object PRESENT = new Object();
 
     /**
@@ -280,7 +280,7 @@ public class TreeSet_<E> extends AbstractSet<E>
 //            c instanceof SortedSet &&
 //            m instanceof TreeMap) {
 //            SortedSet<? extends E> set = (SortedSet<? extends E>) c;
-//            TreeMap<E,Object> map = (TreeMap<E, Object>) m;
+//            TreeMap<E,lang.classes.Object> map = (TreeMap<E, lang.classes.Object>) m;
 //            Comparator<?> cc = set.comparator();
 //            Comparator<? super E> mc = map.comparator();
 //            if (cc==mc || (cc != null && cc.equals(mc))) {
@@ -467,9 +467,9 @@ public class TreeSet_<E> extends AbstractSet<E>
      *
      * @serialData Emits the comparator used to order this set, or
      *             {@code null} if it obeys its elements' natural ordering
-     *             (Object), followed by the size of the set (the number of
+     *             (lang.classes.Object), followed by the size of the set (the number of
      *             elements it contains) (int), followed by all of its
-     *             elements (each an Object) in order (as determined by the
+     *             elements (each an lang.classes.Object) in order (as determined by the
      *             set's Comparator, or by the elements' natural ordering if
      *             the set has no Comparator).
      */
@@ -503,7 +503,7 @@ public class TreeSet_<E> extends AbstractSet<E>
 //            Comparator<? super E> c = (Comparator<? super E>) s.readObject();
 //
 //        // Create backing TreeMap
-//        TreeMap<E,Object> tm = new TreeMap<>(c);
+//        TreeMap<E,lang.classes.Object> tm = new TreeMap<>(c);
 //        m = tm;
 //
 //        // Read in size

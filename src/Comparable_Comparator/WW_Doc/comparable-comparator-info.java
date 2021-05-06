@@ -22,7 +22,7 @@ package Comparable_Comparator.WW_Doc;
 
                       compares" this" refers to the one objects provided to it.
 
-                      public int compareTo(Object compObj)
+                      public int compareTo(lang.classes.Object compObj)
                       {
                        return this.obj.compareTo(compObj);
                        }

@@ -158,7 +158,7 @@ public interface Set_<E> extends Collection_<E> {
      * <pre>
      *     String[] y = x.toArray(new String[0]);</pre>
      *
-     * Note that <tt>toArray(new Object[0])</tt> is identical in function to
+     * Note that <tt>toArray(new lang.classes.Object[0])</tt> is identical in function to
      * <tt>toArray()</tt>.
      *
      * @param a the array into which the elements of this set are to be

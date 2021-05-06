@@ -852,7 +852,7 @@ public class LinkedBlockingDeque_<E>
 //      * @throws NullPointerException          {@inheritDoc}
 //      * @throws IllegalArgumentException      {@inheritDoc}
 //      * @throws IllegalStateException if this deque is full
-//      * @see #add(Object)
+//      * @see #add(lang.classes.Object)
 //      */
 //     public boolean addAll(Collection<? extends E> c) {
 //         if (c == null)
@@ -923,7 +923,7 @@ public class LinkedBlockingDeque_<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the deque are to
@@ -1285,7 +1285,7 @@ public class LinkedBlockingDeque_<E>
      * @param s the stream
      * @throws java.io.IOException if an I/O error occurs
      * @serialData The capacity (int), followed by elements (each an
-     * {@code Object}) in the proper order, followed by a null
+     * {@code lang.classes.Object}) in the proper order, followed by a null
      */
     private void writeObject(java.io.ObjectOutputStream s)
         throws java.io.IOException {

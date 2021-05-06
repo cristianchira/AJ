@@ -88,7 +88,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
      * used. When a put notices that it has enabled at least one take,
      * it signals taker. That taker in turn signals others if more
      * items have been entered since the signal. And symmetrically for
-     * takes signalling puts. Operations such as remove(Object) and
+     * takes signalling puts. Operations such as remove(lang.classes.Object) and
      * iterators acquire both locks.
      *
      * Visibility between writers and readers is provided as follows:
@@ -629,7 +629,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
      *
      *  <pre> {@code String[] y = x.toArray(new String[0]);}</pre>
      *
-     * Note that {@code toArray(new Object[0])} is identical in function to
+     * Note that {@code toArray(new lang.classes.Object[0])} is identical in function to
      * {@code toArray()}.
      *
      * @param a the array into which the elements of the queue are to
@@ -992,7 +992,7 @@ public class LinkedBlockingQueue_<E> extends AbstractQueue<E>
      * @param s the stream
      * @throws java.io.IOException if an I/O error occurs
      * @serialData The capacity is emitted (int), followed by all of
-     * its elements (each an {@code Object}) in the proper order,
+     * its elements (each an {@code lang.classes.Object}) in the proper order,
      * followed by a null
      */
     private void writeObject(java.io.ObjectOutputStream s)

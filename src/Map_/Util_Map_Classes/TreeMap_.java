@@ -139,7 +139,7 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      * {@code k2} in the map.  If the user attempts to put a key into the
      * map that violates this constraint (for example, the user attempts to
      * put a string key into a map whose keys are integers), the
-     * {@code put(Object key, Object value)} call will throw a
+     * {@code put(lang.classes.Object key, lang.classes.Object value)} call will throw a
      * {@code ClassCastException}.
      */
     public TreeMap_() {
@@ -152,8 +152,8 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      * comparable</em> by the given comparator: {@code comparator.compare(k1,
      * k2)} must not throw a {@code ClassCastException} for any keys
      * {@code k1} and {@code k2} in the map.  If the user attempts to put
-     * a key into the map that violates this constraint, the {@code put(Object
-     * key, Object value)} call will throw a
+     * a key into the map that violates this constraint, the {@code put(lang.classes.Object
+     * key, lang.classes.Object value)} call will throw a
      * {@code ClassCastException}.
      *
      * @param comparator the comparator that will be used to order this map.
@@ -2412,8 +2412,8 @@ public class TreeMap_<K,V> extends AbstractMap<K,V> implements NavigableMap<K,V>
      * serialize it).
      *
      * @serialData The <em>size</em> of the TreeMap (the number of key-value
-     *             mappings) is emitted (int), followed by the key (Object)
-     *             and value (Object) for each key-value mapping represented
+     *             mappings) is emitted (int), followed by the key (lang.classes.Object)
+     *             and value (lang.classes.Object) for each key-value mapping represented
      *             by the TreeMap. The key-value mappings are emitted in
      *             key-order (as determined by the TreeMap's Comparator,
      *             or by the keys' natural ordering if the TreeMap has no
