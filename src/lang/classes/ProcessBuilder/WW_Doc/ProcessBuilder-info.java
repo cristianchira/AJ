@@ -4,7 +4,7 @@ package lang.classes.ProcessBuilder.WW_Doc;
 
 // https://www.geeksforgeeks.org/java-lang-processbuilder-class-java/
 
-class Process_RT {
+class ProcessBuilder_RT {
     ProcessBuilder process;
 }
 
