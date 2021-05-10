@@ -12,8 +12,8 @@ class ProcessBuilder_App {
 
         // creating list of process
         List<String> list = new ArrayList<String>();
-       list.add("C:\\eclipse\\eclipse.exe");
-       // list.add("notepad.exe");
+        list.add("C:\\Users\\crist\\eclipse\\jee-2020-03\\eclipse\\eclipse.exe");
+        list.add("notepad.exe");
 
         // create the process
         ProcessBuilder build = new ProcessBuilder(list);
