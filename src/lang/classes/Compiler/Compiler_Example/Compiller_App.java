@@ -4,7 +4,7 @@ package lang.classes.Compiler.Compiler_Example;
 
 import java.lang.*;
 
-public class CompillerExample {
+public class Compiller_App {
     public static void main(String[] args) {
         CompilerClass geek = new CompilerClass();
 
