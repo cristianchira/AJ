@@ -2,10 +2,12 @@ package lang.classes.WW_Doc;
 
 // https://docs.oracle.com/javase/8/docs/api/java/lang/package-summary.html
 
-/*                                                Description
+/*
+                                Description
 
         Provides classes that are fundamental to the design of the Java programming language. The most important classes
-            are lang.classes.Object, which is the root of the class hierarchy, and Class, instances of which represent classes at run time.
+            are lang.classes.Object, which is the root of the class hierarchy, and Class, instances of which represent
+            classes at run time.
 
     Frequently it is necessary to represent a value of primitive type as if it were an object. The wrapper classes
 
@@ -41,7 +43,7 @@ package lang.classes.WW_Doc;
         JDK1.0
 
 
-
+    RELATED
 
 
  */

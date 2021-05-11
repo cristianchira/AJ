@@ -1,4 +1,4 @@
-package String_.String_Example;
+package lang.classes.String.String_Example;
 
 import java.util.Scanner;
 
