@@ -2,6 +2,7 @@ package lang.classes.ClassLoader.WW_Doc;
 
 // https://docs.oracle.com/javase/8/docs/api/java/lang/ClassLoader.html
 
+//  https://examples.javacodegeeks.com/java-classloader-example/
 class ClassLoader_RT {
     ClassLoader classLoader;
 }
@@ -9,12 +10,11 @@ class ClassLoader_RT {
 /*                    java.lang.lang.classes.Object
                           java.lang.ClassLoader
 
-    https://examples.javacodegeeks.com/java-classloader-example/
 
     Direct Known Subclasses:
-    SecureClassLoader
+        SecureClassLoader
 
-    public abstract class ClassLoader extends lang.classes.Object
+                       public abstract class ClassLoader extends lang.classes.Object
 
     A class loader is an object that is responsible for loading classes. The class ClassLoader is an abstract class. Given
         the binary name of a class, a class loader should attempt to locate or generate data that constitutes a definition
