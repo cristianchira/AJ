@@ -55,4 +55,8 @@ class StringBuffer_RT {
     See Also:
         StringBuilder, String, Serialized Form
 
+    RELATED
+
+        https://www.javatpoint.com/StringBuffer-class
+
  */ 
