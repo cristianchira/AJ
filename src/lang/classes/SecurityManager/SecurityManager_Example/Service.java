@@ -1,14 +1,12 @@
 package lang.classes.SecurityManager.SecurityManager_Example;
 
-import lang.classes.SecurityManager.SecurityManager_Example.Writing_a_Security_Manager.PasswordSecurityManager;
-
 public class Service {
     public static void main(String[] args) {
-        try {
-            System.setSecurityManager(new PasswordSecurityManager("Booga Booga"));
-        } catch (SecurityException se) {
-            System.out.println("SecurityManager already set!");
-        }
+//        try {
+//            System.setSecurityManager(new PasswordSecurityManager("Booga Booga"));
+//        } catch (SecurityException se) {
+//            System.out.println("SecurityManager already set!");
+//        }
        operation();
     }
     public static final String OPERATION = "my-operation";

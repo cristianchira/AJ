@@ -111,5 +111,6 @@ class SecurityManager_RT {
 
     RELATED
 
+        https://examples.javacodegeeks.com/core-java/security/enable-the-security-manager-example/
 
  */ 
