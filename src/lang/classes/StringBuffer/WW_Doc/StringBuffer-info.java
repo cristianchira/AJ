@@ -55,6 +55,14 @@ class StringBuffer_RT {
     See Also:
         StringBuilder, String, Serialized Form
 
+                       What are differences between StringBuilder and StringBuffer?
+
+    StringBuilder
+    	is	not	thread	safe.
+    	So,	it	performs better	in	situations	where thread safety	is	not	required.
+
+
+
     RELATED
 
         https://www.javatpoint.com/StringBuffer-class
