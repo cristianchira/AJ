@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/Basic_Principles_OOP/Abstraction/abstraction-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Collections_/Algorithms_Polymorphic/Composition/WW_Doc/composition-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Collections_/Algorithms_Polymorphic/Routine_Data_Manipulation/WW_Doc/routine_data_manipulation-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Collections_/miscelanous/Interfaces/Set_interface/Symmetric_and_Assymetric/a_simmetric_and_assymetric_info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Exceptions/a_exceptions_info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Java/Assert/assert-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/Serialization/serialization-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/lang/classes/String/WW_Doc/String-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/src/lang/classes/String/WW_Doc/String-info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../cdi-course/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../hibernate-tutorial/src/Hibernate_CRUD/crud_info.java" charset="windows-1252" />
+    <file url="file://$PROJECT_DIR$/../spring-boot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../spring-boot/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
