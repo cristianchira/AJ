@@ -121,7 +121,7 @@
       <recent name="academy.learnprogramming.Events.Doc" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Type Inference.html">
+  <component name="RunManager" selected="Application.Iterator_Iterator_Class">
     <configuration name="Boolean_Add_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.interfaces.Collection.Collection_Example.Boolean_Add.Boolean_Add_Class" />
       <module name="AJ" />
@@ -161,12 +161,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Object_toArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="util.interfaces.Collection.Collection_Example.Object_toArray.Object_toArray" />
+    <configuration name="Iterator_Iterator_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="util.interfaces.Collection.Collection_Example.Iterator_iterator.Iterator_Iterator_Class" />
       <module name="AJ" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="util.interfaces.Collection.Collection_Example.Object_toArray.*" />
+          <option name="PATTERN" value="util.interfaces.Collection.Collection_Example.Iterator_iterator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -362,21 +362,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Object_toArray" />
       <item itemvalue="Spring Boot.MycoolappApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
       <item itemvalue="Application.Boolean_Add_Class" />
       <item itemvalue="Application.Boolean_Contains_Class" />
       <item itemvalue="Application.Boolean_remove_Class" />
       <item itemvalue="JavaScript Debug.Type Inference.html" />
+      <item itemvalue="Application.Iterator_Iterator_Class" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Iterator_Iterator_Class" />
         <item itemvalue="JavaScript Debug.Type Inference.html" />
         <item itemvalue="Application.Boolean_remove_Class" />
         <item itemvalue="Application.Boolean_Contains_Class" />
         <item itemvalue="Application.Boolean_Add_Class" />
-        <item itemvalue="Application.Object_toArray" />
       </list>
     </recent_temporary>
   </component>
@@ -475,7 +475,7 @@
       <workItem from="1620901602546" duration="5715000" />
       <workItem from="1620960970572" duration="27128000" />
       <workItem from="1621051814395" duration="1790000" />
-      <workItem from="1621140508585" duration="21968000" />
+      <workItem from="1621140508585" duration="22692000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1620622314587</created>
@@ -624,7 +624,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621174120249</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="update">
+      <created>1621175901420</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621175901420</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1621176015813</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621176015813</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
