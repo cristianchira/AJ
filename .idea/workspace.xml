@@ -17,12 +17,8 @@
     </loaded-modules>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a65266b6-be29-45b1-bc28-395c301d4158" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/util/interfaces/Collection/Collection_Example/Boolean_remove/Boolean_remove_Class.java" afterDir="false" />
+    <list default="true" id="a65266b6-be29-45b1-bc28-395c301d4158" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WW_Doc/java-api-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WW_DOC/java-api-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lang/interfaces/Iterable/WW_Doc/Iterable-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/interfaces/Iterable/WW_Doc/Iterable-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/util-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/WW_DOC/util-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +121,7 @@
       <recent name="academy.learnprogramming.Events.Doc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Boolean_remove_Class">
+  <component name="RunManager" selected="JavaScript Debug.Type Inference.html">
     <configuration name="Boolean_Add_Class" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="util.interfaces.Collection.Collection_Example.Boolean_Add.Boolean_Add_Class" />
       <module name="AJ" />
@@ -178,19 +174,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SplitIterator_App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.interfaces.Iterable.Iterable_Example.SplitIterator.SplitIterator_App" />
-      <module name="AJ" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lang.interfaces.Iterable.Iterable_Example.SplitIterator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -201,6 +184,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="Type Inference.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JavaLearn/Type_Inference/Type Inference.html" useBuiltInWebServerPort="true">
+      <method v="2" />
     </configuration>
     <configuration name="MycoolappApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring_boot" />
@@ -376,21 +362,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SplitIterator_App" />
       <item itemvalue="Application.Object_toArray" />
       <item itemvalue="Spring Boot.MycoolappApplication" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.41" />
       <item itemvalue="Application.Boolean_Add_Class" />
       <item itemvalue="Application.Boolean_Contains_Class" />
       <item itemvalue="Application.Boolean_remove_Class" />
+      <item itemvalue="JavaScript Debug.Type Inference.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Type Inference.html" />
         <item itemvalue="Application.Boolean_remove_Class" />
         <item itemvalue="Application.Boolean_Contains_Class" />
         <item itemvalue="Application.Boolean_Add_Class" />
         <item itemvalue="Application.Object_toArray" />
-        <item itemvalue="Application.SplitIterator_App" />
       </list>
     </recent_temporary>
   </component>
@@ -489,7 +475,7 @@
       <workItem from="1620901602546" duration="5715000" />
       <workItem from="1620960970572" duration="27128000" />
       <workItem from="1621051814395" duration="1790000" />
-      <workItem from="1621140508585" duration="20471000" />
+      <workItem from="1621140508585" duration="21968000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1620622314587</created>
@@ -617,7 +603,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620961521018</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update">
+      <created>1621173889228</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621173889228</updated>
+    </task>
+    <task id="LOCAL-00020" summary="update">
+      <created>1621173948815</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621173948815</updated>
+    </task>
+    <task id="LOCAL-00021" summary="update">
+      <created>1621174120249</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621174120249</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
