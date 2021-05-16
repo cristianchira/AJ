@@ -52,7 +52,7 @@ public class Boolean_remove_Class {
 //            System.out.println("Element " + animal + " not removed");
 //        }
 
-        int rem = removeAllIdenticalElements(animal);
+        int rem = removeAllDuplicateElements(animal);
         System.out.println("Filtered animal's list:");
         elements.forEach(e -> System.out.println(e));
         System.out.println("Filtered list size: " + elements.size() +
@@ -60,8 +60,8 @@ public class Boolean_remove_Class {
 
     }
 
-    // remove all identical elements -----------------------------------------------------------------------------------
-    public static int removeAllIdenticalElements(String animal) {
+    // remove all duplicate elements -----------------------------------------------------------------------------------
+    public static int removeAllDuplicateElements(String animal) {
         Collection col = new ArrayList<>();
         for (String a : elements) {
             if (animal.equals(a)) {
