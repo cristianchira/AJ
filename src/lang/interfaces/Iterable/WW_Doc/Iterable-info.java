@@ -2,6 +2,11 @@ package lang.interfaces.Iterable.WW_Doc;
 
 //    https://docs.oracle.com/javase/8/docs/api/java/lang/Iterable.html
 
+
+interface Iterable_RT {
+    Iterable iterable = null;
+}
+
 /*                                         Interface Iterable<T>
 
     Type Parameters:
