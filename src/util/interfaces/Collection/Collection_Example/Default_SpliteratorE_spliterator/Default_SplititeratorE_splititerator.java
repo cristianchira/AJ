@@ -70,10 +70,26 @@ public class Default_SplititeratorE_splititerator {
         list.add("B");
         list.add("C");
         list.add("D");
-
+        list.add("E");
+        list.add("F");
+        list.add("G");
+        list.add("H");
         Spliterator<String> spliterator = list.spliterator();
 
-        System.out.println(spliterator.estimateSize());
-        System.out.println(spliterator.getExactSizeIfKnown());
+//        System.out.println(spliterator.estimateSize());
+//        System.out.println(spliterator.getExactSizeIfKnown());
+//        spliterator.forEachRemaining(System.out::println);
+
+//        Spliterator trySplit() example
+//        Java example to split the elements to two groups and iterate independently.
+        Spliterator<String> spliterator1 = list.spliterator();
+        Spliterator<String> spliterator2 = spliterator1.trySplit();
+
+        spliterator1.forEachRemaining(System.out::println);
+
+        System.out.println("========");
+
+        spliterator2.forEachRemaining(System.out::println);
+
     }
 }
