@@ -1,4 +1,4 @@
-package util.interfaces.Collection.Collection_Example.Default_Boolean_RemoveIf;
+package util.interfaces.Collection.Collection_Example.Default_Boolean_removeIf;
 
 import java.util.ArrayList;
 import java.util.Collection;
