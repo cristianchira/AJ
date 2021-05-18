@@ -1,4 +1,4 @@
-package util.interfaces.Collection.Collection_Example.Boolean_Equals;
+package util.interfaces.Collection.Collection_Example.Boolean_equals;
 
 // Comparison and hashing
 

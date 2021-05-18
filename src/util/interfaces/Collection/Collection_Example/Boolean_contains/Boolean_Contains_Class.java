@@ -1,4 +1,4 @@
-package util.interfaces.Collection.Collection_Example.Boolean_Contains;
+package util.interfaces.Collection.Collection_Example.Boolean_contains;
 
 import java.util.ArrayList;
 import java.util.Collection;
